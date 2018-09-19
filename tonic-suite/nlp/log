@@ -1,0 +1,2 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0108 18:22:55.723899 24196 nlp-client.cpp:246] Time(ms): 289

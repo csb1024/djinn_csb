@@ -1,0 +1,120 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.367313  7751 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0515 15:30:20.370434  7751 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.378412  7755 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.380246  7752 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.380861  7760 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.381470  7754 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0515 15:30:20.381592  7755 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.382499  7756 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0515 15:30:20.383184  7752 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:30:20.383745  7760 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.384476  7753 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0515 15:30:20.384640  7754 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.384699  7761 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.385336  7762 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.385381  7759 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.385475  7757 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:30:20.385576  7758 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0515 15:30:20.385709  7756 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:30:20.387490  7761 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:30:20.388202  7753 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:30:20.388538  7759 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:30:20.388531  7762 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:30:20.388649  7757 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:30:20.388825  7758 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:30:20.404968  7751 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.405050  7751 img-client.cpp:297] START Time(ns): 1526365820366745422 7751
+E0515 15:30:20.405062  7751 img-client.cpp:300] END PRE Time(ns): 1526365820367179308 7751
+E0515 15:30:20.405068  7751 img-client.cpp:303] END BARRIER Time(ns): 1526365820367179420 7751
+E0515 15:30:20.405073  7751 img-client.cpp:307] END DATA Time(ns): 1526365820370207928 7751
+E0515 15:30:20.405081  7751 img-client.cpp:311] END SEND Time(ns): 1526365820370429752 7751
+E0515 15:30:20.405086  7751 img-client.cpp:314] END COM Time(ns): 1526365820404931433 7751
+I0515 15:30:20.453085  7755 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.453166  7755 img-client.cpp:297] START Time(ns): 1526365820377946747 7755
+E0515 15:30:20.453179  7755 img-client.cpp:300] END PRE Time(ns): 1526365820378299608 7755
+E0515 15:30:20.453188  7755 img-client.cpp:303] END BARRIER Time(ns): 1526365820378299720 7755
+E0515 15:30:20.453197  7755 img-client.cpp:307] END DATA Time(ns): 1526365820381344056 7755
+E0515 15:30:20.453205  7755 img-client.cpp:311] END SEND Time(ns): 1526365820381588127 7755
+E0515 15:30:20.453212  7755 img-client.cpp:314] END COM Time(ns): 1526365820453043750 7755
+I0515 15:30:20.453147  7756 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.453214  7756 img-client.cpp:297] START Time(ns): 1526365820382055895 7756
+I0515 15:30:20.453137  7760 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.453205  7760 img-client.cpp:297] START Time(ns): 1526365820380440594 7760
+E0515 15:30:20.453219  7760 img-client.cpp:300] END PRE Time(ns): 1526365820380770195 7760
+E0515 15:30:20.453228  7760 img-client.cpp:303] END BARRIER Time(ns): 1526365820380770331 7760
+E0515 15:30:20.453236  7760 img-client.cpp:307] END DATA Time(ns): 1526365820383523072 7760
+E0515 15:30:20.453244  7760 img-client.cpp:311] END SEND Time(ns): 1526365820383742205 7760
+E0515 15:30:20.453251  7760 img-client.cpp:314] END COM Time(ns): 1526365820453098654 7760
+E0515 15:30:20.453228  7756 img-client.cpp:300] END PRE Time(ns): 1526365820382398783 7756
+E0515 15:30:20.453238  7756 img-client.cpp:303] END BARRIER Time(ns): 1526365820382398893 7756
+E0515 15:30:20.453245  7756 img-client.cpp:307] END DATA Time(ns): 1526365820385448154 7756
+E0515 15:30:20.453253  7756 img-client.cpp:311] END SEND Time(ns): 1526365820385705034 7756
+E0515 15:30:20.453260  7756 img-client.cpp:314] END COM Time(ns): 1526365820453105917 7756
+I0515 15:30:20.453198  7761 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0515 15:30:20.453222  7762 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.453261  7762 img-client.cpp:297] START Time(ns): 1526365820384840040 7762
+E0515 15:30:20.453270  7762 img-client.cpp:300] END PRE Time(ns): 1526365820385222370 7762
+E0515 15:30:20.453275  7762 img-client.cpp:303] END BARRIER Time(ns): 1526365820385222528 7762
+E0515 15:30:20.453269  7761 img-client.cpp:297] START Time(ns): 1526365820384280475 7761
+E0515 15:30:20.453279  7761 img-client.cpp:300] END PRE Time(ns): 1526365820384596244 7761
+E0515 15:30:20.453284  7761 img-client.cpp:303] END BARRIER Time(ns): 1526365820384596321 7761
+E0515 15:30:20.453289  7761 img-client.cpp:307] END DATA Time(ns): 1526365820387312038 7761
+E0515 15:30:20.453292  7761 img-client.cpp:311] END SEND Time(ns): 1526365820387486662 7761
+E0515 15:30:20.453297  7761 img-client.cpp:314] END COM Time(ns): 1526365820453160756 7761
+E0515 15:30:20.453281  7762 img-client.cpp:307] END DATA Time(ns): 1526365820388243841 7762
+E0515 15:30:20.453287  7762 img-client.cpp:311] END SEND Time(ns): 1526365820388527417 7762
+E0515 15:30:20.453292  7762 img-client.cpp:314] END COM Time(ns): 1526365820453204788 7762
+I0515 15:30:20.453245  7753 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.453308  7753 img-client.cpp:297] START Time(ns): 1526365820383887329 7753
+E0515 15:30:20.453320  7753 img-client.cpp:300] END PRE Time(ns): 1526365820384345352 7753
+E0515 15:30:20.453327  7753 img-client.cpp:303] END BARRIER Time(ns): 1526365820384345503 7753
+E0515 15:30:20.453333  7753 img-client.cpp:307] END DATA Time(ns): 1526365820387886949 7753
+E0515 15:30:20.453341  7753 img-client.cpp:311] END SEND Time(ns): 1526365820388198723 7753
+E0515 15:30:20.453347  7753 img-client.cpp:314] END COM Time(ns): 1526365820453206788 7753
+I0515 15:30:20.453368  7759 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.453454  7759 img-client.cpp:297] START Time(ns): 1526365820384911720 7759
+I0515 15:30:20.453438  7754 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.453467  7759 img-client.cpp:300] END PRE Time(ns): 1526365820385271841 7759
+E0515 15:30:20.453476  7759 img-client.cpp:303] END BARRIER Time(ns): 1526365820385271981 7759
+E0515 15:30:20.453485  7759 img-client.cpp:307] END DATA Time(ns): 1526365820388296199 7759
+E0515 15:30:20.453492  7759 img-client.cpp:311] END SEND Time(ns): 1526365820388535189 7759
+E0515 15:30:20.453500  7759 img-client.cpp:314] END COM Time(ns): 1526365820453322797 7759
+I0515 15:30:20.453407  7758 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.453480  7758 img-client.cpp:297] START Time(ns): 1526365820385109464 7758
+E0515 15:30:20.453493  7758 img-client.cpp:300] END PRE Time(ns): 1526365820385476291 7758
+E0515 15:30:20.453502  7758 img-client.cpp:303] END BARRIER Time(ns): 1526365820385476446 7758
+E0515 15:30:20.453510  7758 img-client.cpp:307] END DATA Time(ns): 1526365820388502377 7758
+I0515 15:30:20.453426  7752 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.453482  7752 img-client.cpp:297] START Time(ns): 1526365820379753224 7752
+E0515 15:30:20.453492  7752 img-client.cpp:300] END PRE Time(ns): 1526365820380133540 7752
+E0515 15:30:20.453498  7752 img-client.cpp:303] END BARRIER Time(ns): 1526365820380133640 7752
+E0515 15:30:20.453503  7752 img-client.cpp:307] END DATA Time(ns): 1526365820382954148 7752
+E0515 15:30:20.453510  7752 img-client.cpp:311] END SEND Time(ns): 1526365820383181238 7752
+E0515 15:30:20.453514  7752 img-client.cpp:314] END COM Time(ns): 1526365820453391806 7752
+E0515 15:30:20.453518  7758 img-client.cpp:311] END SEND Time(ns): 1526365820388821851 7758
+E0515 15:30:20.453527  7758 img-client.cpp:314] END COM Time(ns): 1526365820453362211 7758
+E0515 15:30:20.453492  7754 img-client.cpp:297] START Time(ns): 1526365820380997140 7754
+E0515 15:30:20.453503  7754 img-client.cpp:300] END PRE Time(ns): 1526365820381378890 7754
+E0515 15:30:20.453510  7754 img-client.cpp:303] END BARRIER Time(ns): 1526365820381379040 7754
+E0515 15:30:20.453516  7754 img-client.cpp:307] END DATA Time(ns): 1526365820384460260 7754
+E0515 15:30:20.453521  7754 img-client.cpp:311] END SEND Time(ns): 1526365820384636665 7754
+E0515 15:30:20.453527  7754 img-client.cpp:314] END COM Time(ns): 1526365820453407494 7754
+I0515 15:30:20.480517  7757 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:30:20.480597  7757 img-client.cpp:297] START Time(ns): 1526365820385007158 7757
+E0515 15:30:20.480612  7757 img-client.cpp:300] END PRE Time(ns): 1526365820385374221 7757
+E0515 15:30:20.480620  7757 img-client.cpp:303] END BARRIER Time(ns): 1526365820385374346 7757
+E0515 15:30:20.480628  7757 img-client.cpp:307] END DATA Time(ns): 1526365820388408076 7757
+E0515 15:30:20.480636  7757 img-client.cpp:311] END SEND Time(ns): 1526365820388645794 7757
+E0515 15:30:20.480644  7757 img-client.cpp:314] END COM Time(ns): 1526365820480467285 7757

@@ -1,0 +1,50 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:27.929992 14128 nlp-client.cpp:332] PRE Time(ns): 455799
+E0320 20:08:27.930133 14128 nlp-client.cpp:335] DATA Time(ns): 1222219
+E0320 20:08:27.930146 14128 nlp-client.cpp:339] SEND Time(ns): 24842
+E0320 20:08:27.930155 14128 nlp-client.cpp:343] COM Time(ns): 13760976
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:29.113988 14150 nlp-client.cpp:332] PRE Time(ns): 456705
+E0320 20:08:29.114130 14150 nlp-client.cpp:335] DATA Time(ns): 1223473
+E0320 20:08:29.114141 14150 nlp-client.cpp:339] SEND Time(ns): 23418
+E0320 20:08:29.114151 14150 nlp-client.cpp:343] COM Time(ns): 30199803
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:30.277068 14172 nlp-client.cpp:332] PRE Time(ns): 444522
+E0320 20:08:30.277200 14172 nlp-client.cpp:335] DATA Time(ns): 1160395
+E0320 20:08:30.277212 14172 nlp-client.cpp:339] SEND Time(ns): 26003
+E0320 20:08:30.277221 14172 nlp-client.cpp:343] COM Time(ns): 12089169
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:31.456420 14221 nlp-client.cpp:332] PRE Time(ns): 436715
+E0320 20:08:31.456550 14221 nlp-client.cpp:335] DATA Time(ns): 1168056
+E0320 20:08:31.456562 14221 nlp-client.cpp:339] SEND Time(ns): 27211
+E0320 20:08:31.456570 14221 nlp-client.cpp:343] COM Time(ns): 32097087
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:32.646911 14243 nlp-client.cpp:332] PRE Time(ns): 465364
+E0320 20:08:32.647042 14243 nlp-client.cpp:335] DATA Time(ns): 1203374
+E0320 20:08:32.647053 14243 nlp-client.cpp:339] SEND Time(ns): 28242
+E0320 20:08:32.647061 14243 nlp-client.cpp:343] COM Time(ns): 42855048
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:33.800279 14265 nlp-client.cpp:332] PRE Time(ns): 437346
+E0320 20:08:33.800424 14265 nlp-client.cpp:335] DATA Time(ns): 1155627
+E0320 20:08:33.800437 14265 nlp-client.cpp:339] SEND Time(ns): 26689
+E0320 20:08:33.800447 14265 nlp-client.cpp:343] COM Time(ns): 6590419
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:34.952144 14287 nlp-client.cpp:332] PRE Time(ns): 433065
+E0320 20:08:34.952251 14287 nlp-client.cpp:335] DATA Time(ns): 1169508
+E0320 20:08:34.952258 14287 nlp-client.cpp:339] SEND Time(ns): 21753
+E0320 20:08:34.952263 14287 nlp-client.cpp:343] COM Time(ns): 6389545
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:36.108876 14336 nlp-client.cpp:332] PRE Time(ns): 437602
+E0320 20:08:36.108989 14336 nlp-client.cpp:335] DATA Time(ns): 1159624
+E0320 20:08:36.108996 14336 nlp-client.cpp:339] SEND Time(ns): 30214
+E0320 20:08:36.109004 14336 nlp-client.cpp:343] COM Time(ns): 16060355
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:37.265959 14358 nlp-client.cpp:332] PRE Time(ns): 434220
+E0320 20:08:37.266085 14358 nlp-client.cpp:335] DATA Time(ns): 1173735
+E0320 20:08:37.266098 14358 nlp-client.cpp:339] SEND Time(ns): 23784
+E0320 20:08:37.266106 14358 nlp-client.cpp:343] COM Time(ns): 14211655
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0320 20:08:38.430620 14380 nlp-client.cpp:332] PRE Time(ns): 451389
+E0320 20:08:38.430761 14380 nlp-client.cpp:335] DATA Time(ns): 1224545
+E0320 20:08:38.430774 14380 nlp-client.cpp:339] SEND Time(ns): 25612
+E0320 20:08:38.430783 14380 nlp-client.cpp:343] COM Time(ns): 9993805

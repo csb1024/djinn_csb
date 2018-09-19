@@ -1,0 +1,10 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:29:24.324998  3746 img-client.cpp:201] Reading input/dig/00002.png
+I0515 15:29:24.325325  3746 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:29:24.329421  3746 img-client.cpp:290] Image: input/dig/00002.png class: 8
+E0515 15:29:24.329470  3746 img-client.cpp:297] START Time(ns): 1526365764324474214 3746
+E0515 15:29:24.329480  3746 img-client.cpp:300] END PRE Time(ns): 1526365764324873166 3746
+E0515 15:29:24.329488  3746 img-client.cpp:303] END BARRIER Time(ns): 1526365764324873252 3746
+E0515 15:29:24.329494  3746 img-client.cpp:307] END DATA Time(ns): 1526365764325277208 3746
+E0515 15:29:24.329500  3746 img-client.cpp:311] END SEND Time(ns): 1526365764325316235 3746
+E0515 15:29:24.329507  3746 img-client.cpp:314] END COM Time(ns): 1526365764329390807 3746

@@ -1,0 +1,20 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:45:13.302907 22012 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:45:13.302989 22012 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:45:13.438264 22013 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:45:13.438324 22013 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0213 11:45:13.541901 22012 img-client.cpp:274] RANK: 0 22012
+E0213 11:45:13.541976 22012 img-client.cpp:284] START Time(ns): 1518489912291320073 22012
+E0213 11:45:13.541981 22012 img-client.cpp:287] END PRE Time(ns): 1518489913348595356 22012
+E0213 11:45:13.541985 22012 img-client.cpp:290] END BARRIER Time(ns): 1518489913492933705 22012
+E0213 11:45:13.541988 22012 img-client.cpp:294] END DATA Time(ns): 1518489913494682943 22012
+E0213 11:45:13.541991 22012 img-client.cpp:298] END SEND Time(ns): 1518489913494688487 22012
+E0213 11:45:13.541996 22012 img-client.cpp:301] END COM Time(ns): 1518489913541889170 22012
+E0213 11:45:13.586592 22013 img-client.cpp:274] RANK: 1 22013
+E0213 11:45:13.586680 22013 img-client.cpp:284] START Time(ns): 1518489912291395126 22013
+E0213 11:45:13.586688 22013 img-client.cpp:287] END PRE Time(ns): 1518489913492844585 22013
+E0213 11:45:13.586695 22013 img-client.cpp:290] END BARRIER Time(ns): 1518489913492946344 22013
+E0213 11:45:13.586700 22013 img-client.cpp:294] END DATA Time(ns): 1518489913525163315 22013
+E0213 11:45:13.586707 22013 img-client.cpp:298] END SEND Time(ns): 1518489913525173527 22013
+E0213 11:45:13.586714 22013 img-client.cpp:301] END COM Time(ns): 1518489913586576267 22013

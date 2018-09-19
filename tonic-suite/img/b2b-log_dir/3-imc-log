@@ -1,0 +1,24 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0209 14:48:31.209831 12667 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0209 14:48:31.209920 12667 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0209 14:48:31.301292 12667 img-client.cpp:274] START Time(ns): 1518155310281212940 12667
+E0209 14:48:31.301321 12667 img-client.cpp:277] END PRE Time(ns): 1518155311253805089 12667
+E0209 14:48:31.301326 12667 img-client.cpp:281] END DATA Time(ns): 1518155311255432263 12667
+E0209 14:48:31.301329 12667 img-client.cpp:285] END SEND Time(ns): 1518155311255440295 12667
+E0209 14:48:31.301334 12667 img-client.cpp:288] END COM Time(ns): 1518155311301229226 12667
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0209 14:48:36.254076 12693 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0209 14:48:36.254151 12693 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0209 14:48:36.348397 12693 img-client.cpp:274] START Time(ns): 1518155315283514873 12693
+E0209 14:48:36.348423 12693 img-client.cpp:277] END PRE Time(ns): 1518155316299003906 12693
+E0209 14:48:36.348428 12693 img-client.cpp:281] END DATA Time(ns): 1518155316300801178 12693
+E0209 14:48:36.348433 12693 img-client.cpp:285] END SEND Time(ns): 1518155316300806068 12693
+E0209 14:48:36.348436 12693 img-client.cpp:288] END COM Time(ns): 1518155316348311062 12693
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0209 14:48:41.243567 12719 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0209 14:48:41.243626 12719 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0209 14:48:41.335737 12719 img-client.cpp:274] START Time(ns): 1518155320288446066 12719
+E0209 14:48:41.335760 12719 img-client.cpp:277] END PRE Time(ns): 1518155321288096611 12719
+E0209 14:48:41.335765 12719 img-client.cpp:281] END DATA Time(ns): 1518155321289718935 12719
+E0209 14:48:41.335769 12719 img-client.cpp:285] END SEND Time(ns): 1518155321289728297 12719
+E0209 14:48:41.335773 12719 img-client.cpp:288] END COM Time(ns): 1518155321335674389 12719

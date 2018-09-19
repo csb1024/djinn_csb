@@ -1,0 +1,31 @@
+[?25l[J[J[J[34h[?25h[?1049h[?1h=[1;25r[34l[34h[?25h[23m[24m[0m[H[J[?25l[25;1H"execAsr2.sh" 27 lines, 538 characters[1;1H#!/bin/bash
+
+MON=/home/sbchoi/git/gpu-cloud/monitor/cpp3/nvml_mon
+LOG_DIR=$PWD/log_dir
+ORG_LOG_DIR=$PWD/egs/voxforge/s5/exp//djinn_decode/decode_local/log
+mkdir -p $LOG_DIR
+rm $LOG_DIR/*
+NVML_LOG_DIR=$PWD/nvml_log_dir
+mkdir -p $NVML_LOG_DIR
+rm $NVML_LOG_DIR/*
+for i in `seq 1 4`
+do
+
+$MON $NVML_LOG_DIR 0 &
+MON_PID=$!
+sleep 0.5
+for j in `seq  1 11`
+do
+ ./tonic-asr $i &
+done #j
+# sleep 0.5
+wait
+cat $ORG_LOG_DIR/decode.1.log >> $LOG_DIR/$i-asr-log
+kill -INT $MON_PID[1;1H[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[7m#![34h[?25h[?25l[0m[34m^M^M^M[0mbin/bash[34h[?25h
+[?25l[25;1HType  :quit<Enter>  to exit Vim[25;32H[K[2;1H[34h[?25h[?25l[34h[?25h[?25la[34h[?25h[?25ls[34h[?25h[?25ld[34h[?25h[?25la[34h[?25h[?25ls[34h[?25h[?25ld[34h[?25h[?25la[34h[?25h[?25ls[34h[?25h[?25ld[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h
+
+
+O[?25lsRG_LOG_DIR=$PWD/egs/voxforge/s5/exp//djinn_decode/decode_local/logOs[34h[?25h[?25ldRG_LOG_DIR=$PWD/egs/voxforge/s5/exp//djinn_decode/decode_local/logOsd[34h[?25h[?25laRG_LOG_DIR=$PWD/egs/voxforge/s5/exp//djinn_decode/decode_local/logOsda[34h[?25h[?25lsRG_LOG_DIR=$PWD/egs/voxforge/s5/exp//djinn_decode/decode_local/logOsdas[34h[?25h[?25ldRG_LOG_DIR=$PWD/egs/voxforge/s5/exp//djinn_decode/decode_local/log[5;7H[34h[?25h[?25l[6;24r[6;1H[L[1;25r[5;7H[K[6;1HRG_LOG_DIR=$PWD/egs/voxforge/s5/exp//djinn_decode/decode_local/log[25;1H[K[6;1H[34h[?25h[25;1H[?1l>[?1049lVim: Error reading input, exiting...
+Vim: preserving files...
+Vim: Finished.
+[25;1H

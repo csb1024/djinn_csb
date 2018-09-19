@@ -1,0 +1,121 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.434283 14388 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.434831 14388 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.442190 14386 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.442610 14387 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.442963 14386 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.443343 14387 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.453549 14390 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.453703 14391 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.454299 14390 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.454326 14391 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.455440 14389 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.455531 14396 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.455750 14393 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.456140 14389 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.456190 14396 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.456239 14394 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.456338 14393 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.456461 14392 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:58.456461 14395 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.456948 14394 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.457209 14392 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.457211 14395 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0515 15:31:58.486631 14388 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.505277 14386 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.506623 14387 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.511979 14391 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.519462 14392 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.519507 14389 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.520140 14390 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.520881 14396 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.521327 14393 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.521744 14394 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.526185 14395 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:58.569465 14388 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+E0515 15:31:58.569556 14388 img-client.cpp:297] START Time(ns): 1526365918433821617 14388
+E0515 15:31:58.569569 14388 img-client.cpp:300] END PRE Time(ns): 1526365918434172601 14388
+E0515 15:31:58.569577 14388 img-client.cpp:303] END BARRIER Time(ns): 1526365918434172693 14388
+E0515 15:31:58.569584 14388 img-client.cpp:307] END DATA Time(ns): 1526365918486408070 14388
+E0515 15:31:58.569592 14388 img-client.cpp:311] END SEND Time(ns): 1526365918486622114 14388
+E0515 15:31:58.569599 14388 img-client.cpp:314] END COM Time(ns): 1526365918569417623 14388
+I0515 15:31:58.845589 14386 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0515 15:31:58.845587 14387 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+E0515 15:31:58.845664 14386 img-client.cpp:297] START Time(ns): 1526365918441638845 14386
+E0515 15:31:58.845662 14387 img-client.cpp:297] START Time(ns): 1526365918442100183 14387
+E0515 15:31:58.845676 14387 img-client.cpp:300] END PRE Time(ns): 1526365918442485269 14387
+E0515 15:31:58.845685 14387 img-client.cpp:303] END BARRIER Time(ns): 1526365918442485406 14387
+E0515 15:31:58.845692 14387 img-client.cpp:307] END DATA Time(ns): 1526365918505975184 14387
+E0515 15:31:58.845700 14387 img-client.cpp:311] END SEND Time(ns): 1526365918506615678 14387
+E0515 15:31:58.845676 14386 img-client.cpp:300] END PRE Time(ns): 1526365918442080503 14386
+E0515 15:31:58.845685 14386 img-client.cpp:303] END BARRIER Time(ns): 1526365918442080623 14386
+E0515 15:31:58.845692 14386 img-client.cpp:307] END DATA Time(ns): 1526365918505039783 14386
+E0515 15:31:58.845700 14386 img-client.cpp:311] END SEND Time(ns): 1526365918505266757 14386
+E0515 15:31:58.845706 14387 img-client.cpp:314] END COM Time(ns): 1526365918845543071 14387
+E0515 15:31:58.845707 14386 img-client.cpp:314] END COM Time(ns): 1526365918845536275 14386
+I0515 15:31:58.845665 14391 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0515 15:31:58.845687 14392 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+E0515 15:31:58.845736 14391 img-client.cpp:297] START Time(ns): 1526365918453259648 14391
+E0515 15:31:58.845749 14391 img-client.cpp:300] END PRE Time(ns): 1526365918453596787 14391
+I0515 15:31:58.845728 14393 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0515 15:31:58.845712 14389 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+E0515 15:31:58.845755 14392 img-client.cpp:297] START Time(ns): 1526365918455884861 14392
+E0515 15:31:58.845758 14391 img-client.cpp:303] END BARRIER Time(ns): 1526365918453596879 14391
+E0515 15:31:58.845767 14391 img-client.cpp:307] END DATA Time(ns): 1526365918510502857 14391
+I0515 15:31:58.845731 14396 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+E0515 15:31:58.845768 14392 img-client.cpp:300] END PRE Time(ns): 1526365918456350836 14392
+E0515 15:31:58.845777 14392 img-client.cpp:303] END BARRIER Time(ns): 1526365918456350954 14392
+E0515 15:31:58.845785 14392 img-client.cpp:307] END DATA Time(ns): 1526365918519302145 14392
+E0515 15:31:58.845784 14389 img-client.cpp:297] START Time(ns): 1526365918454973861 14389
+E0515 15:31:58.845774 14391 img-client.cpp:311] END SEND Time(ns): 1526365918511970473 14391
+E0515 15:31:58.845782 14391 img-client.cpp:314] END COM Time(ns): 1526365918845607947 14391
+I0515 15:31:58.845734 14390 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+E0515 15:31:58.845783 14393 img-client.cpp:297] START Time(ns): 1526365918455353744 14393
+E0515 15:31:58.845793 14393 img-client.cpp:300] END PRE Time(ns): 1526365918455660100 14393
+E0515 15:31:58.845798 14393 img-client.cpp:303] END BARRIER Time(ns): 1526365918455660182 14393
+E0515 15:31:58.845801 14393 img-client.cpp:307] END DATA Time(ns): 1526365918521129791 14393
+E0515 15:31:58.845806 14393 img-client.cpp:311] END SEND Time(ns): 1526365918521319904 14393
+E0515 15:31:58.845811 14393 img-client.cpp:314] END COM Time(ns): 1526365918845696839 14393
+E0515 15:31:58.845798 14396 img-client.cpp:297] START Time(ns): 1526365918455078483 14396
+E0515 15:31:58.845810 14396 img-client.cpp:300] END PRE Time(ns): 1526365918455423258 14396
+E0515 15:31:58.845793 14392 img-client.cpp:311] END SEND Time(ns): 1526365918519454438 14392
+E0515 15:31:58.845801 14392 img-client.cpp:314] END COM Time(ns): 1526365918845641337 14392
+E0515 15:31:58.845798 14389 img-client.cpp:300] END PRE Time(ns): 1526365918455333553 14389
+E0515 15:31:58.845808 14389 img-client.cpp:303] END BARRIER Time(ns): 1526365918455333686 14389
+E0515 15:31:58.845815 14389 img-client.cpp:307] END DATA Time(ns): 1526365918519329487 14389
+E0515 15:31:58.845808 14390 img-client.cpp:297] START Time(ns): 1526365918453000064 14390
+E0515 15:31:58.845820 14390 img-client.cpp:300] END PRE Time(ns): 1526365918453428966 14390
+I0515 15:31:58.845782 14394 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+E0515 15:31:58.845819 14396 img-client.cpp:303] END BARRIER Time(ns): 1526365918455423358 14396
+E0515 15:31:58.845829 14396 img-client.cpp:307] END DATA Time(ns): 1526365918520694290 14396
+E0515 15:31:58.845824 14389 img-client.cpp:311] END SEND Time(ns): 1526365918519496717 14389
+E0515 15:31:58.845832 14389 img-client.cpp:314] END COM Time(ns): 1526365918845665207 14389
+E0515 15:31:58.845829 14390 img-client.cpp:303] END BARRIER Time(ns): 1526365918453429048 14390
+E0515 15:31:58.845836 14390 img-client.cpp:307] END DATA Time(ns): 1526365918520005840 14390
+E0515 15:31:58.845844 14390 img-client.cpp:311] END SEND Time(ns): 1526365918520132507 14390
+E0515 15:31:58.845852 14390 img-client.cpp:314] END COM Time(ns): 1526365918845684011 14390
+E0515 15:31:58.845847 14394 img-client.cpp:297] START Time(ns): 1526365918455744271 14394
+E0515 15:31:58.845861 14394 img-client.cpp:300] END PRE Time(ns): 1526365918456118415 14394
+E0515 15:31:58.845836 14396 img-client.cpp:311] END SEND Time(ns): 1526365918520874155 14396
+E0515 15:31:58.845844 14396 img-client.cpp:314] END COM Time(ns): 1526365918845683707 14396
+I0515 15:31:58.845793 14395 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+E0515 15:31:58.845852 14395 img-client.cpp:297] START Time(ns): 1526365918455902083 14395
+E0515 15:31:58.845866 14395 img-client.cpp:300] END PRE Time(ns): 1526365918456344770 14395
+E0515 15:31:58.845875 14395 img-client.cpp:303] END BARRIER Time(ns): 1526365918456344930 14395
+E0515 15:31:58.845882 14395 img-client.cpp:307] END DATA Time(ns): 1526365918526062741 14395
+E0515 15:31:58.845890 14395 img-client.cpp:311] END SEND Time(ns): 1526365918526178154 14395
+E0515 15:31:58.845870 14394 img-client.cpp:303] END BARRIER Time(ns): 1526365918456118549 14394
+E0515 15:31:58.845878 14394 img-client.cpp:307] END DATA Time(ns): 1526365918521575574 14394
+E0515 15:31:58.845886 14394 img-client.cpp:311] END SEND Time(ns): 1526365918521728739 14394
+E0515 15:31:58.845894 14394 img-client.cpp:314] END COM Time(ns): 1526365918845736237 14394
+E0515 15:31:58.845897 14395 img-client.cpp:314] END COM Time(ns): 1526365918845753925 14395

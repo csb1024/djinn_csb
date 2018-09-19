@@ -1,0 +1,1330 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:11.545986 20055 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:11.548563 20055 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:11.640053 20055 img-client.cpp:228] Time(ns): 87657615
+I0124 10:56:11.640106 20055 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:11.640152 20055 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:11.683914 20059 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:11.686292 20059 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:11.700274 20059 img-client.cpp:228] Time(ns): 10191149
+I0124 10:56:11.700311 20059 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:11.700346 20059 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:11.741863 20062 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:11.744386 20062 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:11.758570 20062 img-client.cpp:228] Time(ns): 10297166
+I0124 10:56:11.758602 20062 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:11.758632 20062 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:11.793155 20065 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:11.795167 20065 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:11.847849 20065 img-client.cpp:228] Time(ns): 49574184
+I0124 10:56:11.847895 20065 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:11.847936 20065 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:11.893476 20068 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:11.895905 20068 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:11.909646 20068 img-client.cpp:228] Time(ns): 9907538
+I0124 10:56:11.909677 20068 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:11.909708 20068 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:11.945116 20071 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:11.947167 20071 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:11.948935 20071 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:11.972578 20071 img-client.cpp:228] Time(ns): 20031086
+I0124 10:56:11.972621 20071 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:11.972659 20071 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:11.972671 20071 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.016790 20074 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.019199 20074 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.021365 20074 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.039876 20074 img-client.cpp:228] Time(ns): 13955845
+I0124 10:56:12.039919 20074 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.039961 20074 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.039973 20074 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.085104 20077 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.087530 20077 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.089712 20077 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.107961 20077 img-client.cpp:228] Time(ns): 13791963
+I0124 10:56:12.107992 20077 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.108036 20077 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.108047 20077 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.142626 20080 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.144676 20080 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.146505 20080 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.163715 20080 img-client.cpp:228] Time(ns): 13554926
+I0124 10:56:12.163758 20080 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.163794 20080 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.163806 20080 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.205463 20083 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.207870 20083 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.210042 20083 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.227663 20083 img-client.cpp:228] Time(ns): 13133101
+I0124 10:56:12.227706 20083 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.227743 20083 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.227754 20083 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.271699 20086 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.274101 20086 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.276286 20086 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.278321 20086 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:12.348727 20086 img-client.cpp:228] Time(ns): 65401497
+I0124 10:56:12.348773 20086 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.348814 20086 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.348826 20086 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:12.348835 20086 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.393394 20089 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.395973 20089 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.398159 20089 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.400197 20089 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:12.421080 20089 img-client.cpp:228] Time(ns): 15833522
+I0124 10:56:12.421121 20089 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.421161 20089 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.421172 20089 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:12.421182 20089 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.465229 20092 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.467808 20092 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.469992 20092 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.472012 20092 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:12.530529 20092 img-client.cpp:228] Time(ns): 53378681
+I0124 10:56:12.530571 20092 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.530611 20092 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.530622 20092 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:12.530632 20092 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.576274 20095 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.578709 20095 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.580911 20095 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.582926 20095 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:12.642526 20095 img-client.cpp:228] Time(ns): 54338697
+I0124 10:56:12.642565 20095 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.642601 20095 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.642611 20095 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:12.642619 20095 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.688335 20098 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.690747 20098 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.692946 20098 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.694977 20098 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:12.754515 20098 img-client.cpp:228] Time(ns): 54370110
+I0124 10:56:12.754560 20098 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.754601 20098 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.754613 20098 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:12.754623 20098 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.800933 20101 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.803387 20101 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.805588 20101 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.807611 20101 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:12.809603 20101 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:12.841903 20101 img-client.cpp:228] Time(ns): 27244001
+I0124 10:56:12.841944 20101 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.841982 20101 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.841995 20101 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:12.842003 20101 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:12.842013 20101 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.887368 20104 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.889791 20104 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.891983 20104 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.893995 20104 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:12.895999 20104 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:12.917349 20104 img-client.cpp:228] Time(ns): 16422565
+I0124 10:56:12.917392 20104 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.917430 20104 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.917441 20104 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:12.917452 20104 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:12.917461 20104 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:12.963001 20107 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:12.965411 20107 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:12.967607 20107 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:12.969636 20107 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:12.971652 20107 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:12.992861 20107 img-client.cpp:228] Time(ns): 16255188
+I0124 10:56:12.992899 20107 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:12.992944 20107 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:12.992955 20107 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:12.992964 20107 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:12.992971 20107 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.039189 20110 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.041604 20110 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.043802 20110 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.045819 20110 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.047832 20110 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.069316 20110 img-client.cpp:228] Time(ns): 16318205
+I0124 10:56:13.069360 20110 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.069397 20110 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.069408 20110 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.069418 20110 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.069428 20110 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.114533 20113 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.116966 20113 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.119174 20113 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.121194 20113 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.123227 20113 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.143960 20113 img-client.cpp:228] Time(ns): 16014013
+I0124 10:56:13.144003 20113 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.144058 20113 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.144070 20113 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.144080 20113 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.144089 20113 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.188103 20116 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.190376 20116 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.192430 20116 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.194315 20116 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.196205 20116 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.197500 20116 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.232301 20116 img-client.cpp:228] Time(ns): 28672182
+I0124 10:56:13.232343 20116 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.232383 20116 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.232393 20116 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.232403 20116 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.232410 20116 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.232419 20116 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.277053 20119 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.279640 20119 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.281816 20119 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.283828 20119 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.285825 20119 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.287210 20119 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.312317 20119 img-client.cpp:228] Time(ns): 18648506
+I0124 10:56:13.312358 20119 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.312397 20119 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.312408 20119 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.312417 20119 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.312427 20119 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.312435 20119 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.358047 20122 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.360486 20122 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.362656 20122 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.364671 20122 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.366686 20122 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.368039 20122 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.392693 20122 img-client.cpp:228] Time(ns): 18730073
+I0124 10:56:13.392737 20122 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.392778 20122 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.392789 20122 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.392799 20122 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.392808 20122 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.392818 20122 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.438051 20125 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.440568 20125 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.442749 20125 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.444764 20125 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.446758 20125 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.448141 20125 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.473001 20125 img-client.cpp:228] Time(ns): 18494517
+I0124 10:56:13.473037 20125 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.473070 20125 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.473079 20125 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.473088 20125 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.473094 20125 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.473101 20125 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.519203 20128 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.521628 20128 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.523823 20128 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.525854 20128 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.527865 20128 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.529243 20128 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.553604 20128 img-client.cpp:228] Time(ns): 18426386
+I0124 10:56:13.553648 20128 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.553690 20128 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.553702 20128 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.553712 20128 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.553721 20128 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.553731 20128 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.598465 20131 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.600898 20131 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.603122 20131 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.605154 20131 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.607190 20131 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.608532 20131 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.610141 20131 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:13.646464 20131 img-client.cpp:228] Time(ns): 30260652
+I0124 10:56:13.646507 20131 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.646548 20131 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.646560 20131 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.646570 20131 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.646580 20131 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.646589 20131 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:13.646600 20131 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.692334 20134 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.694764 20134 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.696964 20134 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.699000 20134 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.701009 20134 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.702385 20134 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.704085 20134 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:13.730100 20134 img-client.cpp:228] Time(ns): 20057652
+I0124 10:56:13.730141 20134 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.730178 20134 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.730188 20134 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.730197 20134 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.730204 20134 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.730213 20134 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:13.730221 20134 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.772827 20137 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.775283 20137 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.777338 20137 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.779229 20137 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.781111 20137 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.782402 20137 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.784005 20137 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:13.809808 20137 img-client.cpp:228] Time(ns): 20094583
+I0124 10:56:13.809842 20137 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.809876 20137 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.809885 20137 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.809892 20137 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.809900 20137 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.809907 20137 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:13.809914 20137 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.855518 20140 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.857959 20140 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.860162 20140 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.862186 20140 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.864176 20140 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.865476 20140 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.867092 20140 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:13.893357 20140 img-client.cpp:228] Time(ns): 20175802
+I0124 10:56:13.893398 20140 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.893435 20140 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.893445 20140 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.893455 20140 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.893462 20140 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.893471 20140 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:13.893478 20140 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:13.938318 20143 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:13.940752 20143 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:13.942960 20143 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:13.944989 20143 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:13.947019 20143 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:13.948339 20143 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:13.949937 20143 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:13.976259 20143 img-client.cpp:228] Time(ns): 20246072
+I0124 10:56:13.976300 20143 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:13.976341 20143 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:13.976353 20143 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:13.976363 20143 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:13.976372 20143 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:13.976382 20143 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:13.976390 20143 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.018523 20146 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.020792 20146 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.022850 20146 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.024678 20146 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.026438 20146 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.027662 20146 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.029175 20146 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.030083 20146 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.069502 20146 img-client.cpp:228] Time(ns): 32708911
+I0124 10:56:14.069547 20146 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.069587 20146 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.069599 20146 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.069609 20146 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.069628 20146 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.069638 20146 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.069648 20146 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.069656 20146 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.114481 20149 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.116917 20149 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.119107 20149 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.121121 20149 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.123143 20149 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.124469 20149 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.126061 20149 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.127010 20149 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.156859 20149 img-client.cpp:228] Time(ns): 22837350
+I0124 10:56:14.156894 20149 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.156929 20149 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.156935 20149 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.156942 20149 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.156949 20149 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.156955 20149 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.156961 20149 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.156967 20149 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.203064 20152 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.205499 20152 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.207703 20152 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.209743 20152 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.211776 20152 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.213176 20152 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.214896 20152 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.215900 20152 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.245520 20152 img-client.cpp:228] Time(ns): 22778502
+I0124 10:56:14.245563 20152 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.245604 20152 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.245615 20152 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.245623 20152 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.245631 20152 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.245640 20152 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.245649 20152 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.245657 20152 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.289345 20155 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.291754 20155 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.293819 20155 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.295722 20155 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.297612 20155 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.298913 20155 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.300534 20155 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.301491 20155 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.330502 20155 img-client.cpp:228] Time(ns): 22262634
+I0124 10:56:14.330545 20155 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.330587 20155 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.330600 20155 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.330608 20155 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.330631 20155 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.330642 20155 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.330651 20155 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.330660 20155 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.376387 20158 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.378787 20158 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.380975 20158 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.383002 20158 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.385010 20158 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.386413 20158 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.388110 20158 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.389086 20158 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.419230 20158 img-client.cpp:228] Time(ns): 22930404
+I0124 10:56:14.419277 20158 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.419322 20158 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.419334 20158 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.419344 20158 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.419353 20158 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.419363 20158 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.419373 20158 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.419383 20158 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.465492 20161 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.467916 20161 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.470108 20161 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.472143 20161 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.474160 20161 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.475548 20161 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.477145 20161 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.478098 20161 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.479432 20161 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:14.523113 20161 img-client.cpp:228] Time(ns): 36267313
+I0124 10:56:14.523157 20161 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.523200 20161 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.523211 20161 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.523221 20161 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.523231 20161 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.523239 20161 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.523249 20161 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.523258 20161 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:14.523268 20161 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.566711 20164 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.568938 20164 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.570884 20164 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.572700 20164 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.574496 20164 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.575742 20164 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.577276 20164 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.578199 20164 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.579484 20164 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:14.610802 20164 img-client.cpp:228] Time(ns): 24661288
+I0124 10:56:14.610829 20164 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.610862 20164 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.610869 20164 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.610875 20164 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.610882 20164 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.610888 20164 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.610895 20164 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.610901 20164 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:14.610908 20164 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.655941 20167 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.658326 20167 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.660509 20167 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.662514 20167 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.664526 20167 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.665901 20167 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.667613 20167 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.668563 20167 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.669878 20167 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:14.701233 20167 img-client.cpp:228] Time(ns): 24395112
+I0124 10:56:14.701282 20167 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.701326 20167 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.701337 20167 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.701346 20167 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.701355 20167 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.701364 20167 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.701373 20167 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.701381 20167 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:14.701391 20167 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.747362 20170 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.749802 20170 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.752028 20170 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.754079 20170 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.756105 20170 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.757422 20170 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.759061 20170 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.760028 20170 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.761379 20170 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:14.793355 20170 img-client.cpp:228] Time(ns): 24702898
+I0124 10:56:14.793391 20170 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.793427 20170 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.793437 20170 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.793444 20170 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.793452 20170 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.793470 20170 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.793478 20170 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.793485 20170 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:14.793493 20170 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.839077 20173 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.841472 20173 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.843646 20173 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.845639 20173 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.847656 20173 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.848963 20173 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.850569 20173 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.851543 20173 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.852875 20173 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:14.884620 20173 img-client.cpp:228] Time(ns): 24598443
+I0124 10:56:14.884667 20173 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.884711 20173 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.884723 20173 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.884733 20173 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.884742 20173 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.884752 20173 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.884763 20173 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.884771 20173 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:14.884781 20173 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:14.929316 20176 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:14.931897 20176 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:14.934087 20176 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:14.936123 20176 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:14.938124 20176 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:14.939510 20176 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:14.941207 20176 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:14.942237 20176 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:14.943661 20176 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:14.944593 20176 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:14.990489 20176 img-client.cpp:228] Time(ns): 37290011
+I0124 10:56:14.990533 20176 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:14.990574 20176 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:14.990586 20176 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:14.990597 20176 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:14.990605 20176 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:14.990614 20176 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:14.990624 20176 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:14.990633 20176 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:14.990643 20176 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:14.990651 20176 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.037320 20179 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.039743 20179 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.041939 20179 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.043956 20179 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.045951 20179 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.047343 20179 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.048965 20179 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.049934 20179 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.051285 20179 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.052230 20179 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.086805 20179 img-client.cpp:228] Time(ns): 25980078
+I0124 10:56:15.086853 20179 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.086897 20179 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.086910 20179 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.086921 20179 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.086931 20179 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.086959 20179 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.086972 20179 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.086982 20179 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.086992 20179 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.087002 20179 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.132325 20182 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.134790 20182 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.136991 20182 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.139024 20182 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.141041 20182 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.142431 20182 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.144142 20182 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.145108 20182 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.146426 20182 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.147367 20182 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.181849 20182 img-client.cpp:228] Time(ns): 25886253
+I0124 10:56:15.181895 20182 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.181938 20182 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.181951 20182 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.181960 20182 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.181970 20182 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.181980 20182 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.181990 20182 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.182000 20182 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.182010 20182 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.182020 20182 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.227934 20185 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.230334 20185 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.232511 20185 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.234521 20185 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.236531 20185 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.237903 20185 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.239631 20185 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.240607 20185 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.241958 20185 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.242911 20185 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.277632 20185 img-client.cpp:228] Time(ns): 25823725
+I0124 10:56:15.277680 20185 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.277727 20185 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.277741 20185 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.277752 20185 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.277762 20185 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.277773 20185 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.277783 20185 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.277794 20185 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.277804 20185 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.277815 20185 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.323485 20188 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.325934 20188 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.328140 20188 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.330165 20188 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.332168 20188 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.333540 20188 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.335253 20188 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.336217 20188 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.337523 20188 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.338439 20188 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.372021 20188 img-client.cpp:228] Time(ns): 24956300
+I0124 10:56:15.372063 20188 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.372104 20188 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.372115 20188 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.372124 20188 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.372133 20188 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.372143 20188 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.372151 20188 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.372161 20188 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.372170 20188 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.372179 20188 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.416682 20191 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.419085 20191 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.421247 20191 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.423270 20191 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.425164 20191 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.426440 20191 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.428033 20191 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.428982 20191 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.430280 20191 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.431215 20191 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.432684 20191 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:15.483151 20191 img-client.cpp:228] Time(ns): 41232544
+I0124 10:56:15.483198 20191 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.483253 20191 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.483268 20191 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.483278 20191 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.483289 20191 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.483299 20191 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.483309 20191 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.483319 20191 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.483328 20191 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.483340 20191 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:15.483350 20191 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.528600 20194 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.531038 20194 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.533226 20194 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.535259 20194 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.537263 20194 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.538661 20194 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.540330 20194 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.541290 20194 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.542613 20194 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.543565 20194 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.545043 20194 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:15.584069 20194 img-client.cpp:228] Time(ns): 29692549
+I0124 10:56:15.584107 20194 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.584148 20194 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.584159 20194 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.584169 20194 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.584178 20194 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.584187 20194 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.584197 20194 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.584206 20194 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.584216 20194 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.584225 20194 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:15.584234 20194 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.627641 20197 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.630101 20197 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.632314 20197 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.634335 20197 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.636329 20197 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.637698 20197 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.639405 20197 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.640363 20197 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.641672 20197 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.642601 20197 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.644098 20197 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:15.683138 20197 img-client.cpp:228] Time(ns): 29573925
+I0124 10:56:15.683173 20197 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.683207 20197 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.683229 20197 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.683238 20197 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.683243 20197 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.683250 20197 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.683256 20197 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.683264 20197 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.683269 20197 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.683276 20197 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:15.683282 20197 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.722625 20200 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.724781 20200 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.726732 20200 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.728463 20200 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.730141 20200 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.731303 20200 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.732735 20200 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.733595 20200 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.734782 20200 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.735627 20200 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.736943 20200 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:15.773538 20200 img-client.cpp:228] Time(ns): 28399139
+I0124 10:56:15.773586 20200 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.773628 20200 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.773640 20200 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.773650 20200 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.773660 20200 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.773671 20200 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.773681 20200 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.773691 20200 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.773701 20200 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.773711 20200 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:15.773721 20200 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.819943 20203 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.822341 20203 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.824514 20203 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.826524 20203 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.828490 20203 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.829776 20203 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.831374 20203 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.832330 20203 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.833640 20203 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.834565 20203 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.836048 20203 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:15.875350 20203 img-client.cpp:228] Time(ns): 29852657
+I0124 10:56:15.875397 20203 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.875442 20203 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.875453 20203 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.875478 20203 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.875488 20203 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.875497 20203 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.875506 20203 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.875515 20203 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.875525 20203 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.875535 20203 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:15.875543 20203 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:15.922039 20206 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:15.924496 20206 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:15.926698 20206 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:15.928736 20206 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:15.930779 20206 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:15.932142 20206 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:15.933748 20206 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:15.934705 20206 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:15.936034 20206 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:15.936969 20206 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:15.938441 20206 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:15.940227 20206 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:15.997666 20206 img-client.cpp:228] Time(ns): 47885185
+I0124 10:56:15.997712 20206 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:15.997754 20206 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:15.997766 20206 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:15.997776 20206 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:15.997784 20206 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:15.997793 20206 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:15.997802 20206 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:15.997812 20206 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:15.997820 20206 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:15.997829 20206 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:15.997838 20206 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:15.997846 20206 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:16.042255 20209 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:16.044677 20209 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:16.046871 20209 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:16.048807 20209 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:16.050690 20209 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:16.051990 20209 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:16.053592 20209 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:16.054540 20209 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:16.055871 20209 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:16.056798 20209 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:16.058269 20209 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:16.060042 20209 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:16.100544 20209 img-client.cpp:228] Time(ns): 31117712
+I0124 10:56:16.100574 20209 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:16.100620 20209 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:16.100628 20209 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:16.100636 20209 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:16.100641 20209 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:16.100648 20209 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:16.100654 20209 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:16.100661 20209 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:16.100667 20209 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:16.100673 20209 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:16.100679 20209 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:16.100687 20209 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:16.143997 20212 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:16.146407 20212 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:16.148592 20212 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:16.150604 20212 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:16.152608 20212 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:16.153981 20212 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:16.155697 20212 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:16.156651 20212 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:16.157968 20212 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:16.158898 20212 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:16.160384 20212 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:16.162163 20212 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:16.200920 20212 img-client.cpp:228] Time(ns): 29913350
+I0124 10:56:16.200970 20212 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:16.201017 20212 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:16.201030 20212 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:16.201038 20212 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:16.201047 20212 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:16.201056 20212 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:16.201066 20212 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:16.201073 20212 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:16.201083 20212 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:16.201092 20212 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:16.201100 20212 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:16.201109 20212 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:16.247285 20215 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:16.249704 20215 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:16.251879 20215 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:16.253885 20215 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:16.255892 20215 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:16.257179 20215 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:16.258766 20215 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:16.259728 20215 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:16.261039 20215 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:16.261970 20215 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:16.263458 20215 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:16.265252 20215 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:16.305685 20215 img-client.cpp:228] Time(ns): 30649982
+I0124 10:56:16.305727 20215 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:16.305768 20215 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:16.305780 20215 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:16.305791 20215 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:16.305801 20215 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:16.305811 20215 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:16.305820 20215 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:16.305830 20215 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:16.305840 20215 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:16.305850 20215 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:16.305860 20215 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:16.305871 20215 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:16.349931 20218 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:16.352330 20218 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:16.354485 20218 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:16.356464 20218 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:16.358336 20218 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:16.359625 20218 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:16.361218 20218 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:16.362164 20218 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:16.363487 20218 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:16.364413 20218 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:16.365888 20218 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:16.367642 20218 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:16.408370 20218 img-client.cpp:228] Time(ns): 31211492
+I0124 10:56:16.408421 20218 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:16.410449 20218 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:16.410492 20218 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:16.410504 20218 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:16.410513 20218 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:16.410523 20218 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:16.410533 20218 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:16.410543 20218 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:16.410553 20218 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:16.410563 20218 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:16.410573 20218 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:16.410583 20218 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:16.456271 20221 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:16.458688 20221 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:16.460877 20221 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:16.462890 20221 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:16.464901 20221 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:16.466295 20221 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:16.467973 20221 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:16.468935 20221 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:16.470248 20221 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:16.471190 20221 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:16.472669 20221 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:16.474429 20221 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:16.475931 20221 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:16.536020 20221 img-client.cpp:228] Time(ns): 49827721
+I0124 10:56:16.536065 20221 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:16.536106 20221 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:16.536118 20221 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:16.536126 20221 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:16.536134 20221 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:16.536144 20221 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:16.536151 20221 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:16.536160 20221 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:16.536168 20221 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:16.536177 20221 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:16.536185 20221 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:16.536193 20221 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:16.536202 20221 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:16.582234 20224 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:16.584756 20224 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:16.586925 20224 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:16.588934 20224 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:16.590956 20224 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:16.592334 20224 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:16.594036 20224 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:16.595074 20224 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:16.596432 20224 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:16.597365 20224 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:16.598829 20224 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:16.600610 20224 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:16.602103 20224 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:16.644752 20224 img-client.cpp:228] Time(ns): 31947316
+I0124 10:56:16.644798 20224 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:16.644839 20224 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:16.644850 20224 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:16.644860 20224 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:16.644870 20224 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:16.644879 20224 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:16.644888 20224 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:16.644898 20224 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:16.644907 20224 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:16.644917 20224 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:16.644927 20224 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:16.644935 20224 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:16.644944 20224 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:16.692222 20227 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:16.694648 20227 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:16.696838 20227 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:16.698875 20227 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:16.700825 20227 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:16.702134 20227 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:16.703748 20227 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:16.704715 20227 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:16.706040 20227 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:16.706987 20227 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:16.708474 20227 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:16.710255 20227 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:16.711777 20227 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:16.754079 20227 img-client.cpp:228] Time(ns): 32022354
+I0124 10:56:16.754124 20227 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:16.754169 20227 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:16.754179 20227 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:16.754189 20227 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:16.754196 20227 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:16.754205 20227 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:16.754214 20227 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:16.754222 20227 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:16.754230 20227 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:16.754240 20227 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:16.754247 20227 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:16.754256 20227 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:16.754263 20227 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:16.800334 20230 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:16.802754 20230 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:16.804936 20230 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:16.806947 20230 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:16.808938 20230 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:16.810310 20230 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:16.812000 20230 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:16.812953 20230 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:16.814270 20230 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:16.815202 20230 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:16.816673 20230 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:16.818440 20230 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:16.819941 20230 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:16.861840 20230 img-client.cpp:228] Time(ns): 31409228
+I0124 10:56:16.861888 20230 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:16.861932 20230 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:16.861943 20230 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:16.861953 20230 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:16.861963 20230 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:16.861971 20230 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:16.861981 20230 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:16.862002 20230 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:16.862013 20230 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:16.862022 20230 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:16.862031 20230 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:16.862041 20230 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:16.862051 20230 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:16.908078 20233 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:16.910473 20233 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:16.912580 20233 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:16.914455 20233 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:16.916324 20233 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:16.917605 20233 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:16.919204 20233 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:16.920151 20233 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:16.921474 20233 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:16.922386 20233 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:16.923832 20233 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:16.925494 20233 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:16.926903 20233 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:16.969195 20233 img-client.cpp:228] Time(ns): 31743075
+I0124 10:56:16.969244 20233 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:16.969290 20233 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:16.969301 20233 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:16.969311 20233 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:16.969321 20233 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:16.969331 20233 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:16.969341 20233 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:16.969350 20233 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:16.969360 20233 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:16.969369 20233 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:16.969379 20233 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:16.969388 20233 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:16.969398 20233 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:17.015672 20236 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:17.018105 20236 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:17.020279 20236 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:17.022285 20236 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:17.024235 20236 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:17.025524 20236 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:17.027122 20236 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:17.028074 20236 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:17.029381 20236 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:17.030304 20236 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:17.031785 20236 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:17.033560 20236 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:17.035079 20236 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:17.036744 20236 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:17.099783 20236 img-client.cpp:228] Time(ns): 52635001
+I0124 10:56:17.099812 20236 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:17.099839 20236 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:17.099848 20236 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:17.099853 20236 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:17.099860 20236 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:17.099866 20236 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:17.099872 20236 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:17.099879 20236 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:17.099885 20236 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:17.099891 20236 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:17.099897 20236 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:17.099905 20236 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:17.099910 20236 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:17.099916 20236 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:17.141177 20239 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:17.143599 20239 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:17.145656 20239 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:17.147554 20239 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:17.149432 20239 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:17.150743 20239 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:17.152353 20239 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:17.153308 20239 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:17.154650 20239 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:17.155580 20239 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:17.157001 20239 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:17.158694 20239 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:17.160115 20239 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:17.161765 20239 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:17.203862 20239 img-client.cpp:228] Time(ns): 32156073
+I0124 10:56:17.203908 20239 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:17.203950 20239 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:17.203963 20239 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:17.203971 20239 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:17.203981 20239 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:17.203991 20239 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:17.204000 20239 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:17.204010 20239 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:17.204020 20239 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:17.204030 20239 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:17.204038 20239 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:17.204047 20239 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:17.204056 20239 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:17.204066 20239 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:17.249881 20242 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:17.252301 20242 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:17.254467 20242 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:17.256486 20242 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:17.258486 20242 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:17.259865 20242 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:17.261472 20242 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:17.262428 20242 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:17.263758 20242 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:17.264691 20242 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:17.266160 20242 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:17.267938 20242 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:17.269433 20242 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:17.271198 20242 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:17.314934 20242 img-client.cpp:228] Time(ns): 33484681
+I0124 10:56:17.315001 20242 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:17.315048 20242 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:17.315062 20242 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:17.315073 20242 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:17.315083 20242 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:17.315093 20242 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:17.315104 20242 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:17.315114 20242 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:17.315124 20242 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:17.315135 20242 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:17.315145 20242 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:17.315155 20242 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:17.315165 20242 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:17.315174 20242 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:17.361546 20245 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:17.363991 20245 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:17.366165 20245 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:17.368178 20245 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:17.370198 20245 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:17.371604 20245 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:17.373206 20245 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:17.374161 20245 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:17.375485 20245 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:17.376416 20245 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:17.377894 20245 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:17.379680 20245 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:17.381184 20245 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:17.382956 20245 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:17.426477 20245 img-client.cpp:228] Time(ns): 33119411
+I0124 10:56:17.426523 20245 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:17.426568 20245 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:17.426578 20245 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:17.426587 20245 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:17.426596 20245 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:17.426605 20245 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:17.426614 20245 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:17.426635 20245 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:17.426645 20245 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:17.426654 20245 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:17.426663 20245 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:17.426672 20245 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:17.426681 20245 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:17.426689 20245 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:17.473600 20248 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:17.476019 20248 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:17.478181 20248 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:17.480188 20248 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:17.482173 20248 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:17.483559 20248 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:17.485147 20248 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:17.486086 20248 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:17.487396 20248 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:17.488313 20248 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:17.489775 20248 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:17.491544 20248 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:17.493034 20248 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:17.494770 20248 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:17.538118 20248 img-client.cpp:228] Time(ns): 33009693
+I0124 10:56:17.538154 20248 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:17.538188 20248 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:17.538197 20248 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:17.538203 20248 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:17.538210 20248 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:17.538218 20248 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:17.538223 20248 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:17.538230 20248 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:17.538238 20248 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:17.538244 20248 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:17.538250 20248 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:17.538257 20248 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:17.538264 20248 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:17.538269 20248 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:17.583482 20251 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:17.585883 20251 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:17.588029 20251 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:17.589923 20251 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:17.591810 20251 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:17.593106 20251 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:17.594703 20251 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:17.595662 20251 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:17.596963 20251 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:17.597904 20251 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:17.599386 20251 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:17.601079 20251 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:17.602490 20251 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:17.604130 20251 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:17.605103 20251 img-client.cpp:159] Reading input/imc/test_1011.jpg
+I0124 10:56:17.671437 20251 img-client.cpp:228] Time(ns): 54642075
+I0124 10:56:17.671489 20251 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:17.671535 20251 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:17.671545 20251 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:17.671555 20251 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:17.671563 20251 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:17.671571 20251 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:17.671581 20251 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:17.671588 20251 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:17.671597 20251 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:17.671607 20251 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:17.671614 20251 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:17.671622 20251 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:17.671631 20251 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:17.671639 20251 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+I0124 10:56:17.671648 20251 img-client.cpp:240] Image: input/imc/test_1011.jpg class: 768
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:17.710283 20254 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:17.712318 20254 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:17.714130 20254 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:17.715806 20254 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:17.717478 20254 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:17.718642 20254 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:17.720067 20254 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:17.720885 20254 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:17.722007 20254 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:17.722795 20254 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:17.724040 20254 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:17.725541 20254 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:17.726804 20254 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:17.728279 20254 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:17.729171 20254 img-client.cpp:159] Reading input/imc/test_1011.jpg
+I0124 10:56:17.782897 20254 img-client.cpp:228] Time(ns): 43543970
+I0124 10:56:17.782958 20254 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:17.783005 20254 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:17.783017 20254 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:17.783026 20254 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:17.783036 20254 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:17.783046 20254 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:17.783054 20254 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:17.783064 20254 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:17.783073 20254 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:17.783082 20254 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:17.783092 20254 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:17.783115 20254 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:17.783125 20254 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:17.783134 20254 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+I0124 10:56:17.783144 20254 img-client.cpp:240] Image: input/imc/test_1011.jpg class: 768
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:17.828142 20257 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:17.830543 20257 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:17.832723 20257 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:17.834724 20257 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:17.836736 20257 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:17.838112 20257 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:17.839814 20257 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:17.840765 20257 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:17.842070 20257 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:17.843001 20257 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:17.844471 20257 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:17.846243 20257 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:17.847749 20257 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:17.849483 20257 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:17.850517 20257 img-client.cpp:159] Reading input/imc/test_1011.jpg
+I0124 10:56:17.907045 20257 img-client.cpp:228] Time(ns): 44695214
+I0124 10:56:17.907096 20257 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:17.907143 20257 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:17.907155 20257 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:17.907165 20257 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:17.907173 20257 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:17.907182 20257 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:17.907191 20257 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:17.907200 20257 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:17.907209 20257 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:17.907218 20257 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:17.907227 20257 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:17.907236 20257 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:17.907245 20257 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:17.907254 20257 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+I0124 10:56:17.907263 20257 img-client.cpp:240] Image: input/imc/test_1011.jpg class: 768
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:17.952638 20260 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:17.955080 20260 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:17.957255 20260 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:17.959273 20260 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:17.961275 20260 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:17.962668 20260 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:17.964341 20260 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:17.965296 20260 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:17.966614 20260 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:17.967550 20260 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:17.969023 20260 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:17.970793 20260 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:17.972318 20260 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:17.974064 20260 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:17.975117 20260 img-client.cpp:159] Reading input/imc/test_1011.jpg
+I0124 10:56:18.022325 20260 img-client.cpp:228] Time(ns): 35387641
+I0124 10:56:18.022370 20260 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:18.022413 20260 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:18.022424 20260 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:18.022433 20260 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:18.022444 20260 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:18.022454 20260 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:18.022462 20260 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:18.022472 20260 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:18.022481 20260 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:18.022491 20260 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:18.022500 20260 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:18.022511 20260 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:18.022519 20260 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:18.022529 20260 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+I0124 10:56:18.022538 20260 img-client.cpp:240] Image: input/imc/test_1011.jpg class: 768
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0124 10:56:18.067646 20263 img-client.cpp:159] Reading input/imc/cat-281-227.jpg
+I0124 10:56:18.070051 20263 img-client.cpp:159] Reading input/imc/dog-208-227.jpg
+I0124 10:56:18.072229 20263 img-client.cpp:159] Reading input/imc/test_1000.jpg
+I0124 10:56:18.074254 20263 img-client.cpp:159] Reading input/imc/test_1001.jpg
+I0124 10:56:18.076249 20263 img-client.cpp:159] Reading input/imc/test_1002.jpg
+I0124 10:56:18.077621 20263 img-client.cpp:159] Reading input/imc/test_1003.jpg
+I0124 10:56:18.079361 20263 img-client.cpp:159] Reading input/imc/test_1004.jpg
+I0124 10:56:18.080310 20263 img-client.cpp:159] Reading input/imc/test_1005.jpg
+I0124 10:56:18.081616 20263 img-client.cpp:159] Reading input/imc/test_1006.jpg
+I0124 10:56:18.082537 20263 img-client.cpp:159] Reading input/imc/test_1007.jpg
+I0124 10:56:18.084017 20263 img-client.cpp:159] Reading input/imc/test_1008.jpg
+I0124 10:56:18.085793 20263 img-client.cpp:159] Reading input/imc/test_1009.jpg
+I0124 10:56:18.087302 20263 img-client.cpp:159] Reading input/imc/test_100.jpg
+I0124 10:56:18.089035 20263 img-client.cpp:159] Reading input/imc/test_1010.jpg
+I0124 10:56:18.090073 20263 img-client.cpp:159] Reading input/imc/test_1011.jpg
+I0124 10:56:18.146919 20263 img-client.cpp:228] Time(ns): 44932679
+I0124 10:56:18.146983 20263 img-client.cpp:240] Image: input/imc/cat-281-227.jpg class: 281
+I0124 10:56:18.147042 20263 img-client.cpp:240] Image: input/imc/dog-208-227.jpg class: 208
+I0124 10:56:18.147053 20263 img-client.cpp:240] Image: input/imc/test_1000.jpg class: 477
+I0124 10:56:18.147063 20263 img-client.cpp:240] Image: input/imc/test_1001.jpg class: 188
+I0124 10:56:18.147071 20263 img-client.cpp:240] Image: input/imc/test_1002.jpg class: 265
+I0124 10:56:18.147080 20263 img-client.cpp:240] Image: input/imc/test_1003.jpg class: 669
+I0124 10:56:18.147090 20263 img-client.cpp:240] Image: input/imc/test_1004.jpg class: 277
+I0124 10:56:18.147099 20263 img-client.cpp:240] Image: input/imc/test_1005.jpg class: 34
+I0124 10:56:18.147109 20263 img-client.cpp:240] Image: input/imc/test_1006.jpg class: 997
+I0124 10:56:18.147117 20263 img-client.cpp:240] Image: input/imc/test_1007.jpg class: 928
+I0124 10:56:18.147126 20263 img-client.cpp:240] Image: input/imc/test_1008.jpg class: 65
+I0124 10:56:18.147135 20263 img-client.cpp:240] Image: input/imc/test_1009.jpg class: 731
+I0124 10:56:18.147145 20263 img-client.cpp:240] Image: input/imc/test_100.jpg class: 86
+I0124 10:56:18.147168 20263 img-client.cpp:240] Image: input/imc/test_1010.jpg class: 246
+I0124 10:56:18.147179 20263 img-client.cpp:240] Image: input/imc/test_1011.jpg class: 768

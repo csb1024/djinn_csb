@@ -1,0 +1,320 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.495445  9500 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.498574  9500 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.499581  9501 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.503183  9501 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.503227  9502 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.503283  9503 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.495167  9504 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.498318  9504 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.490715  9505 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.493198  9505 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.504662  9506 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.504813  9509 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.505110  9507 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.506480  9503 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.506698  9502 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.508246  9506 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.508232  9509 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.508460  9507 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.599378  9505 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.599452  9505 img-client.cpp:297] START Time(ns): 1527752327489644648 9505
+E0531 16:38:47.599460  9505 img-client.cpp:300] END PRE Time(ns): 1527752327490623967 9505
+E0531 16:38:47.599467  9505 img-client.cpp:303] END BARRIER Time(ns): 1527752327490624042 9505
+E0531 16:38:47.599472  9505 img-client.cpp:307] END DATA Time(ns): 1527752327492935422 9505
+E0531 16:38:47.599476  9505 img-client.cpp:311] END SEND Time(ns): 1527752327493195475 9505
+E0531 16:38:47.599481  9505 img-client.cpp:314] END COM Time(ns): 1527752327599330799 9505
+I0531 16:38:47.599474  9500 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.599547  9500 img-client.cpp:297] START Time(ns): 1527752327494866054 9500
+E0531 16:38:47.599557  9500 img-client.cpp:300] END PRE Time(ns): 1527752327495325835 9500
+E0531 16:38:47.599563  9500 img-client.cpp:303] END BARRIER Time(ns): 1527752327495325944 9500
+E0531 16:38:47.599570  9500 img-client.cpp:307] END DATA Time(ns): 1527752327498272306 9500
+E0531 16:38:47.599575  9500 img-client.cpp:311] END SEND Time(ns): 1527752327498570660 9500
+E0531 16:38:47.599581  9500 img-client.cpp:314] END COM Time(ns): 1527752327599430031 9500
+I0531 16:38:47.599475  9504 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.599526  9504 img-client.cpp:297] START Time(ns): 1527752327494676348 9504
+E0531 16:38:47.599535  9504 img-client.cpp:300] END PRE Time(ns): 1527752327495068717 9504
+E0531 16:38:47.599541  9504 img-client.cpp:303] END BARRIER Time(ns): 1527752327495068859 9504
+E0531 16:38:47.599545  9504 img-client.cpp:307] END DATA Time(ns): 1527752327497989917 9504
+E0531 16:38:47.599550  9504 img-client.cpp:311] END SEND Time(ns): 1527752327498314586 9504
+E0531 16:38:47.599555  9504 img-client.cpp:314] END COM Time(ns): 1527752327599440176 9504
+I0531 16:38:47.599555  9501 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.599630  9501 img-client.cpp:297] START Time(ns): 1527752327498977059 9501
+E0531 16:38:47.599642  9501 img-client.cpp:300] END PRE Time(ns): 1527752327499459374 9501
+E0531 16:38:47.599648  9501 img-client.cpp:303] END BARRIER Time(ns): 1527752327499459508 9501
+E0531 16:38:47.599654  9501 img-client.cpp:307] END DATA Time(ns): 1527752327502939915 9501
+E0531 16:38:47.599660  9501 img-client.cpp:311] END SEND Time(ns): 1527752327503177151 9501
+E0531 16:38:47.599666  9501 img-client.cpp:314] END COM Time(ns): 1527752327599510232 9501
+I0531 16:38:47.599584  9502 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.599644  9502 img-client.cpp:297] START Time(ns): 1527752327502745223 9502
+E0531 16:38:47.599655  9502 img-client.cpp:300] END PRE Time(ns): 1527752327503120821 9502
+E0531 16:38:47.599661  9502 img-client.cpp:303] END BARRIER Time(ns): 1527752327503120969 9502
+E0531 16:38:47.599668  9502 img-client.cpp:307] END DATA Time(ns): 1527752327506368134 9502
+E0531 16:38:47.599673  9502 img-client.cpp:311] END SEND Time(ns): 1527752327506694074 9502
+E0531 16:38:47.599678  9502 img-client.cpp:314] END COM Time(ns): 1527752327599543688 9502
+I0531 16:38:47.599624  9509 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.599678  9509 img-client.cpp:297] START Time(ns): 1527752327504206460 9509
+E0531 16:38:47.599686  9509 img-client.cpp:300] END PRE Time(ns): 1527752327504691492 9509
+E0531 16:38:47.599692  9509 img-client.cpp:303] END BARRIER Time(ns): 1527752327504691646 9509
+E0531 16:38:47.599699  9509 img-client.cpp:307] END DATA Time(ns): 1527752327507962202 9509
+E0531 16:38:47.599704  9509 img-client.cpp:311] END SEND Time(ns): 1527752327508227524 9509
+E0531 16:38:47.599709  9509 img-client.cpp:314] END COM Time(ns): 1527752327599588383 9509
+I0531 16:38:47.599664  9503 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.599730  9503 img-client.cpp:297] START Time(ns): 1527752327502677798 9503
+E0531 16:38:47.599740  9503 img-client.cpp:300] END PRE Time(ns): 1527752327503074869 9503
+E0531 16:38:47.599763  9503 img-client.cpp:303] END BARRIER Time(ns): 1527752327503074974 9503
+E0531 16:38:47.599769  9503 img-client.cpp:307] END DATA Time(ns): 1527752327506228012 9503
+E0531 16:38:47.599774  9503 img-client.cpp:311] END SEND Time(ns): 1527752327506475747 9503
+I0531 16:38:47.599704  9506 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.599784  9506 img-client.cpp:297] START Time(ns): 1527752327504104049 9506
+E0531 16:38:47.599795  9506 img-client.cpp:300] END PRE Time(ns): 1527752327504551541 9506
+E0531 16:38:47.599802  9506 img-client.cpp:303] END BARRIER Time(ns): 1527752327504551690 9506
+E0531 16:38:47.599807  9506 img-client.cpp:307] END DATA Time(ns): 1527752327507891550 9506
+E0531 16:38:47.599779  9503 img-client.cpp:314] END COM Time(ns): 1527752327599621134 9503
+I0531 16:38:47.599730  9507 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.599817  9507 img-client.cpp:297] START Time(ns): 1527752327504466187 9507
+E0531 16:38:47.599828  9507 img-client.cpp:300] END PRE Time(ns): 1527752327504840068 9507
+E0531 16:38:47.599836  9507 img-client.cpp:303] END BARRIER Time(ns): 1527752327504840166 9507
+E0531 16:38:47.599813  9506 img-client.cpp:311] END SEND Time(ns): 1527752327508241995 9506
+E0531 16:38:47.599820  9506 img-client.cpp:314] END COM Time(ns): 1527752327599662976 9506
+E0531 16:38:47.599843  9507 img-client.cpp:307] END DATA Time(ns): 1527752327508220877 9507
+E0531 16:38:47.599850  9507 img-client.cpp:311] END SEND Time(ns): 1527752327508454856 9507
+E0531 16:38:47.599858  9507 img-client.cpp:314] END COM Time(ns): 1527752327599677388 9507
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.632109  9515 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.632135  9546 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.632779  9513 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.635855  9546 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.635948  9515 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.636456  9513 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.643702  9510 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.646414  9524 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.647070  9510 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.647078  9541 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.649458  9511 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.650079  9524 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.651185  9541 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.651731  9508 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.651787  9545 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.652788  9534 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.653111  9511 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.654325  9538 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.654717  9508 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.654878  9545 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.655728  9512 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.656292  9534 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.656297  9518 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.656602  9519 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.656841  9520 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.657078  9538 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.659214  9512 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.659615  9518 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.660145  9519 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.660256  9520 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.660449  9514 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.661269  9539 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.661269  9517 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.661887  9540 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.662257  9516 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.662418  9542 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.662994  9535 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0531 16:38:47.663220  9537 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0531 16:38:47.663872  9514 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.664760  9517 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.664961  9539 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.665273  9540 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.665849  9542 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.665910  9516 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.666422  9535 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.667400  9537 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0531 16:38:47.669807  9515 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.669888  9515 img-client.cpp:297] START Time(ns): 1527752327631503639 9515
+E0531 16:38:47.669900  9515 img-client.cpp:300] END PRE Time(ns): 1527752327631967965 9515
+E0531 16:38:47.669908  9515 img-client.cpp:303] END BARRIER Time(ns): 1527752327631968094 9515
+E0531 16:38:47.669914  9515 img-client.cpp:307] END DATA Time(ns): 1527752327635582294 9515
+E0531 16:38:47.669919  9515 img-client.cpp:311] END SEND Time(ns): 1527752327635944720 9515
+I0531 16:38:47.669857  9513 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.669924  9513 img-client.cpp:297] START Time(ns): 1527752327632254369 9513
+E0531 16:38:47.669935  9513 img-client.cpp:300] END PRE Time(ns): 1527752327632666920 9513
+E0531 16:38:47.669942  9513 img-client.cpp:303] END BARRIER Time(ns): 1527752327632667083 9513
+E0531 16:38:47.669925  9515 img-client.cpp:314] END COM Time(ns): 1527752327669761358 9515
+I0531 16:38:47.669912  9510 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.669948  9513 img-client.cpp:307] END DATA Time(ns): 1527752327636182988 9513
+E0531 16:38:47.669955  9513 img-client.cpp:311] END SEND Time(ns): 1527752327636451969 9513
+E0531 16:38:47.669960  9513 img-client.cpp:314] END COM Time(ns): 1527752327669812508 9513
+E0531 16:38:47.669976  9510 img-client.cpp:297] START Time(ns): 1527752327643221983 9510
+E0531 16:38:47.669988  9510 img-client.cpp:300] END PRE Time(ns): 1527752327643590846 9510
+E0531 16:38:47.669996  9510 img-client.cpp:303] END BARRIER Time(ns): 1527752327643590970 9510
+I0531 16:38:47.669953  9541 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.670002  9510 img-client.cpp:307] END DATA Time(ns): 1527752327646850362 9510
+E0531 16:38:47.670009  9510 img-client.cpp:311] END SEND Time(ns): 1527752327647066053 9510
+E0531 16:38:47.670015  9510 img-client.cpp:314] END COM Time(ns): 1527752327669874218 9510
+E0531 16:38:47.670034  9541 img-client.cpp:297] START Time(ns): 1527752327646500144 9541
+E0531 16:38:47.670047  9541 img-client.cpp:300] END PRE Time(ns): 1527752327646944898 9541
+E0531 16:38:47.670055  9541 img-client.cpp:303] END BARRIER Time(ns): 1527752327646945035 9541
+E0531 16:38:47.670063  9541 img-client.cpp:307] END DATA Time(ns): 1527752327650914461 9541
+E0531 16:38:47.670069  9541 img-client.cpp:311] END SEND Time(ns): 1527752327651179994 9541
+E0531 16:38:47.670076  9541 img-client.cpp:314] END COM Time(ns): 1527752327669901382 9541
+I0531 16:38:47.826339  9511 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0531 16:38:47.826325  9538 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826392  9538 img-client.cpp:297] START Time(ns): 1527752327653856263 9538
+E0531 16:38:47.826400  9538 img-client.cpp:300] END PRE Time(ns): 1527752327654149792 9538
+E0531 16:38:47.826406  9538 img-client.cpp:303] END BARRIER Time(ns): 1527752327654149885 9538
+E0531 16:38:47.826411  9538 img-client.cpp:307] END DATA Time(ns): 1527752327656788384 9538
+E0531 16:38:47.826416  9538 img-client.cpp:311] END SEND Time(ns): 1527752327657074628 9538
+E0531 16:38:47.826419  9538 img-client.cpp:314] END COM Time(ns): 1527752327826277750 9538
+I0531 16:38:47.826400  9545 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826447  9511 img-client.cpp:297] START Time(ns): 1527752327648931066 9511
+E0531 16:38:47.826463  9511 img-client.cpp:300] END PRE Time(ns): 1527752327649336509 9511
+I0531 16:38:47.826424  9534 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826488  9534 img-client.cpp:297] START Time(ns): 1527752327652291153 9534
+E0531 16:38:47.826498  9534 img-client.cpp:300] END PRE Time(ns): 1527752327652671736 9534
+E0531 16:38:47.826504  9534 img-client.cpp:303] END BARRIER Time(ns): 1527752327652671883 9534
+E0531 16:38:47.826509  9534 img-client.cpp:307] END DATA Time(ns): 1527752327655948461 9534
+E0531 16:38:47.826473  9511 img-client.cpp:303] END BARRIER Time(ns): 1527752327649336655 9511
+E0531 16:38:47.826481  9511 img-client.cpp:307] END DATA Time(ns): 1527752327652858638 9511
+E0531 16:38:47.826490  9511 img-client.cpp:311] END SEND Time(ns): 1527752327653107512 9511
+E0531 16:38:47.826498  9511 img-client.cpp:314] END COM Time(ns): 1527752327826270796 9511
+E0531 16:38:47.826467  9545 img-client.cpp:297] START Time(ns): 1527752327651364279 9545
+E0531 16:38:47.826478  9545 img-client.cpp:300] END PRE Time(ns): 1527752327651692550 9545
+E0531 16:38:47.826483  9545 img-client.cpp:303] END BARRIER Time(ns): 1527752327651692650 9545
+E0531 16:38:47.826489  9545 img-client.cpp:307] END DATA Time(ns): 1527752327654520049 9545
+E0531 16:38:47.826495  9545 img-client.cpp:311] END SEND Time(ns): 1527752327654874311 9545
+E0531 16:38:47.826501  9545 img-client.cpp:314] END COM Time(ns): 1527752327826359193 9545
+E0531 16:38:47.826514  9534 img-client.cpp:311] END SEND Time(ns): 1527752327656288194 9534
+E0531 16:38:47.826519  9534 img-client.cpp:314] END COM Time(ns): 1527752327826376155 9534
+I0531 16:38:47.826508  9520 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0531 16:38:47.826514  9508 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826586  9520 img-client.cpp:297] START Time(ns): 1527752327656344488 9520
+E0531 16:38:47.826601  9520 img-client.cpp:300] END PRE Time(ns): 1527752327656728637 9520
+I0531 16:38:47.826544  9518 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826594  9508 img-client.cpp:297] START Time(ns): 1527752327651289824 9508
+E0531 16:38:47.826609  9520 img-client.cpp:303] END BARRIER Time(ns): 1527752327656728742 9520
+E0531 16:38:47.826618  9520 img-client.cpp:307] END DATA Time(ns): 1527752327659907893 9520
+E0531 16:38:47.826608  9508 img-client.cpp:300] END PRE Time(ns): 1527752327651632419 9508
+E0531 16:38:47.826618  9508 img-client.cpp:303] END BARRIER Time(ns): 1527752327651632541 9508
+E0531 16:38:47.826627  9508 img-client.cpp:307] END DATA Time(ns): 1527752327654441269 9508
+E0531 16:38:47.826635  9508 img-client.cpp:311] END SEND Time(ns): 1527752327654714415 9508
+E0531 16:38:47.826643  9508 img-client.cpp:314] END COM Time(ns): 1527752327826463390 9508
+E0531 16:38:47.826612  9518 img-client.cpp:297] START Time(ns): 1527752327655829753 9518
+E0531 16:38:47.826627  9518 img-client.cpp:300] END PRE Time(ns): 1527752327656188146 9518
+E0531 16:38:47.826634  9518 img-client.cpp:303] END BARRIER Time(ns): 1527752327656188269 9518
+E0531 16:38:47.826642  9518 img-client.cpp:307] END DATA Time(ns): 1527752327659276224 9518
+E0531 16:38:47.826627  9520 img-client.cpp:311] END SEND Time(ns): 1527752327660252980 9520
+E0531 16:38:47.826634  9520 img-client.cpp:314] END COM Time(ns): 1527752327826459506 9520
+E0531 16:38:47.826650  9518 img-client.cpp:311] END SEND Time(ns): 1527752327659610215 9518
+E0531 16:38:47.826658  9518 img-client.cpp:314] END COM Time(ns): 1527752327826492910 9518
+I0531 16:38:47.826601  9512 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826686  9512 img-client.cpp:297] START Time(ns): 1527752327655193583 9512
+E0531 16:38:47.826702  9512 img-client.cpp:300] END PRE Time(ns): 1527752327655609939 9512
+E0531 16:38:47.826712  9512 img-client.cpp:303] END BARRIER Time(ns): 1527752327655610052 9512
+E0531 16:38:47.826720  9512 img-client.cpp:307] END DATA Time(ns): 1527752327658866354 9512
+E0531 16:38:47.826730  9512 img-client.cpp:311] END SEND Time(ns): 1527752327659210362 9512
+E0531 16:38:47.826738  9512 img-client.cpp:314] END COM Time(ns): 1527752327826547313 9512
+I0531 16:38:47.826670  9519 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0531 16:38:47.826686  9514 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826763  9514 img-client.cpp:297] START Time(ns): 1527752327659956493 9514
+E0531 16:38:47.826776  9514 img-client.cpp:300] END PRE Time(ns): 1527752327660334138 9514
+E0531 16:38:47.826782  9514 img-client.cpp:303] END BARRIER Time(ns): 1527752327660334270 9514
+E0531 16:38:47.826759  9519 img-client.cpp:297] START Time(ns): 1527752327656075686 9519
+E0531 16:38:47.826774  9519 img-client.cpp:300] END PRE Time(ns): 1527752327656478135 9519
+E0531 16:38:47.826783  9519 img-client.cpp:303] END BARRIER Time(ns): 1527752327656478277 9519
+E0531 16:38:47.826789  9514 img-client.cpp:307] END DATA Time(ns): 1527752327663615710 9514
+E0531 16:38:47.826797  9514 img-client.cpp:311] END SEND Time(ns): 1527752327663867932 9514
+I0531 16:38:47.826736  9517 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826792  9519 img-client.cpp:307] END DATA Time(ns): 1527752327659776322 9519
+E0531 16:38:47.826800  9519 img-client.cpp:311] END SEND Time(ns): 1527752327660140520 9519
+E0531 16:38:47.826808  9519 img-client.cpp:314] END COM Time(ns): 1527752327826613806 9519
+E0531 16:38:47.826803  9514 img-client.cpp:314] END COM Time(ns): 1527752327826643026 9514
+I0531 16:38:47.826750  9539 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0531 16:38:47.826762  9540 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826818  9540 img-client.cpp:297] START Time(ns): 1527752327661374096 9540
+E0531 16:38:47.826828  9540 img-client.cpp:300] END PRE Time(ns): 1527752327661777624 9540
+E0531 16:38:47.826834  9540 img-client.cpp:303] END BARRIER Time(ns): 1527752327661777751 9540
+E0531 16:38:47.826840  9540 img-client.cpp:307] END DATA Time(ns): 1527752327664858867 9540
+E0531 16:38:47.826817  9517 img-client.cpp:297] START Time(ns): 1527752327660693259 9517
+E0531 16:38:47.826830  9517 img-client.cpp:300] END PRE Time(ns): 1527752327661144730 9517
+E0531 16:38:47.826839  9517 img-client.cpp:303] END BARRIER Time(ns): 1527752327661144857 9517
+E0531 16:38:47.826833  9539 img-client.cpp:297] START Time(ns): 1527752327660672387 9539
+E0531 16:38:47.826848  9539 img-client.cpp:300] END PRE Time(ns): 1527752327661136483 9539
+E0531 16:38:47.826846  9540 img-client.cpp:311] END SEND Time(ns): 1527752327665268804 9540
+E0531 16:38:47.826851  9540 img-client.cpp:314] END COM Time(ns): 1527752327826727452 9540
+E0531 16:38:47.826848  9517 img-client.cpp:307] END DATA Time(ns): 1527752327664488362 9517
+E0531 16:38:47.826855  9517 img-client.cpp:311] END SEND Time(ns): 1527752327664756564 9517
+E0531 16:38:47.826864  9517 img-client.cpp:314] END COM Time(ns): 1527752327826686690 9517
+I0531 16:38:47.826815  9542 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826858  9539 img-client.cpp:303] END BARRIER Time(ns): 1527752327661136622 9539
+E0531 16:38:47.826865  9539 img-client.cpp:307] END DATA Time(ns): 1527752327664713200 9539
+E0531 16:38:47.826872  9539 img-client.cpp:311] END SEND Time(ns): 1527752327664956971 9539
+I0531 16:38:47.826823  9516 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.826869  9516 img-client.cpp:297] START Time(ns): 1527752327661723980 9516
+E0531 16:38:47.826876  9516 img-client.cpp:300] END PRE Time(ns): 1527752327662134987 9516
+E0531 16:38:47.826881  9516 img-client.cpp:303] END BARRIER Time(ns): 1527752327662135109 9516
+E0531 16:38:47.826885  9516 img-client.cpp:307] END DATA Time(ns): 1527752327665630905 9516
+E0531 16:38:47.826890  9516 img-client.cpp:311] END SEND Time(ns): 1527752327665905810 9516
+E0531 16:38:47.826894  9516 img-client.cpp:314] END COM Time(ns): 1527752327826795783 9516
+E0531 16:38:47.826880  9539 img-client.cpp:314] END COM Time(ns): 1527752327826695995 9539
+E0531 16:38:47.826884  9542 img-client.cpp:297] START Time(ns): 1527752327661903017 9542
+E0531 16:38:47.826897  9542 img-client.cpp:300] END PRE Time(ns): 1527752327662310665 9542
+E0531 16:38:47.826905  9542 img-client.cpp:303] END BARRIER Time(ns): 1527752327662310787 9542
+E0531 16:38:47.826912  9542 img-client.cpp:307] END DATA Time(ns): 1527752327665562563 9542
+I0531 16:38:47.826983  9537 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.827052  9537 img-client.cpp:297] START Time(ns): 1527752327662613165 9537
+E0531 16:38:47.827066  9537 img-client.cpp:300] END PRE Time(ns): 1527752327663091712 9537
+E0531 16:38:47.827075  9537 img-client.cpp:303] END BARRIER Time(ns): 1527752327663091832 9537
+E0531 16:38:47.827081  9537 img-client.cpp:307] END DATA Time(ns): 1527752327667120823 9537
+E0531 16:38:47.827090  9537 img-client.cpp:311] END SEND Time(ns): 1527752327667393723 9537
+E0531 16:38:47.827096  9537 img-client.cpp:314] END COM Time(ns): 1527752327826948851 9537
+I0531 16:38:47.826987  9524 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.827075  9524 img-client.cpp:297] START Time(ns): 1527752327645844761 9524
+E0531 16:38:47.827091  9524 img-client.cpp:300] END PRE Time(ns): 1527752327646286732 9524
+E0531 16:38:47.827100  9524 img-client.cpp:303] END BARRIER Time(ns): 1527752327646286849 9524
+E0531 16:38:47.827109  9524 img-client.cpp:307] END DATA Time(ns): 1527752327649802709 9524
+E0531 16:38:47.827117  9524 img-client.cpp:311] END SEND Time(ns): 1527752327650075313 9524
+E0531 16:38:47.827126  9524 img-client.cpp:314] END COM Time(ns): 1527752327826928544 9524
+I0531 16:38:47.826922  9546 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.827000  9546 img-client.cpp:297] START Time(ns): 1527752327631527191 9546
+E0531 16:38:47.827013  9546 img-client.cpp:300] END PRE Time(ns): 1527752327632000397 9546
+E0531 16:38:47.827020  9546 img-client.cpp:303] END BARRIER Time(ns): 1527752327632000525 9546
+E0531 16:38:47.827028  9546 img-client.cpp:307] END DATA Time(ns): 1527752327635557322 9546
+E0531 16:38:47.827033  9546 img-client.cpp:311] END SEND Time(ns): 1527752327635850048 9546
+E0531 16:38:47.827040  9546 img-client.cpp:314] END COM Time(ns): 1527752327826875896 9546
+I0531 16:38:47.829870  9535 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0531 16:38:47.830063  9535 img-client.cpp:297] START Time(ns): 1527752327662467817 9535
+E0531 16:38:47.830134  9535 img-client.cpp:300] END PRE Time(ns): 1527752327662873575 9535
+E0531 16:38:47.830196  9535 img-client.cpp:303] END BARRIER Time(ns): 1527752327662873699 9535
+E0531 16:38:47.830256  9535 img-client.cpp:307] END DATA Time(ns): 1527752327666166515 9535
+E0531 16:38:47.830317  9535 img-client.cpp:311] END SEND Time(ns): 1527752327666418285 9535
+E0531 16:38:47.830377  9535 img-client.cpp:314] END COM Time(ns): 1527752327829809237 9535
+E0531 16:38:47.827507  9542 img-client.cpp:311] END SEND Time(ns): 1527752327665845532 9542
+E0531 16:38:47.833258  9542 img-client.cpp:314] END COM Time(ns): 1527752327826770571 9542

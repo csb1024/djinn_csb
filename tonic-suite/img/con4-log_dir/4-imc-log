@@ -1,0 +1,40 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:38:48.297308 12904 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:38:48.297372 12904 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:38:48.370878 12903 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:38:48.370950 12903 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:38:48.391773 12905 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:38:48.391837 12905 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:38:48.462833 12906 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:38:48.462903 12906 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0213 11:38:48.557767 12903 img-client.cpp:274] RANK: 0 12903
+E0213 11:38:48.557834 12903 img-client.cpp:284] START Time(ns): 1518489527071755558 12903
+E0213 11:38:48.557838 12903 img-client.cpp:287] END PRE Time(ns): 1518489528428593842 12903
+E0213 11:38:48.557842 12903 img-client.cpp:290] END BARRIER Time(ns): 1518489528508101954 12903
+E0213 11:38:48.557845 12903 img-client.cpp:294] END DATA Time(ns): 1518489528509857477 12903
+E0213 11:38:48.557849 12903 img-client.cpp:298] END SEND Time(ns): 1518489528509868122 12903
+E0213 11:38:48.557852 12903 img-client.cpp:301] END COM Time(ns): 1518489528557752794 12903
+E0213 11:38:48.597784 12904 img-client.cpp:274] RANK: 1 12904
+E0213 11:38:48.597858 12904 img-client.cpp:284] START Time(ns): 1518489527071856328 12904
+E0213 11:38:48.597864 12904 img-client.cpp:287] END PRE Time(ns): 1518489528353601250 12904
+E0213 11:38:48.597869 12904 img-client.cpp:290] END BARRIER Time(ns): 1518489528508138940 12904
+E0213 11:38:48.597874 12904 img-client.cpp:294] END DATA Time(ns): 1518489528540622860 12904
+E0213 11:38:48.597878 12904 img-client.cpp:298] END SEND Time(ns): 1518489528540631083 12904
+E0213 11:38:48.597883 12904 img-client.cpp:301] END COM Time(ns): 1518489528597766915 12904
+E0213 11:38:48.638082 12905 img-client.cpp:274] RANK: 2 12905
+E0213 11:38:48.638169 12905 img-client.cpp:284] START Time(ns): 1518489527071715967 12905
+E0213 11:38:48.638176 12905 img-client.cpp:287] END PRE Time(ns): 1518489528449061376 12905
+E0213 11:38:48.638183 12905 img-client.cpp:290] END BARRIER Time(ns): 1518489528508094574 12905
+E0213 11:38:48.638190 12905 img-client.cpp:294] END DATA Time(ns): 1518489528570434072 12905
+E0213 11:38:48.638195 12905 img-client.cpp:298] END SEND Time(ns): 1518489528570441863 12905
+E0213 11:38:48.638201 12905 img-client.cpp:301] END COM Time(ns): 1518489528638063820 12905
+E0213 11:38:48.660455 12906 img-client.cpp:274] RANK: 3 12906
+E0213 11:38:48.660528 12906 img-client.cpp:284] START Time(ns): 1518489527071876438 12906
+E0213 11:38:48.660535 12906 img-client.cpp:287] END PRE Time(ns): 1518489528508011671 12906
+E0213 11:38:48.660540 12906 img-client.cpp:290] END BARRIER Time(ns): 1518489528508132492 12906
+E0213 11:38:48.660545 12906 img-client.cpp:294] END DATA Time(ns): 1518489528600475196 12906
+E0213 11:38:48.660550 12906 img-client.cpp:298] END SEND Time(ns): 1518489528600483501 12906
+E0213 11:38:48.660554 12906 img-client.cpp:301] END COM Time(ns): 1518489528660438806 12906

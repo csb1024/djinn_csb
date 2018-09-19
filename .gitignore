@@ -1,0 +1,53 @@
+# dnn-service gitignore
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# caffe models
+.caffemodel
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*~
+tonic-img
+tonic-nlp
+djinn
+
+# Popular scripts with hardpaths
+asr/kaldi_patch.sh
+common/Makefile.config
+
+# datasets
+*/weights/*
+*/images/*
+*/hash/*
+*/input/*
+*/data/*
+*/log/*
+*/voxforge_data/*
+
+# csvs and txts
+*.csv
+*.txt
+stats-util/
+nvprof-*
+
+# logs
+*log*

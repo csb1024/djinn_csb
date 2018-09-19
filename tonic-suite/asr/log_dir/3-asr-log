@@ -1,0 +1,2398 @@
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:01:26 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:01:27.171303 17373 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:01:27.171509 17373 net.cpp:358] Input 0 -> data
+I0129 17:01:27.171581 17373 net.cpp:67] Creating Layer inner1
+I0129 17:01:27.171591 17373 net.cpp:394] inner1 <- data
+I0129 17:01:27.171604 17373 net.cpp:356] inner1 -> inner1
+I0129 17:01:27.171627 17373 net.cpp:96] Setting up inner1
+I0129 17:01:27.173558 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.173594 17373 net.cpp:67] Creating Layer sig1
+I0129 17:01:27.173601 17373 net.cpp:394] sig1 <- inner1
+I0129 17:01:27.173609 17373 net.cpp:356] sig1 -> sig1
+I0129 17:01:27.173617 17373 net.cpp:96] Setting up sig1
+I0129 17:01:27.233252 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.233309 17373 net.cpp:67] Creating Layer inner2
+I0129 17:01:27.233317 17373 net.cpp:394] inner2 <- sig1
+I0129 17:01:27.233331 17373 net.cpp:356] inner2 -> inner2
+I0129 17:01:27.233345 17373 net.cpp:96] Setting up inner2
+I0129 17:01:27.241006 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.241046 17373 net.cpp:67] Creating Layer sig2
+I0129 17:01:27.241053 17373 net.cpp:394] sig2 <- inner2
+I0129 17:01:27.241063 17373 net.cpp:356] sig2 -> sig2
+I0129 17:01:27.241086 17373 net.cpp:96] Setting up sig2
+I0129 17:01:27.241106 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.241117 17373 net.cpp:67] Creating Layer inner3
+I0129 17:01:27.241122 17373 net.cpp:394] inner3 <- sig2
+I0129 17:01:27.241127 17373 net.cpp:356] inner3 -> inner3
+I0129 17:01:27.241137 17373 net.cpp:96] Setting up inner3
+I0129 17:01:27.248749 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.248787 17373 net.cpp:67] Creating Layer sig3
+I0129 17:01:27.248795 17373 net.cpp:394] sig3 <- inner3
+I0129 17:01:27.248802 17373 net.cpp:356] sig3 -> sig3
+I0129 17:01:27.248811 17373 net.cpp:96] Setting up sig3
+I0129 17:01:27.248826 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.248833 17373 net.cpp:67] Creating Layer inner4
+I0129 17:01:27.248838 17373 net.cpp:394] inner4 <- sig3
+I0129 17:01:27.248845 17373 net.cpp:356] inner4 -> inner4
+I0129 17:01:27.248852 17373 net.cpp:96] Setting up inner4
+I0129 17:01:27.256080 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.256103 17373 net.cpp:67] Creating Layer sig4
+I0129 17:01:27.256109 17373 net.cpp:394] sig4 <- inner4
+I0129 17:01:27.256119 17373 net.cpp:356] sig4 -> sig4
+I0129 17:01:27.256130 17373 net.cpp:96] Setting up sig4
+I0129 17:01:27.256145 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.256156 17373 net.cpp:67] Creating Layer inner5
+I0129 17:01:27.256161 17373 net.cpp:394] inner5 <- sig4
+I0129 17:01:27.256168 17373 net.cpp:356] inner5 -> inner5
+I0129 17:01:27.256176 17373 net.cpp:96] Setting up inner5
+I0129 17:01:27.263821 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.263854 17373 net.cpp:67] Creating Layer sig5
+I0129 17:01:27.263861 17373 net.cpp:394] sig5 <- inner5
+I0129 17:01:27.263870 17373 net.cpp:356] sig5 -> sig5
+I0129 17:01:27.263878 17373 net.cpp:96] Setting up sig5
+I0129 17:01:27.263891 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.263900 17373 net.cpp:67] Creating Layer inner6
+I0129 17:01:27.263905 17373 net.cpp:394] inner6 <- sig5
+I0129 17:01:27.263911 17373 net.cpp:356] inner6 -> inner6
+I0129 17:01:27.263919 17373 net.cpp:96] Setting up inner6
+I0129 17:01:27.271526 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.271553 17373 net.cpp:67] Creating Layer sig6
+I0129 17:01:27.271559 17373 net.cpp:394] sig6 <- inner6
+I0129 17:01:27.271567 17373 net.cpp:356] sig6 -> sig6
+I0129 17:01:27.271575 17373 net.cpp:96] Setting up sig6
+I0129 17:01:27.271589 17373 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:27.271597 17373 net.cpp:67] Creating Layer final_inner
+I0129 17:01:27.271603 17373 net.cpp:394] final_inner <- sig6
+I0129 17:01:27.271610 17373 net.cpp:356] final_inner -> out
+I0129 17:01:27.271617 17373 net.cpp:96] Setting up final_inner
+I0129 17:01:27.278360 17373 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:01:27.278381 17373 net.cpp:172] final_inner does not need backward computation.
+I0129 17:01:27.278388 17373 net.cpp:172] sig6 does not need backward computation.
+I0129 17:01:27.278393 17373 net.cpp:172] inner6 does not need backward computation.
+I0129 17:01:27.278396 17373 net.cpp:172] sig5 does not need backward computation.
+I0129 17:01:27.278401 17373 net.cpp:172] inner5 does not need backward computation.
+I0129 17:01:27.278405 17373 net.cpp:172] sig4 does not need backward computation.
+I0129 17:01:27.278410 17373 net.cpp:172] inner4 does not need backward computation.
+I0129 17:01:27.278414 17373 net.cpp:172] sig3 does not need backward computation.
+I0129 17:01:27.278419 17373 net.cpp:172] inner3 does not need backward computation.
+I0129 17:01:27.278424 17373 net.cpp:172] sig2 does not need backward computation.
+I0129 17:01:27.278427 17373 net.cpp:172] inner2 does not need backward computation.
+I0129 17:01:27.278432 17373 net.cpp:172] sig1 does not need backward computation.
+I0129 17:01:27.278436 17373 net.cpp:172] inner1 does not need backward computation.
+I0129 17:01:27.278441 17373 net.cpp:208] This network produces output out
+I0129 17:01:27.278478 17373 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:01:27.278496 17373 net.cpp:219] Network initialization done.
+I0129 17:01:27.278501 17373 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:01:27.713127 17373 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:01:27.713156 17373 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 28.1288s: real-time factor assuming 100 frames/sec is 1.6605
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=29 threads=1
+# Ended (code 0) at Mon Jan 29 17:01:55 KST 2018, elapsed time 29 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:01:56 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:01:56.586166 17748 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:01:56.586371 17748 net.cpp:358] Input 0 -> data
+I0129 17:01:56.586446 17748 net.cpp:67] Creating Layer inner1
+I0129 17:01:56.586457 17748 net.cpp:394] inner1 <- data
+I0129 17:01:56.586469 17748 net.cpp:356] inner1 -> inner1
+I0129 17:01:56.586491 17748 net.cpp:96] Setting up inner1
+I0129 17:01:56.588393 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.588431 17748 net.cpp:67] Creating Layer sig1
+I0129 17:01:56.588439 17748 net.cpp:394] sig1 <- inner1
+I0129 17:01:56.588446 17748 net.cpp:356] sig1 -> sig1
+I0129 17:01:56.588455 17748 net.cpp:96] Setting up sig1
+I0129 17:01:56.646512 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.646565 17748 net.cpp:67] Creating Layer inner2
+I0129 17:01:56.646575 17748 net.cpp:394] inner2 <- sig1
+I0129 17:01:56.646590 17748 net.cpp:356] inner2 -> inner2
+I0129 17:01:56.646606 17748 net.cpp:96] Setting up inner2
+I0129 17:01:56.654242 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.654286 17748 net.cpp:67] Creating Layer sig2
+I0129 17:01:56.654294 17748 net.cpp:394] sig2 <- inner2
+I0129 17:01:56.654302 17748 net.cpp:356] sig2 -> sig2
+I0129 17:01:56.654325 17748 net.cpp:96] Setting up sig2
+I0129 17:01:56.654341 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.654351 17748 net.cpp:67] Creating Layer inner3
+I0129 17:01:56.654357 17748 net.cpp:394] inner3 <- sig2
+I0129 17:01:56.654364 17748 net.cpp:356] inner3 -> inner3
+I0129 17:01:56.654372 17748 net.cpp:96] Setting up inner3
+I0129 17:01:56.661985 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.662021 17748 net.cpp:67] Creating Layer sig3
+I0129 17:01:56.662029 17748 net.cpp:394] sig3 <- inner3
+I0129 17:01:56.662036 17748 net.cpp:356] sig3 -> sig3
+I0129 17:01:56.662045 17748 net.cpp:96] Setting up sig3
+I0129 17:01:56.662055 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.662063 17748 net.cpp:67] Creating Layer inner4
+I0129 17:01:56.662068 17748 net.cpp:394] inner4 <- sig3
+I0129 17:01:56.662076 17748 net.cpp:356] inner4 -> inner4
+I0129 17:01:56.662083 17748 net.cpp:96] Setting up inner4
+I0129 17:01:56.669332 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.669355 17748 net.cpp:67] Creating Layer sig4
+I0129 17:01:56.669361 17748 net.cpp:394] sig4 <- inner4
+I0129 17:01:56.669370 17748 net.cpp:356] sig4 -> sig4
+I0129 17:01:56.669380 17748 net.cpp:96] Setting up sig4
+I0129 17:01:56.669391 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.669402 17748 net.cpp:67] Creating Layer inner5
+I0129 17:01:56.669409 17748 net.cpp:394] inner5 <- sig4
+I0129 17:01:56.669415 17748 net.cpp:356] inner5 -> inner5
+I0129 17:01:56.669422 17748 net.cpp:96] Setting up inner5
+I0129 17:01:56.677016 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.677047 17748 net.cpp:67] Creating Layer sig5
+I0129 17:01:56.677052 17748 net.cpp:394] sig5 <- inner5
+I0129 17:01:56.677060 17748 net.cpp:356] sig5 -> sig5
+I0129 17:01:56.677068 17748 net.cpp:96] Setting up sig5
+I0129 17:01:56.677080 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.677088 17748 net.cpp:67] Creating Layer inner6
+I0129 17:01:56.677093 17748 net.cpp:394] inner6 <- sig5
+I0129 17:01:56.677099 17748 net.cpp:356] inner6 -> inner6
+I0129 17:01:56.677108 17748 net.cpp:96] Setting up inner6
+I0129 17:01:56.684681 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.684703 17748 net.cpp:67] Creating Layer sig6
+I0129 17:01:56.684708 17748 net.cpp:394] sig6 <- inner6
+I0129 17:01:56.684717 17748 net.cpp:356] sig6 -> sig6
+I0129 17:01:56.684725 17748 net.cpp:96] Setting up sig6
+I0129 17:01:56.684733 17748 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:01:56.684741 17748 net.cpp:67] Creating Layer final_inner
+I0129 17:01:56.684747 17748 net.cpp:394] final_inner <- sig6
+I0129 17:01:56.684754 17748 net.cpp:356] final_inner -> out
+I0129 17:01:56.684762 17748 net.cpp:96] Setting up final_inner
+I0129 17:01:56.691442 17748 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:01:56.691457 17748 net.cpp:172] final_inner does not need backward computation.
+I0129 17:01:56.691462 17748 net.cpp:172] sig6 does not need backward computation.
+I0129 17:01:56.691468 17748 net.cpp:172] inner6 does not need backward computation.
+I0129 17:01:56.691473 17748 net.cpp:172] sig5 does not need backward computation.
+I0129 17:01:56.691478 17748 net.cpp:172] inner5 does not need backward computation.
+I0129 17:01:56.691483 17748 net.cpp:172] sig4 does not need backward computation.
+I0129 17:01:56.691488 17748 net.cpp:172] inner4 does not need backward computation.
+I0129 17:01:56.691491 17748 net.cpp:172] sig3 does not need backward computation.
+I0129 17:01:56.691496 17748 net.cpp:172] inner3 does not need backward computation.
+I0129 17:01:56.691501 17748 net.cpp:172] sig2 does not need backward computation.
+I0129 17:01:56.691506 17748 net.cpp:172] inner2 does not need backward computation.
+I0129 17:01:56.691511 17748 net.cpp:172] sig1 does not need backward computation.
+I0129 17:01:56.691515 17748 net.cpp:172] inner1 does not need backward computation.
+I0129 17:01:56.691520 17748 net.cpp:208] This network produces output out
+I0129 17:01:56.691557 17748 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:01:56.691576 17748 net.cpp:219] Network initialization done.
+I0129 17:01:56.691581 17748 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:01:57.133657 17748 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:01:57.133688 17748 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 28.1569s: real-time factor assuming 100 frames/sec is 1.66216
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:02:24 KST 2018, elapsed time 28 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:02:25 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:02:26.037989 18120 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:02:26.038187 18120 net.cpp:358] Input 0 -> data
+I0129 17:02:26.038269 18120 net.cpp:67] Creating Layer inner1
+I0129 17:02:26.038280 18120 net.cpp:394] inner1 <- data
+I0129 17:02:26.038293 18120 net.cpp:356] inner1 -> inner1
+I0129 17:02:26.038316 18120 net.cpp:96] Setting up inner1
+I0129 17:02:26.040223 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.040262 18120 net.cpp:67] Creating Layer sig1
+I0129 17:02:26.040269 18120 net.cpp:394] sig1 <- inner1
+I0129 17:02:26.040277 18120 net.cpp:356] sig1 -> sig1
+I0129 17:02:26.040287 18120 net.cpp:96] Setting up sig1
+I0129 17:02:26.098263 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.098311 18120 net.cpp:67] Creating Layer inner2
+I0129 17:02:26.098320 18120 net.cpp:394] inner2 <- sig1
+I0129 17:02:26.098335 18120 net.cpp:356] inner2 -> inner2
+I0129 17:02:26.098350 18120 net.cpp:96] Setting up inner2
+I0129 17:02:26.105995 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.106037 18120 net.cpp:67] Creating Layer sig2
+I0129 17:02:26.106045 18120 net.cpp:394] sig2 <- inner2
+I0129 17:02:26.106053 18120 net.cpp:356] sig2 -> sig2
+I0129 17:02:26.106075 18120 net.cpp:96] Setting up sig2
+I0129 17:02:26.106092 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.106101 18120 net.cpp:67] Creating Layer inner3
+I0129 17:02:26.106107 18120 net.cpp:394] inner3 <- sig2
+I0129 17:02:26.106114 18120 net.cpp:356] inner3 -> inner3
+I0129 17:02:26.106122 18120 net.cpp:96] Setting up inner3
+I0129 17:02:26.113394 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.113425 18120 net.cpp:67] Creating Layer sig3
+I0129 17:02:26.113431 18120 net.cpp:394] sig3 <- inner3
+I0129 17:02:26.113440 18120 net.cpp:356] sig3 -> sig3
+I0129 17:02:26.113448 18120 net.cpp:96] Setting up sig3
+I0129 17:02:26.113458 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.113466 18120 net.cpp:67] Creating Layer inner4
+I0129 17:02:26.113471 18120 net.cpp:394] inner4 <- sig3
+I0129 17:02:26.113478 18120 net.cpp:356] inner4 -> inner4
+I0129 17:02:26.113485 18120 net.cpp:96] Setting up inner4
+I0129 17:02:26.121105 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.121130 18120 net.cpp:67] Creating Layer sig4
+I0129 17:02:26.121136 18120 net.cpp:394] sig4 <- inner4
+I0129 17:02:26.121145 18120 net.cpp:356] sig4 -> sig4
+I0129 17:02:26.121155 18120 net.cpp:96] Setting up sig4
+I0129 17:02:26.121167 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.121178 18120 net.cpp:67] Creating Layer inner5
+I0129 17:02:26.121184 18120 net.cpp:394] inner5 <- sig4
+I0129 17:02:26.121191 18120 net.cpp:356] inner5 -> inner5
+I0129 17:02:26.121199 18120 net.cpp:96] Setting up inner5
+I0129 17:02:26.128814 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.128842 18120 net.cpp:67] Creating Layer sig5
+I0129 17:02:26.128849 18120 net.cpp:394] sig5 <- inner5
+I0129 17:02:26.128857 18120 net.cpp:356] sig5 -> sig5
+I0129 17:02:26.128865 18120 net.cpp:96] Setting up sig5
+I0129 17:02:26.128875 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.128883 18120 net.cpp:67] Creating Layer inner6
+I0129 17:02:26.128888 18120 net.cpp:394] inner6 <- sig5
+I0129 17:02:26.128895 18120 net.cpp:356] inner6 -> inner6
+I0129 17:02:26.128902 18120 net.cpp:96] Setting up inner6
+I0129 17:02:26.136183 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.136201 18120 net.cpp:67] Creating Layer sig6
+I0129 17:02:26.136207 18120 net.cpp:394] sig6 <- inner6
+I0129 17:02:26.136215 18120 net.cpp:356] sig6 -> sig6
+I0129 17:02:26.136224 18120 net.cpp:96] Setting up sig6
+I0129 17:02:26.136231 18120 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:26.136240 18120 net.cpp:67] Creating Layer final_inner
+I0129 17:02:26.136245 18120 net.cpp:394] final_inner <- sig6
+I0129 17:02:26.136252 18120 net.cpp:356] final_inner -> out
+I0129 17:02:26.136260 18120 net.cpp:96] Setting up final_inner
+I0129 17:02:26.142925 18120 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:02:26.142949 18120 net.cpp:172] final_inner does not need backward computation.
+I0129 17:02:26.142956 18120 net.cpp:172] sig6 does not need backward computation.
+I0129 17:02:26.142961 18120 net.cpp:172] inner6 does not need backward computation.
+I0129 17:02:26.142966 18120 net.cpp:172] sig5 does not need backward computation.
+I0129 17:02:26.142971 18120 net.cpp:172] inner5 does not need backward computation.
+I0129 17:02:26.142976 18120 net.cpp:172] sig4 does not need backward computation.
+I0129 17:02:26.142980 18120 net.cpp:172] inner4 does not need backward computation.
+I0129 17:02:26.142985 18120 net.cpp:172] sig3 does not need backward computation.
+I0129 17:02:26.142990 18120 net.cpp:172] inner3 does not need backward computation.
+I0129 17:02:26.142995 18120 net.cpp:172] sig2 does not need backward computation.
+I0129 17:02:26.142999 18120 net.cpp:172] inner2 does not need backward computation.
+I0129 17:02:26.143004 18120 net.cpp:172] sig1 does not need backward computation.
+I0129 17:02:26.143008 18120 net.cpp:172] inner1 does not need backward computation.
+I0129 17:02:26.143013 18120 net.cpp:208] This network produces output out
+I0129 17:02:26.143049 18120 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:02:26.143065 18120 net.cpp:219] Network initialization done.
+I0129 17:02:26.143070 18120 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:02:26.583672 18120 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:02:26.583700 18120 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 28.1522s: real-time factor assuming 100 frames/sec is 1.66187
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:02:53 KST 2018, elapsed time 28 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:02:55 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:02:55.493376 18495 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:02:55.493594 18495 net.cpp:358] Input 0 -> data
+I0129 17:02:55.493674 18495 net.cpp:67] Creating Layer inner1
+I0129 17:02:55.493685 18495 net.cpp:394] inner1 <- data
+I0129 17:02:55.493697 18495 net.cpp:356] inner1 -> inner1
+I0129 17:02:55.493719 18495 net.cpp:96] Setting up inner1
+I0129 17:02:55.495621 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.495662 18495 net.cpp:67] Creating Layer sig1
+I0129 17:02:55.495669 18495 net.cpp:394] sig1 <- inner1
+I0129 17:02:55.495676 18495 net.cpp:356] sig1 -> sig1
+I0129 17:02:55.495685 18495 net.cpp:96] Setting up sig1
+I0129 17:02:55.553380 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.553432 18495 net.cpp:67] Creating Layer inner2
+I0129 17:02:55.553442 18495 net.cpp:394] inner2 <- sig1
+I0129 17:02:55.553457 18495 net.cpp:356] inner2 -> inner2
+I0129 17:02:55.553470 18495 net.cpp:96] Setting up inner2
+I0129 17:02:55.561085 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.561131 18495 net.cpp:67] Creating Layer sig2
+I0129 17:02:55.561138 18495 net.cpp:394] sig2 <- inner2
+I0129 17:02:55.561148 18495 net.cpp:356] sig2 -> sig2
+I0129 17:02:55.561172 18495 net.cpp:96] Setting up sig2
+I0129 17:02:55.561190 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.561202 18495 net.cpp:67] Creating Layer inner3
+I0129 17:02:55.561206 18495 net.cpp:394] inner3 <- sig2
+I0129 17:02:55.561213 18495 net.cpp:356] inner3 -> inner3
+I0129 17:02:55.561221 18495 net.cpp:96] Setting up inner3
+I0129 17:02:55.568823 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.568861 18495 net.cpp:67] Creating Layer sig3
+I0129 17:02:55.568868 18495 net.cpp:394] sig3 <- inner3
+I0129 17:02:55.568877 18495 net.cpp:356] sig3 -> sig3
+I0129 17:02:55.568886 18495 net.cpp:96] Setting up sig3
+I0129 17:02:55.568899 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.568907 18495 net.cpp:67] Creating Layer inner4
+I0129 17:02:55.568912 18495 net.cpp:394] inner4 <- sig3
+I0129 17:02:55.568919 18495 net.cpp:356] inner4 -> inner4
+I0129 17:02:55.568928 18495 net.cpp:96] Setting up inner4
+I0129 17:02:55.576544 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.576571 18495 net.cpp:67] Creating Layer sig4
+I0129 17:02:55.576577 18495 net.cpp:394] sig4 <- inner4
+I0129 17:02:55.576587 18495 net.cpp:356] sig4 -> sig4
+I0129 17:02:55.576599 18495 net.cpp:96] Setting up sig4
+I0129 17:02:55.576614 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.576624 18495 net.cpp:67] Creating Layer inner5
+I0129 17:02:55.576630 18495 net.cpp:394] inner5 <- sig4
+I0129 17:02:55.576637 18495 net.cpp:356] inner5 -> inner5
+I0129 17:02:55.576644 18495 net.cpp:96] Setting up inner5
+I0129 17:02:55.583935 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.583963 18495 net.cpp:67] Creating Layer sig5
+I0129 17:02:55.583969 18495 net.cpp:394] sig5 <- inner5
+I0129 17:02:55.583976 18495 net.cpp:356] sig5 -> sig5
+I0129 17:02:55.583986 18495 net.cpp:96] Setting up sig5
+I0129 17:02:55.583997 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.584005 18495 net.cpp:67] Creating Layer inner6
+I0129 17:02:55.584010 18495 net.cpp:394] inner6 <- sig5
+I0129 17:02:55.584017 18495 net.cpp:356] inner6 -> inner6
+I0129 17:02:55.584025 18495 net.cpp:96] Setting up inner6
+I0129 17:02:55.591630 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.591655 18495 net.cpp:67] Creating Layer sig6
+I0129 17:02:55.591661 18495 net.cpp:394] sig6 <- inner6
+I0129 17:02:55.591670 18495 net.cpp:356] sig6 -> sig6
+I0129 17:02:55.591678 18495 net.cpp:96] Setting up sig6
+I0129 17:02:55.591691 18495 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:02:55.591699 18495 net.cpp:67] Creating Layer final_inner
+I0129 17:02:55.591704 18495 net.cpp:394] final_inner <- sig6
+I0129 17:02:55.591711 18495 net.cpp:356] final_inner -> out
+I0129 17:02:55.591719 18495 net.cpp:96] Setting up final_inner
+I0129 17:02:55.598393 18495 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:02:55.598413 18495 net.cpp:172] final_inner does not need backward computation.
+I0129 17:02:55.598418 18495 net.cpp:172] sig6 does not need backward computation.
+I0129 17:02:55.598423 18495 net.cpp:172] inner6 does not need backward computation.
+I0129 17:02:55.598428 18495 net.cpp:172] sig5 does not need backward computation.
+I0129 17:02:55.598433 18495 net.cpp:172] inner5 does not need backward computation.
+I0129 17:02:55.598436 18495 net.cpp:172] sig4 does not need backward computation.
+I0129 17:02:55.598441 18495 net.cpp:172] inner4 does not need backward computation.
+I0129 17:02:55.598445 18495 net.cpp:172] sig3 does not need backward computation.
+I0129 17:02:55.598450 18495 net.cpp:172] inner3 does not need backward computation.
+I0129 17:02:55.598454 18495 net.cpp:172] sig2 does not need backward computation.
+I0129 17:02:55.598459 18495 net.cpp:172] inner2 does not need backward computation.
+I0129 17:02:55.598464 18495 net.cpp:172] sig1 does not need backward computation.
+I0129 17:02:55.598467 18495 net.cpp:172] inner1 does not need backward computation.
+I0129 17:02:55.598472 18495 net.cpp:208] This network produces output out
+I0129 17:02:55.598508 18495 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:02:55.598526 18495 net.cpp:219] Network initialization done.
+I0129 17:02:55.598531 18495 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:02:56.053076 18495 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:02:56.053107 18495 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 28.2471s: real-time factor assuming 100 frames/sec is 1.66748
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:03:23 KST 2018, elapsed time 28 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:03:24 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:03:25.024982 18871 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:03:25.025182 18871 net.cpp:358] Input 0 -> data
+I0129 17:03:25.025261 18871 net.cpp:67] Creating Layer inner1
+I0129 17:03:25.025272 18871 net.cpp:394] inner1 <- data
+I0129 17:03:25.025285 18871 net.cpp:356] inner1 -> inner1
+I0129 17:03:25.025307 18871 net.cpp:96] Setting up inner1
+I0129 17:03:25.027206 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.027245 18871 net.cpp:67] Creating Layer sig1
+I0129 17:03:25.027251 18871 net.cpp:394] sig1 <- inner1
+I0129 17:03:25.027258 18871 net.cpp:356] sig1 -> sig1
+I0129 17:03:25.027266 18871 net.cpp:96] Setting up sig1
+I0129 17:03:25.082690 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.082739 18871 net.cpp:67] Creating Layer inner2
+I0129 17:03:25.082747 18871 net.cpp:394] inner2 <- sig1
+I0129 17:03:25.082761 18871 net.cpp:356] inner2 -> inner2
+I0129 17:03:25.082774 18871 net.cpp:96] Setting up inner2
+I0129 17:03:25.090379 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.090417 18871 net.cpp:67] Creating Layer sig2
+I0129 17:03:25.090423 18871 net.cpp:394] sig2 <- inner2
+I0129 17:03:25.090431 18871 net.cpp:356] sig2 -> sig2
+I0129 17:03:25.090452 18871 net.cpp:96] Setting up sig2
+I0129 17:03:25.090469 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.090478 18871 net.cpp:67] Creating Layer inner3
+I0129 17:03:25.090483 18871 net.cpp:394] inner3 <- sig2
+I0129 17:03:25.090490 18871 net.cpp:356] inner3 -> inner3
+I0129 17:03:25.090497 18871 net.cpp:96] Setting up inner3
+I0129 17:03:25.098104 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.098136 18871 net.cpp:67] Creating Layer sig3
+I0129 17:03:25.098142 18871 net.cpp:394] sig3 <- inner3
+I0129 17:03:25.098150 18871 net.cpp:356] sig3 -> sig3
+I0129 17:03:25.098158 18871 net.cpp:96] Setting up sig3
+I0129 17:03:25.098170 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.098176 18871 net.cpp:67] Creating Layer inner4
+I0129 17:03:25.098181 18871 net.cpp:394] inner4 <- sig3
+I0129 17:03:25.098188 18871 net.cpp:356] inner4 -> inner4
+I0129 17:03:25.098196 18871 net.cpp:96] Setting up inner4
+I0129 17:03:25.105788 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.105808 18871 net.cpp:67] Creating Layer sig4
+I0129 17:03:25.105814 18871 net.cpp:394] sig4 <- inner4
+I0129 17:03:25.105823 18871 net.cpp:356] sig4 -> sig4
+I0129 17:03:25.105834 18871 net.cpp:96] Setting up sig4
+I0129 17:03:25.105844 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.105854 18871 net.cpp:67] Creating Layer inner5
+I0129 17:03:25.105859 18871 net.cpp:394] inner5 <- sig4
+I0129 17:03:25.105866 18871 net.cpp:356] inner5 -> inner5
+I0129 17:03:25.105873 18871 net.cpp:96] Setting up inner5
+I0129 17:03:25.113134 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.113158 18871 net.cpp:67] Creating Layer sig5
+I0129 17:03:25.113164 18871 net.cpp:394] sig5 <- inner5
+I0129 17:03:25.113171 18871 net.cpp:356] sig5 -> sig5
+I0129 17:03:25.113179 18871 net.cpp:96] Setting up sig5
+I0129 17:03:25.113188 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.113195 18871 net.cpp:67] Creating Layer inner6
+I0129 17:03:25.113200 18871 net.cpp:394] inner6 <- sig5
+I0129 17:03:25.113209 18871 net.cpp:356] inner6 -> inner6
+I0129 17:03:25.113215 18871 net.cpp:96] Setting up inner6
+I0129 17:03:25.120821 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.120841 18871 net.cpp:67] Creating Layer sig6
+I0129 17:03:25.120847 18871 net.cpp:394] sig6 <- inner6
+I0129 17:03:25.120856 18871 net.cpp:356] sig6 -> sig6
+I0129 17:03:25.120863 18871 net.cpp:96] Setting up sig6
+I0129 17:03:25.120872 18871 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:25.120880 18871 net.cpp:67] Creating Layer final_inner
+I0129 17:03:25.120885 18871 net.cpp:394] final_inner <- sig6
+I0129 17:03:25.120893 18871 net.cpp:356] final_inner -> out
+I0129 17:03:25.120900 18871 net.cpp:96] Setting up final_inner
+I0129 17:03:25.127560 18871 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:03:25.127576 18871 net.cpp:172] final_inner does not need backward computation.
+I0129 17:03:25.127581 18871 net.cpp:172] sig6 does not need backward computation.
+I0129 17:03:25.127586 18871 net.cpp:172] inner6 does not need backward computation.
+I0129 17:03:25.127590 18871 net.cpp:172] sig5 does not need backward computation.
+I0129 17:03:25.127595 18871 net.cpp:172] inner5 does not need backward computation.
+I0129 17:03:25.127599 18871 net.cpp:172] sig4 does not need backward computation.
+I0129 17:03:25.127604 18871 net.cpp:172] inner4 does not need backward computation.
+I0129 17:03:25.127609 18871 net.cpp:172] sig3 does not need backward computation.
+I0129 17:03:25.127614 18871 net.cpp:172] inner3 does not need backward computation.
+I0129 17:03:25.127617 18871 net.cpp:172] sig2 does not need backward computation.
+I0129 17:03:25.127622 18871 net.cpp:172] inner2 does not need backward computation.
+I0129 17:03:25.127626 18871 net.cpp:172] sig1 does not need backward computation.
+I0129 17:03:25.127631 18871 net.cpp:172] inner1 does not need backward computation.
+I0129 17:03:25.127635 18871 net.cpp:208] This network produces output out
+I0129 17:03:25.127672 18871 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:03:25.127691 18871 net.cpp:219] Network initialization done.
+I0129 17:03:25.127696 18871 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:03:25.582554 18871 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:03:25.582582 18871 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 28.2266s: real-time factor assuming 100 frames/sec is 1.66627
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:03:52 KST 2018, elapsed time 28 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:03:54 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:03:54.516654 19244 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:03:54.516854 19244 net.cpp:358] Input 0 -> data
+I0129 17:03:54.516932 19244 net.cpp:67] Creating Layer inner1
+I0129 17:03:54.516942 19244 net.cpp:394] inner1 <- data
+I0129 17:03:54.516955 19244 net.cpp:356] inner1 -> inner1
+I0129 17:03:54.516978 19244 net.cpp:96] Setting up inner1
+I0129 17:03:54.518870 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.518908 19244 net.cpp:67] Creating Layer sig1
+I0129 17:03:54.518915 19244 net.cpp:394] sig1 <- inner1
+I0129 17:03:54.518923 19244 net.cpp:356] sig1 -> sig1
+I0129 17:03:54.518932 19244 net.cpp:96] Setting up sig1
+I0129 17:03:54.574735 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.574791 19244 net.cpp:67] Creating Layer inner2
+I0129 17:03:54.574801 19244 net.cpp:394] inner2 <- sig1
+I0129 17:03:54.574816 19244 net.cpp:356] inner2 -> inner2
+I0129 17:03:54.574832 19244 net.cpp:96] Setting up inner2
+I0129 17:03:54.582458 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.582495 19244 net.cpp:67] Creating Layer sig2
+I0129 17:03:54.582502 19244 net.cpp:394] sig2 <- inner2
+I0129 17:03:54.582511 19244 net.cpp:356] sig2 -> sig2
+I0129 17:03:54.582531 19244 net.cpp:96] Setting up sig2
+I0129 17:03:54.582550 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.582559 19244 net.cpp:67] Creating Layer inner3
+I0129 17:03:54.582566 19244 net.cpp:394] inner3 <- sig2
+I0129 17:03:54.582572 19244 net.cpp:356] inner3 -> inner3
+I0129 17:03:54.582581 19244 net.cpp:96] Setting up inner3
+I0129 17:03:54.590200 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.590235 19244 net.cpp:67] Creating Layer sig3
+I0129 17:03:54.590242 19244 net.cpp:394] sig3 <- inner3
+I0129 17:03:54.590250 19244 net.cpp:356] sig3 -> sig3
+I0129 17:03:54.590260 19244 net.cpp:96] Setting up sig3
+I0129 17:03:54.590270 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.590277 19244 net.cpp:67] Creating Layer inner4
+I0129 17:03:54.590282 19244 net.cpp:394] inner4 <- sig3
+I0129 17:03:54.590289 19244 net.cpp:356] inner4 -> inner4
+I0129 17:03:54.590297 19244 net.cpp:96] Setting up inner4
+I0129 17:03:54.597527 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.597548 19244 net.cpp:67] Creating Layer sig4
+I0129 17:03:54.597554 19244 net.cpp:394] sig4 <- inner4
+I0129 17:03:54.597563 19244 net.cpp:356] sig4 -> sig4
+I0129 17:03:54.597573 19244 net.cpp:96] Setting up sig4
+I0129 17:03:54.597584 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.597595 19244 net.cpp:67] Creating Layer inner5
+I0129 17:03:54.597600 19244 net.cpp:394] inner5 <- sig4
+I0129 17:03:54.597607 19244 net.cpp:356] inner5 -> inner5
+I0129 17:03:54.597615 19244 net.cpp:96] Setting up inner5
+I0129 17:03:54.605253 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.605284 19244 net.cpp:67] Creating Layer sig5
+I0129 17:03:54.605290 19244 net.cpp:394] sig5 <- inner5
+I0129 17:03:54.605299 19244 net.cpp:356] sig5 -> sig5
+I0129 17:03:54.605307 19244 net.cpp:96] Setting up sig5
+I0129 17:03:54.605319 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.605326 19244 net.cpp:67] Creating Layer inner6
+I0129 17:03:54.605331 19244 net.cpp:394] inner6 <- sig5
+I0129 17:03:54.605337 19244 net.cpp:356] inner6 -> inner6
+I0129 17:03:54.605345 19244 net.cpp:96] Setting up inner6
+I0129 17:03:54.612942 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.612963 19244 net.cpp:67] Creating Layer sig6
+I0129 17:03:54.612969 19244 net.cpp:394] sig6 <- inner6
+I0129 17:03:54.612977 19244 net.cpp:356] sig6 -> sig6
+I0129 17:03:54.612985 19244 net.cpp:96] Setting up sig6
+I0129 17:03:54.612995 19244 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:03:54.613003 19244 net.cpp:67] Creating Layer final_inner
+I0129 17:03:54.613008 19244 net.cpp:394] final_inner <- sig6
+I0129 17:03:54.613015 19244 net.cpp:356] final_inner -> out
+I0129 17:03:54.613023 19244 net.cpp:96] Setting up final_inner
+I0129 17:03:54.619676 19244 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:03:54.619693 19244 net.cpp:172] final_inner does not need backward computation.
+I0129 17:03:54.619699 19244 net.cpp:172] sig6 does not need backward computation.
+I0129 17:03:54.619702 19244 net.cpp:172] inner6 does not need backward computation.
+I0129 17:03:54.619707 19244 net.cpp:172] sig5 does not need backward computation.
+I0129 17:03:54.619712 19244 net.cpp:172] inner5 does not need backward computation.
+I0129 17:03:54.619716 19244 net.cpp:172] sig4 does not need backward computation.
+I0129 17:03:54.619721 19244 net.cpp:172] inner4 does not need backward computation.
+I0129 17:03:54.619726 19244 net.cpp:172] sig3 does not need backward computation.
+I0129 17:03:54.619730 19244 net.cpp:172] inner3 does not need backward computation.
+I0129 17:03:54.619735 19244 net.cpp:172] sig2 does not need backward computation.
+I0129 17:03:54.619740 19244 net.cpp:172] inner2 does not need backward computation.
+I0129 17:03:54.619745 19244 net.cpp:172] sig1 does not need backward computation.
+I0129 17:03:54.619750 19244 net.cpp:172] inner1 does not need backward computation.
+I0129 17:03:54.619753 19244 net.cpp:208] This network produces output out
+I0129 17:03:54.619791 19244 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:03:54.619810 19244 net.cpp:219] Network initialization done.
+I0129 17:03:54.619815 19244 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:03:55.070932 19244 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:03:55.070981 19244 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 28.4381s: real-time factor assuming 100 frames/sec is 1.67875
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:04:22 KST 2018, elapsed time 28 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:04:23 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:04:24.213300 19620 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:04:24.213505 19620 net.cpp:358] Input 0 -> data
+I0129 17:04:24.213570 19620 net.cpp:67] Creating Layer inner1
+I0129 17:04:24.213580 19620 net.cpp:394] inner1 <- data
+I0129 17:04:24.213591 19620 net.cpp:356] inner1 -> inner1
+I0129 17:04:24.213611 19620 net.cpp:96] Setting up inner1
+I0129 17:04:24.215503 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.215541 19620 net.cpp:67] Creating Layer sig1
+I0129 17:04:24.215548 19620 net.cpp:394] sig1 <- inner1
+I0129 17:04:24.215555 19620 net.cpp:356] sig1 -> sig1
+I0129 17:04:24.215566 19620 net.cpp:96] Setting up sig1
+I0129 17:04:24.273028 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.273082 19620 net.cpp:67] Creating Layer inner2
+I0129 17:04:24.273090 19620 net.cpp:394] inner2 <- sig1
+I0129 17:04:24.273103 19620 net.cpp:356] inner2 -> inner2
+I0129 17:04:24.273118 19620 net.cpp:96] Setting up inner2
+I0129 17:04:24.280712 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.280753 19620 net.cpp:67] Creating Layer sig2
+I0129 17:04:24.280761 19620 net.cpp:394] sig2 <- inner2
+I0129 17:04:24.280768 19620 net.cpp:356] sig2 -> sig2
+I0129 17:04:24.280792 19620 net.cpp:96] Setting up sig2
+I0129 17:04:24.280810 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.280819 19620 net.cpp:67] Creating Layer inner3
+I0129 17:04:24.280825 19620 net.cpp:394] inner3 <- sig2
+I0129 17:04:24.280831 19620 net.cpp:356] inner3 -> inner3
+I0129 17:04:24.280839 19620 net.cpp:96] Setting up inner3
+I0129 17:04:24.288444 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.288471 19620 net.cpp:67] Creating Layer sig3
+I0129 17:04:24.288477 19620 net.cpp:394] sig3 <- inner3
+I0129 17:04:24.288486 19620 net.cpp:356] sig3 -> sig3
+I0129 17:04:24.288493 19620 net.cpp:96] Setting up sig3
+I0129 17:04:24.288503 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.288511 19620 net.cpp:67] Creating Layer inner4
+I0129 17:04:24.288517 19620 net.cpp:394] inner4 <- sig3
+I0129 17:04:24.288524 19620 net.cpp:356] inner4 -> inner4
+I0129 17:04:24.288532 19620 net.cpp:96] Setting up inner4
+I0129 17:04:24.296119 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.296142 19620 net.cpp:67] Creating Layer sig4
+I0129 17:04:24.296149 19620 net.cpp:394] sig4 <- inner4
+I0129 17:04:24.296156 19620 net.cpp:356] sig4 -> sig4
+I0129 17:04:24.296166 19620 net.cpp:96] Setting up sig4
+I0129 17:04:24.296178 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.296188 19620 net.cpp:67] Creating Layer inner5
+I0129 17:04:24.296193 19620 net.cpp:394] inner5 <- sig4
+I0129 17:04:24.296200 19620 net.cpp:356] inner5 -> inner5
+I0129 17:04:24.296208 19620 net.cpp:96] Setting up inner5
+I0129 17:04:24.303467 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.303493 19620 net.cpp:67] Creating Layer sig5
+I0129 17:04:24.303498 19620 net.cpp:394] sig5 <- inner5
+I0129 17:04:24.303506 19620 net.cpp:356] sig5 -> sig5
+I0129 17:04:24.303515 19620 net.cpp:96] Setting up sig5
+I0129 17:04:24.303524 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.303532 19620 net.cpp:67] Creating Layer inner6
+I0129 17:04:24.303537 19620 net.cpp:394] inner6 <- sig5
+I0129 17:04:24.303544 19620 net.cpp:356] inner6 -> inner6
+I0129 17:04:24.303551 19620 net.cpp:96] Setting up inner6
+I0129 17:04:24.311146 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.311167 19620 net.cpp:67] Creating Layer sig6
+I0129 17:04:24.311173 19620 net.cpp:394] sig6 <- inner6
+I0129 17:04:24.311182 19620 net.cpp:356] sig6 -> sig6
+I0129 17:04:24.311189 19620 net.cpp:96] Setting up sig6
+I0129 17:04:24.311199 19620 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:24.311205 19620 net.cpp:67] Creating Layer final_inner
+I0129 17:04:24.311211 19620 net.cpp:394] final_inner <- sig6
+I0129 17:04:24.311218 19620 net.cpp:356] final_inner -> out
+I0129 17:04:24.311226 19620 net.cpp:96] Setting up final_inner
+I0129 17:04:24.317898 19620 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:04:24.317920 19620 net.cpp:172] final_inner does not need backward computation.
+I0129 17:04:24.317926 19620 net.cpp:172] sig6 does not need backward computation.
+I0129 17:04:24.317930 19620 net.cpp:172] inner6 does not need backward computation.
+I0129 17:04:24.317935 19620 net.cpp:172] sig5 does not need backward computation.
+I0129 17:04:24.317939 19620 net.cpp:172] inner5 does not need backward computation.
+I0129 17:04:24.317945 19620 net.cpp:172] sig4 does not need backward computation.
+I0129 17:04:24.317948 19620 net.cpp:172] inner4 does not need backward computation.
+I0129 17:04:24.317953 19620 net.cpp:172] sig3 does not need backward computation.
+I0129 17:04:24.317957 19620 net.cpp:172] inner3 does not need backward computation.
+I0129 17:04:24.317962 19620 net.cpp:172] sig2 does not need backward computation.
+I0129 17:04:24.317966 19620 net.cpp:172] inner2 does not need backward computation.
+I0129 17:04:24.317971 19620 net.cpp:172] sig1 does not need backward computation.
+I0129 17:04:24.317975 19620 net.cpp:172] inner1 does not need backward computation.
+I0129 17:04:24.317979 19620 net.cpp:208] This network produces output out
+I0129 17:04:24.318015 19620 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:04:24.318030 19620 net.cpp:219] Network initialization done.
+I0129 17:04:24.318035 19620 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:04:24.733109 19620 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:04:24.733134 19620 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 27.6544s: real-time factor assuming 100 frames/sec is 1.63249
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:04:51 KST 2018, elapsed time 28 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:04:52 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:04:53.164737 19998 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:04:53.164937 19998 net.cpp:358] Input 0 -> data
+I0129 17:04:53.165004 19998 net.cpp:67] Creating Layer inner1
+I0129 17:04:53.165014 19998 net.cpp:394] inner1 <- data
+I0129 17:04:53.165025 19998 net.cpp:356] inner1 -> inner1
+I0129 17:04:53.165045 19998 net.cpp:96] Setting up inner1
+I0129 17:04:53.167330 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.167371 19998 net.cpp:67] Creating Layer sig1
+I0129 17:04:53.167377 19998 net.cpp:394] sig1 <- inner1
+I0129 17:04:53.167385 19998 net.cpp:356] sig1 -> sig1
+I0129 17:04:53.167394 19998 net.cpp:96] Setting up sig1
+I0129 17:04:53.223917 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.223970 19998 net.cpp:67] Creating Layer inner2
+I0129 17:04:53.223979 19998 net.cpp:394] inner2 <- sig1
+I0129 17:04:53.223991 19998 net.cpp:356] inner2 -> inner2
+I0129 17:04:53.224006 19998 net.cpp:96] Setting up inner2
+I0129 17:04:53.231608 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.231653 19998 net.cpp:67] Creating Layer sig2
+I0129 17:04:53.231660 19998 net.cpp:394] sig2 <- inner2
+I0129 17:04:53.231669 19998 net.cpp:356] sig2 -> sig2
+I0129 17:04:53.231693 19998 net.cpp:96] Setting up sig2
+I0129 17:04:53.231714 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.231724 19998 net.cpp:67] Creating Layer inner3
+I0129 17:04:53.231729 19998 net.cpp:394] inner3 <- sig2
+I0129 17:04:53.231735 19998 net.cpp:356] inner3 -> inner3
+I0129 17:04:53.231743 19998 net.cpp:96] Setting up inner3
+I0129 17:04:53.239003 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.239039 19998 net.cpp:67] Creating Layer sig3
+I0129 17:04:53.239047 19998 net.cpp:394] sig3 <- inner3
+I0129 17:04:53.239054 19998 net.cpp:356] sig3 -> sig3
+I0129 17:04:53.239063 19998 net.cpp:96] Setting up sig3
+I0129 17:04:53.239078 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.239085 19998 net.cpp:67] Creating Layer inner4
+I0129 17:04:53.239091 19998 net.cpp:394] inner4 <- sig3
+I0129 17:04:53.239099 19998 net.cpp:356] inner4 -> inner4
+I0129 17:04:53.239106 19998 net.cpp:96] Setting up inner4
+I0129 17:04:53.246712 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.246737 19998 net.cpp:67] Creating Layer sig4
+I0129 17:04:53.246744 19998 net.cpp:394] sig4 <- inner4
+I0129 17:04:53.246753 19998 net.cpp:356] sig4 -> sig4
+I0129 17:04:53.246765 19998 net.cpp:96] Setting up sig4
+I0129 17:04:53.246783 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.246793 19998 net.cpp:67] Creating Layer inner5
+I0129 17:04:53.246799 19998 net.cpp:394] inner5 <- sig4
+I0129 17:04:53.246806 19998 net.cpp:356] inner5 -> inner5
+I0129 17:04:53.246815 19998 net.cpp:96] Setting up inner5
+I0129 17:04:53.254405 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.254436 19998 net.cpp:67] Creating Layer sig5
+I0129 17:04:53.254442 19998 net.cpp:394] sig5 <- inner5
+I0129 17:04:53.254451 19998 net.cpp:356] sig5 -> sig5
+I0129 17:04:53.254459 19998 net.cpp:96] Setting up sig5
+I0129 17:04:53.254474 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.254482 19998 net.cpp:67] Creating Layer inner6
+I0129 17:04:53.254487 19998 net.cpp:394] inner6 <- sig5
+I0129 17:04:53.254494 19998 net.cpp:356] inner6 -> inner6
+I0129 17:04:53.254501 19998 net.cpp:96] Setting up inner6
+I0129 17:04:53.261726 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.261747 19998 net.cpp:67] Creating Layer sig6
+I0129 17:04:53.261752 19998 net.cpp:394] sig6 <- inner6
+I0129 17:04:53.261761 19998 net.cpp:356] sig6 -> sig6
+I0129 17:04:53.261770 19998 net.cpp:96] Setting up sig6
+I0129 17:04:53.261781 19998 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:04:53.261790 19998 net.cpp:67] Creating Layer final_inner
+I0129 17:04:53.261795 19998 net.cpp:394] final_inner <- sig6
+I0129 17:04:53.261802 19998 net.cpp:356] final_inner -> out
+I0129 17:04:53.261809 19998 net.cpp:96] Setting up final_inner
+I0129 17:04:53.268501 19998 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:04:53.268520 19998 net.cpp:172] final_inner does not need backward computation.
+I0129 17:04:53.268527 19998 net.cpp:172] sig6 does not need backward computation.
+I0129 17:04:53.268532 19998 net.cpp:172] inner6 does not need backward computation.
+I0129 17:04:53.268535 19998 net.cpp:172] sig5 does not need backward computation.
+I0129 17:04:53.268540 19998 net.cpp:172] inner5 does not need backward computation.
+I0129 17:04:53.268545 19998 net.cpp:172] sig4 does not need backward computation.
+I0129 17:04:53.268549 19998 net.cpp:172] inner4 does not need backward computation.
+I0129 17:04:53.268554 19998 net.cpp:172] sig3 does not need backward computation.
+I0129 17:04:53.268558 19998 net.cpp:172] inner3 does not need backward computation.
+I0129 17:04:53.268563 19998 net.cpp:172] sig2 does not need backward computation.
+I0129 17:04:53.268568 19998 net.cpp:172] inner2 does not need backward computation.
+I0129 17:04:53.268573 19998 net.cpp:172] sig1 does not need backward computation.
+I0129 17:04:53.268576 19998 net.cpp:172] inner1 does not need backward computation.
+I0129 17:04:53.268581 19998 net.cpp:208] This network produces output out
+I0129 17:04:53.268620 19998 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:04:53.268636 19998 net.cpp:219] Network initialization done.
+I0129 17:04:53.268641 19998 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:04:53.710611 19998 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:04:53.710636 19998 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 27.5901s: real-time factor assuming 100 frames/sec is 1.62869
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:05:20 KST 2018, elapsed time 28 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:05:21 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:05:22.041937 20371 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:05:22.042145 20371 net.cpp:358] Input 0 -> data
+I0129 17:05:22.042209 20371 net.cpp:67] Creating Layer inner1
+I0129 17:05:22.042220 20371 net.cpp:394] inner1 <- data
+I0129 17:05:22.042232 20371 net.cpp:356] inner1 -> inner1
+I0129 17:05:22.042251 20371 net.cpp:96] Setting up inner1
+I0129 17:05:22.044144 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.044183 20371 net.cpp:67] Creating Layer sig1
+I0129 17:05:22.044190 20371 net.cpp:394] sig1 <- inner1
+I0129 17:05:22.044198 20371 net.cpp:356] sig1 -> sig1
+I0129 17:05:22.044208 20371 net.cpp:96] Setting up sig1
+I0129 17:05:22.101972 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.102028 20371 net.cpp:67] Creating Layer inner2
+I0129 17:05:22.102036 20371 net.cpp:394] inner2 <- sig1
+I0129 17:05:22.102051 20371 net.cpp:356] inner2 -> inner2
+I0129 17:05:22.102062 20371 net.cpp:96] Setting up inner2
+I0129 17:05:22.109673 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.109712 20371 net.cpp:67] Creating Layer sig2
+I0129 17:05:22.109719 20371 net.cpp:394] sig2 <- inner2
+I0129 17:05:22.109727 20371 net.cpp:356] sig2 -> sig2
+I0129 17:05:22.109750 20371 net.cpp:96] Setting up sig2
+I0129 17:05:22.109766 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.109776 20371 net.cpp:67] Creating Layer inner3
+I0129 17:05:22.109781 20371 net.cpp:394] inner3 <- sig2
+I0129 17:05:22.109787 20371 net.cpp:356] inner3 -> inner3
+I0129 17:05:22.109796 20371 net.cpp:96] Setting up inner3
+I0129 17:05:22.117064 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.117094 20371 net.cpp:67] Creating Layer sig3
+I0129 17:05:22.117100 20371 net.cpp:394] sig3 <- inner3
+I0129 17:05:22.117107 20371 net.cpp:356] sig3 -> sig3
+I0129 17:05:22.117115 20371 net.cpp:96] Setting up sig3
+I0129 17:05:22.117125 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.117131 20371 net.cpp:67] Creating Layer inner4
+I0129 17:05:22.117137 20371 net.cpp:394] inner4 <- sig3
+I0129 17:05:22.117144 20371 net.cpp:356] inner4 -> inner4
+I0129 17:05:22.117151 20371 net.cpp:96] Setting up inner4
+I0129 17:05:22.124752 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.124774 20371 net.cpp:67] Creating Layer sig4
+I0129 17:05:22.124780 20371 net.cpp:394] sig4 <- inner4
+I0129 17:05:22.124788 20371 net.cpp:356] sig4 -> sig4
+I0129 17:05:22.124799 20371 net.cpp:96] Setting up sig4
+I0129 17:05:22.124810 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.124820 20371 net.cpp:67] Creating Layer inner5
+I0129 17:05:22.124826 20371 net.cpp:394] inner5 <- sig4
+I0129 17:05:22.124833 20371 net.cpp:356] inner5 -> inner5
+I0129 17:05:22.124840 20371 net.cpp:96] Setting up inner5
+I0129 17:05:22.132465 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.132493 20371 net.cpp:67] Creating Layer sig5
+I0129 17:05:22.132498 20371 net.cpp:394] sig5 <- inner5
+I0129 17:05:22.132506 20371 net.cpp:356] sig5 -> sig5
+I0129 17:05:22.132514 20371 net.cpp:96] Setting up sig5
+I0129 17:05:22.132524 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.132530 20371 net.cpp:67] Creating Layer inner6
+I0129 17:05:22.132535 20371 net.cpp:394] inner6 <- sig5
+I0129 17:05:22.132542 20371 net.cpp:356] inner6 -> inner6
+I0129 17:05:22.132550 20371 net.cpp:96] Setting up inner6
+I0129 17:05:22.139833 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.139850 20371 net.cpp:67] Creating Layer sig6
+I0129 17:05:22.139855 20371 net.cpp:394] sig6 <- inner6
+I0129 17:05:22.139863 20371 net.cpp:356] sig6 -> sig6
+I0129 17:05:22.139870 20371 net.cpp:96] Setting up sig6
+I0129 17:05:22.139878 20371 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:22.139886 20371 net.cpp:67] Creating Layer final_inner
+I0129 17:05:22.139891 20371 net.cpp:394] final_inner <- sig6
+I0129 17:05:22.139899 20371 net.cpp:356] final_inner -> out
+I0129 17:05:22.139905 20371 net.cpp:96] Setting up final_inner
+I0129 17:05:22.146569 20371 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:05:22.146585 20371 net.cpp:172] final_inner does not need backward computation.
+I0129 17:05:22.146590 20371 net.cpp:172] sig6 does not need backward computation.
+I0129 17:05:22.146595 20371 net.cpp:172] inner6 does not need backward computation.
+I0129 17:05:22.146600 20371 net.cpp:172] sig5 does not need backward computation.
+I0129 17:05:22.146605 20371 net.cpp:172] inner5 does not need backward computation.
+I0129 17:05:22.146608 20371 net.cpp:172] sig4 does not need backward computation.
+I0129 17:05:22.146613 20371 net.cpp:172] inner4 does not need backward computation.
+I0129 17:05:22.146618 20371 net.cpp:172] sig3 does not need backward computation.
+I0129 17:05:22.146622 20371 net.cpp:172] inner3 does not need backward computation.
+I0129 17:05:22.146627 20371 net.cpp:172] sig2 does not need backward computation.
+I0129 17:05:22.146631 20371 net.cpp:172] inner2 does not need backward computation.
+I0129 17:05:22.146636 20371 net.cpp:172] sig1 does not need backward computation.
+I0129 17:05:22.146641 20371 net.cpp:172] inner1 does not need backward computation.
+I0129 17:05:22.146646 20371 net.cpp:208] This network produces output out
+I0129 17:05:22.146682 20371 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:05:22.146697 20371 net.cpp:219] Network initialization done.
+I0129 17:05:22.146703 20371 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:05:22.619575 20371 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:05:22.619621 20371 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 27.7325s: real-time factor assuming 100 frames/sec is 1.6371
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:05:49 KST 2018, elapsed time 28 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:05:50 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:05:51.067714 20745 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:05:51.067908 20745 net.cpp:358] Input 0 -> data
+I0129 17:05:51.067975 20745 net.cpp:67] Creating Layer inner1
+I0129 17:05:51.067986 20745 net.cpp:394] inner1 <- data
+I0129 17:05:51.067996 20745 net.cpp:356] inner1 -> inner1
+I0129 17:05:51.068017 20745 net.cpp:96] Setting up inner1
+I0129 17:05:51.070333 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.070370 20745 net.cpp:67] Creating Layer sig1
+I0129 17:05:51.070377 20745 net.cpp:394] sig1 <- inner1
+I0129 17:05:51.070384 20745 net.cpp:356] sig1 -> sig1
+I0129 17:05:51.070394 20745 net.cpp:96] Setting up sig1
+I0129 17:05:51.129153 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.129197 20745 net.cpp:67] Creating Layer inner2
+I0129 17:05:51.129205 20745 net.cpp:394] inner2 <- sig1
+I0129 17:05:51.129218 20745 net.cpp:356] inner2 -> inner2
+I0129 17:05:51.129231 20745 net.cpp:96] Setting up inner2
+I0129 17:05:51.136849 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.136891 20745 net.cpp:67] Creating Layer sig2
+I0129 17:05:51.136898 20745 net.cpp:394] sig2 <- inner2
+I0129 17:05:51.136906 20745 net.cpp:356] sig2 -> sig2
+I0129 17:05:51.136930 20745 net.cpp:96] Setting up sig2
+I0129 17:05:51.136948 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.136958 20745 net.cpp:67] Creating Layer inner3
+I0129 17:05:51.136965 20745 net.cpp:394] inner3 <- sig2
+I0129 17:05:51.136971 20745 net.cpp:356] inner3 -> inner3
+I0129 17:05:51.136981 20745 net.cpp:96] Setting up inner3
+I0129 17:05:51.144239 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.144270 20745 net.cpp:67] Creating Layer sig3
+I0129 17:05:51.144278 20745 net.cpp:394] sig3 <- inner3
+I0129 17:05:51.144285 20745 net.cpp:356] sig3 -> sig3
+I0129 17:05:51.144294 20745 net.cpp:96] Setting up sig3
+I0129 17:05:51.144306 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.144312 20745 net.cpp:67] Creating Layer inner4
+I0129 17:05:51.144317 20745 net.cpp:394] inner4 <- sig3
+I0129 17:05:51.144325 20745 net.cpp:356] inner4 -> inner4
+I0129 17:05:51.144332 20745 net.cpp:96] Setting up inner4
+I0129 17:05:51.151991 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.152019 20745 net.cpp:67] Creating Layer sig4
+I0129 17:05:51.152024 20745 net.cpp:394] sig4 <- inner4
+I0129 17:05:51.152034 20745 net.cpp:356] sig4 -> sig4
+I0129 17:05:51.152045 20745 net.cpp:96] Setting up sig4
+I0129 17:05:51.152060 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.152070 20745 net.cpp:67] Creating Layer inner5
+I0129 17:05:51.152076 20745 net.cpp:394] inner5 <- sig4
+I0129 17:05:51.152082 20745 net.cpp:356] inner5 -> inner5
+I0129 17:05:51.152091 20745 net.cpp:96] Setting up inner5
+I0129 17:05:51.159708 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.159742 20745 net.cpp:67] Creating Layer sig5
+I0129 17:05:51.159749 20745 net.cpp:394] sig5 <- inner5
+I0129 17:05:51.159756 20745 net.cpp:356] sig5 -> sig5
+I0129 17:05:51.159765 20745 net.cpp:96] Setting up sig5
+I0129 17:05:51.159777 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.159785 20745 net.cpp:67] Creating Layer inner6
+I0129 17:05:51.159790 20745 net.cpp:394] inner6 <- sig5
+I0129 17:05:51.159796 20745 net.cpp:356] inner6 -> inner6
+I0129 17:05:51.159803 20745 net.cpp:96] Setting up inner6
+I0129 17:05:51.167138 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.167165 20745 net.cpp:67] Creating Layer sig6
+I0129 17:05:51.167171 20745 net.cpp:394] sig6 <- inner6
+I0129 17:05:51.167181 20745 net.cpp:356] sig6 -> sig6
+I0129 17:05:51.167188 20745 net.cpp:96] Setting up sig6
+I0129 17:05:51.167201 20745 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:05:51.167208 20745 net.cpp:67] Creating Layer final_inner
+I0129 17:05:51.167214 20745 net.cpp:394] final_inner <- sig6
+I0129 17:05:51.167222 20745 net.cpp:356] final_inner -> out
+I0129 17:05:51.167229 20745 net.cpp:96] Setting up final_inner
+I0129 17:05:51.173944 20745 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:05:51.173962 20745 net.cpp:172] final_inner does not need backward computation.
+I0129 17:05:51.173969 20745 net.cpp:172] sig6 does not need backward computation.
+I0129 17:05:51.173972 20745 net.cpp:172] inner6 does not need backward computation.
+I0129 17:05:51.173977 20745 net.cpp:172] sig5 does not need backward computation.
+I0129 17:05:51.173981 20745 net.cpp:172] inner5 does not need backward computation.
+I0129 17:05:51.173986 20745 net.cpp:172] sig4 does not need backward computation.
+I0129 17:05:51.173990 20745 net.cpp:172] inner4 does not need backward computation.
+I0129 17:05:51.173995 20745 net.cpp:172] sig3 does not need backward computation.
+I0129 17:05:51.174000 20745 net.cpp:172] inner3 does not need backward computation.
+I0129 17:05:51.174003 20745 net.cpp:172] sig2 does not need backward computation.
+I0129 17:05:51.174008 20745 net.cpp:172] inner2 does not need backward computation.
+I0129 17:05:51.174012 20745 net.cpp:172] sig1 does not need backward computation.
+I0129 17:05:51.174017 20745 net.cpp:172] inner1 does not need backward computation.
+I0129 17:05:51.174021 20745 net.cpp:208] This network produces output out
+I0129 17:05:51.174057 20745 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:05:51.174072 20745 net.cpp:219] Network initialization done.
+I0129 17:05:51.174077 20745 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:05:51.647976 20745 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:05:51.648021 20745 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 27.6676s: real-time factor assuming 100 frames/sec is 1.63327
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:06:18 KST 2018, elapsed time 28 seconds
+# nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Mon Jan 29 17:06:19 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=false --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0129 17:06:20.021723 21117 net.cpp:39] Initializing net from parameters: 
+name: "asr"
+layers {
+  bottom: "data"
+  top: "inner1"
+  name: "inner1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner1"
+  top: "sig1"
+  name: "sig1"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig1"
+  top: "inner2"
+  name: "inner2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner2"
+  top: "sig2"
+  name: "sig2"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig2"
+  top: "inner3"
+  name: "inner3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner3"
+  top: "sig3"
+  name: "sig3"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig3"
+  top: "inner4"
+  name: "inner4"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner4"
+  top: "sig4"
+  name: "sig4"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig4"
+  top: "inner5"
+  name: "inner5"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner5"
+  top: "sig5"
+  name: "sig5"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig5"
+  top: "inner6"
+  name: "inner6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 2048
+  }
+}
+layers {
+  bottom: "inner6"
+  top: "sig6"
+  name: "sig6"
+  type: SIGMOID
+}
+layers {
+  bottom: "sig6"
+  top: "out"
+  name: "final_inner"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1706
+  }
+}
+input: "data"
+input_dim: 548
+input_dim: 440
+input_dim: 1
+input_dim: 1
+I0129 17:06:20.021944 21117 net.cpp:358] Input 0 -> data
+I0129 17:06:20.022018 21117 net.cpp:67] Creating Layer inner1
+I0129 17:06:20.022028 21117 net.cpp:394] inner1 <- data
+I0129 17:06:20.022042 21117 net.cpp:356] inner1 -> inner1
+I0129 17:06:20.022063 21117 net.cpp:96] Setting up inner1
+I0129 17:06:20.023990 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.024032 21117 net.cpp:67] Creating Layer sig1
+I0129 17:06:20.024039 21117 net.cpp:394] sig1 <- inner1
+I0129 17:06:20.024047 21117 net.cpp:356] sig1 -> sig1
+I0129 17:06:20.024055 21117 net.cpp:96] Setting up sig1
+I0129 17:06:20.084839 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.084900 21117 net.cpp:67] Creating Layer inner2
+I0129 17:06:20.084909 21117 net.cpp:394] inner2 <- sig1
+I0129 17:06:20.084924 21117 net.cpp:356] inner2 -> inner2
+I0129 17:06:20.084939 21117 net.cpp:96] Setting up inner2
+I0129 17:06:20.092568 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.092623 21117 net.cpp:67] Creating Layer sig2
+I0129 17:06:20.092633 21117 net.cpp:394] sig2 <- inner2
+I0129 17:06:20.092643 21117 net.cpp:356] sig2 -> sig2
+I0129 17:06:20.092666 21117 net.cpp:96] Setting up sig2
+I0129 17:06:20.092686 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.092697 21117 net.cpp:67] Creating Layer inner3
+I0129 17:06:20.092702 21117 net.cpp:394] inner3 <- sig2
+I0129 17:06:20.092710 21117 net.cpp:356] inner3 -> inner3
+I0129 17:06:20.092717 21117 net.cpp:96] Setting up inner3
+I0129 17:06:20.100355 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.100396 21117 net.cpp:67] Creating Layer sig3
+I0129 17:06:20.100404 21117 net.cpp:394] sig3 <- inner3
+I0129 17:06:20.100412 21117 net.cpp:356] sig3 -> sig3
+I0129 17:06:20.100423 21117 net.cpp:96] Setting up sig3
+I0129 17:06:20.100437 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.100445 21117 net.cpp:67] Creating Layer inner4
+I0129 17:06:20.100450 21117 net.cpp:394] inner4 <- sig3
+I0129 17:06:20.100457 21117 net.cpp:356] inner4 -> inner4
+I0129 17:06:20.100466 21117 net.cpp:96] Setting up inner4
+I0129 17:06:20.107728 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.107756 21117 net.cpp:67] Creating Layer sig4
+I0129 17:06:20.107762 21117 net.cpp:394] sig4 <- inner4
+I0129 17:06:20.107772 21117 net.cpp:356] sig4 -> sig4
+I0129 17:06:20.107784 21117 net.cpp:96] Setting up sig4
+I0129 17:06:20.107798 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.107810 21117 net.cpp:67] Creating Layer inner5
+I0129 17:06:20.107815 21117 net.cpp:394] inner5 <- sig4
+I0129 17:06:20.107821 21117 net.cpp:356] inner5 -> inner5
+I0129 17:06:20.107830 21117 net.cpp:96] Setting up inner5
+I0129 17:06:20.115494 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.115530 21117 net.cpp:67] Creating Layer sig5
+I0129 17:06:20.115538 21117 net.cpp:394] sig5 <- inner5
+I0129 17:06:20.115546 21117 net.cpp:356] sig5 -> sig5
+I0129 17:06:20.115556 21117 net.cpp:96] Setting up sig5
+I0129 17:06:20.115569 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.115576 21117 net.cpp:67] Creating Layer inner6
+I0129 17:06:20.115581 21117 net.cpp:394] inner6 <- sig5
+I0129 17:06:20.115587 21117 net.cpp:356] inner6 -> inner6
+I0129 17:06:20.115595 21117 net.cpp:96] Setting up inner6
+I0129 17:06:20.123265 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.123296 21117 net.cpp:67] Creating Layer sig6
+I0129 17:06:20.123301 21117 net.cpp:394] sig6 <- inner6
+I0129 17:06:20.123311 21117 net.cpp:356] sig6 -> sig6
+I0129 17:06:20.123319 21117 net.cpp:96] Setting up sig6
+I0129 17:06:20.123332 21117 net.cpp:103] Top shape: 548 2048 1 1 (1122304)
+I0129 17:06:20.123339 21117 net.cpp:67] Creating Layer final_inner
+I0129 17:06:20.123345 21117 net.cpp:394] final_inner <- sig6
+I0129 17:06:20.123353 21117 net.cpp:356] final_inner -> out
+I0129 17:06:20.123360 21117 net.cpp:96] Setting up final_inner
+I0129 17:06:20.130051 21117 net.cpp:103] Top shape: 548 1706 1 1 (934888)
+I0129 17:06:20.130074 21117 net.cpp:172] final_inner does not need backward computation.
+I0129 17:06:20.130080 21117 net.cpp:172] sig6 does not need backward computation.
+I0129 17:06:20.130085 21117 net.cpp:172] inner6 does not need backward computation.
+I0129 17:06:20.130089 21117 net.cpp:172] sig5 does not need backward computation.
+I0129 17:06:20.130095 21117 net.cpp:172] inner5 does not need backward computation.
+I0129 17:06:20.130098 21117 net.cpp:172] sig4 does not need backward computation.
+I0129 17:06:20.130103 21117 net.cpp:172] inner4 does not need backward computation.
+I0129 17:06:20.130107 21117 net.cpp:172] sig3 does not need backward computation.
+I0129 17:06:20.130112 21117 net.cpp:172] inner3 does not need backward computation.
+I0129 17:06:20.130116 21117 net.cpp:172] sig2 does not need backward computation.
+I0129 17:06:20.130120 21117 net.cpp:172] inner2 does not need backward computation.
+I0129 17:06:20.130125 21117 net.cpp:172] sig1 does not need backward computation.
+I0129 17:06:20.130129 21117 net.cpp:172] inner1 does not need backward computation.
+I0129 17:06:20.130133 21117 net.cpp:208] This network produces output out
+I0129 17:06:20.130172 21117 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0129 17:06:20.130189 21117 net.cpp:219] Network initialization done.
+I0129 17:06:20.130194 21117 net.cpp:220] Memory required for data: 57610144
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:283) Use local dnn service to inference.
+I0129 17:06:20.579036 21117 tonic.cpp:31] Reshaping input to dims: 1694 440 1 1
+I0129 17:06:20.579067 21117 tonic.cpp:37] Reshaping output to dims: 1694 1706 1 1
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 27.4788s: real-time factor assuming 100 frames/sec is 1.62213
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Jan 29 17:06:47 KST 2018, elapsed time 28 seconds

@@ -1,0 +1,84 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:57.902283 20443 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:57.902370 20443 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:58.022835 20443 img-client.cpp:271] PRE Time(ns): 1421147090 20443
+E0207 18:02:58.022864 20443 img-client.cpp:274] DATA Time(ns): 2064942 20443
+E0207 18:02:58.022871 20443 img-client.cpp:278] SEND Time(ns): 5947 20443
+E0207 18:02:58.022877 20443 img-client.cpp:282] COM Time(ns): 59947246 20443
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.044863 20429 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.044934 20429 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:58.179302 20429 img-client.cpp:271] PRE Time(ns): 1574478913 20429
+E0207 18:02:58.179333 20429 img-client.cpp:274] DATA Time(ns): 2159978 20429
+E0207 18:02:58.179340 20429 img-client.cpp:278] SEND Time(ns): 7925 20429
+E0207 18:02:58.179347 20429 img-client.cpp:282] COM Time(ns): 69155645 20429
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.212870 20439 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.212934 20439 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.269306 20425 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.269361 20425 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:58.331482 20439 img-client.cpp:271] PRE Time(ns): 1731933378 20439
+E0207 18:02:58.331512 20439 img-client.cpp:274] DATA Time(ns): 2257483 20439
+E0207 18:02:58.331521 20439 img-client.cpp:278] SEND Time(ns): 7133 20439
+E0207 18:02:58.331526 20439 img-client.cpp:282] COM Time(ns): 60774358 20439
+E0207 18:02:58.383918 20425 img-client.cpp:271] PRE Time(ns): 1789188305 20425
+E0207 18:02:58.383949 20425 img-client.cpp:274] DATA Time(ns): 2202359 20425
+E0207 18:02:58.383955 20425 img-client.cpp:278] SEND Time(ns): 5667 20425
+E0207 18:02:58.383961 20425 img-client.cpp:282] COM Time(ns): 57100645 20425
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.438009 20431 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.438076 20431 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.445708 20435 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.445775 20435 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.496459 20441 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.496526 20441 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:58.561956 20431 img-client.cpp:271] PRE Time(ns): 1949430276 20431
+E0207 18:02:58.561986 20431 img-client.cpp:274] DATA Time(ns): 2132974 20431
+E0207 18:02:58.562003 20431 img-client.cpp:278] SEND Time(ns): 6568 20431
+E0207 18:02:58.562010 20431 img-client.cpp:282] COM Time(ns): 65695350 20431
+E0207 18:02:58.570745 20435 img-client.cpp:271] PRE Time(ns): 1918023172 20435
+E0207 18:02:58.570773 20435 img-client.cpp:274] DATA Time(ns): 1910897 20435
+E0207 18:02:58.570780 20435 img-client.cpp:278] SEND Time(ns): 8971 20435
+E0207 18:02:58.570785 20435 img-client.cpp:282] COM Time(ns): 65602290 20435
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.592661 20427 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.592723 20427 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:58.623910 20441 img-client.cpp:271] PRE Time(ns): 1901713557 20441
+E0207 18:02:58.623939 20441 img-client.cpp:274] DATA Time(ns): 2173572 20441
+E0207 18:02:58.623946 20441 img-client.cpp:278] SEND Time(ns): 8682 20441
+E0207 18:02:58.623952 20441 img-client.cpp:282] COM Time(ns): 65308244 20441
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.667551 20437 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.667608 20437 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:58.704064 20427 img-client.cpp:271] PRE Time(ns): 1887508475 20427
+E0207 18:02:58.704090 20427 img-client.cpp:274] DATA Time(ns): 2116920 20427
+E0207 18:02:58.704097 20427 img-client.cpp:278] SEND Time(ns): 6605 20427
+E0207 18:02:58.704100 20427 img-client.cpp:282] COM Time(ns): 54903820 20427
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.710374 20445 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.710415 20445 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.773703 20423 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.773771 20423 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:58.793526 20437 img-client.cpp:271] PRE Time(ns): 1962459761 20437
+E0207 18:02:58.793560 20437 img-client.cpp:274] DATA Time(ns): 1723707 20437
+E0207 18:02:58.793568 20437 img-client.cpp:278] SEND Time(ns): 6241 20437
+E0207 18:02:58.793576 20437 img-client.cpp:282] COM Time(ns): 72543803 20437
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:58.801738 20433 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:58.801796 20433 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:58.821185 20445 img-client.cpp:271] PRE Time(ns): 2013028887 20445
+E0207 18:02:58.821215 20445 img-client.cpp:274] DATA Time(ns): 2121803 20445
+E0207 18:02:58.821221 20445 img-client.cpp:278] SEND Time(ns): 5384 20445
+E0207 18:02:58.821228 20445 img-client.cpp:282] COM Time(ns): 54067197 20445
+E0207 18:02:58.928125 20423 img-client.cpp:271] PRE Time(ns): 2256350314 20423
+E0207 18:02:58.928158 20423 img-client.cpp:274] DATA Time(ns): 2159895 20423
+E0207 18:02:58.928166 20423 img-client.cpp:278] SEND Time(ns): 7446 20423
+E0207 18:02:58.928174 20423 img-client.cpp:282] COM Time(ns): 93594854 20423
+E0207 18:02:58.931123 20433 img-client.cpp:271] PRE Time(ns): 2225234243 20433
+E0207 18:02:58.931145 20433 img-client.cpp:274] DATA Time(ns): 1806823 20433
+E0207 18:02:58.931161 20433 img-client.cpp:278] SEND Time(ns): 5423 20433
+E0207 18:02:58.931169 20433 img-client.cpp:282] COM Time(ns): 78236303 20433

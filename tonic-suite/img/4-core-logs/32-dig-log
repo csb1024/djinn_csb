@@ -1,0 +1,710 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:30.659780 27499 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:30.660063 27499 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:30.660156 27499 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:30.660225 27499 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:30.660300 27499 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:30.660369 27499 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:30.660437 27499 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:30.660506 27499 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:30.660570 27499 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:30.660640 27499 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:30.660707 27499 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:30.660773 27499 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:30.660841 27499 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:30.660912 27499 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:30.660979 27499 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:30.661044 27499 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:30.661109 27499 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:30.661183 27499 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:30.661255 27499 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:30.661320 27499 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:30.661386 27499 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:30.661453 27499 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:30.661517 27499 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:30.661582 27499 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:30.661653 27499 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:30.661722 27499 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:30.661790 27499 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:30.661857 27499 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:30.661923 27499 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:30.661993 27499 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:30.662060 27499 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:30.662124 27499 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:30.801344 27499 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:30.801380 27499 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:30.801388 27499 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:30.801393 27499 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:30.801398 27499 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:30.801403 27499 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:30.801409 27499 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:30.801414 27499 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:30.801419 27499 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:30.801424 27499 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:30.801429 27499 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:30.801434 27499 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:30.801439 27499 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:30.801443 27499 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:30.801447 27499 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:30.801452 27499 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:30.801457 27499 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:30.801462 27499 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:30.801467 27499 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:30.801472 27499 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:30.801484 27499 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:30.801491 27499 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:30.801496 27499 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:30.801501 27499 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:30.801506 27499 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:30.801511 27499 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:30.801515 27499 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:30.801520 27499 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:30.801525 27499 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:30.801530 27499 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:30.801535 27499 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:30.801540 27499 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:30.801554 27499 img-client.cpp:297] START Time(ns): 1521534570659281073 27499
+E0320 17:29:30.801565 27499 img-client.cpp:300] END PRE Time(ns): 1521534570659719600 27499
+E0320 17:29:30.801571 27499 img-client.cpp:303] END BARRIER Time(ns): 1521534570659719711 27499
+E0320 17:29:30.801576 27499 img-client.cpp:307] END DATA Time(ns): 1521534570662316873 27499
+E0320 17:29:30.801582 27499 img-client.cpp:311] END SEND Time(ns): 1521534570662397024 27499
+E0320 17:29:30.801589 27499 img-client.cpp:314] END COM Time(ns): 1521534570801321863 27499
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:32.844684 27550 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:32.844952 27550 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:32.845041 27550 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:32.845108 27550 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:32.845177 27550 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:32.845243 27550 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:32.845309 27550 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:32.845374 27550 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:32.845438 27550 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:32.845504 27550 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:32.845571 27550 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:32.845635 27550 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:32.845700 27550 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:32.845770 27550 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:32.845835 27550 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:32.845899 27550 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:32.845963 27550 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:32.846034 27550 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:32.846102 27550 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:32.846166 27550 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:32.846230 27550 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:32.846294 27550 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:32.846357 27550 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:32.846421 27550 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:32.846485 27550 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:32.846551 27550 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:32.846619 27550 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:32.846683 27550 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:32.846746 27550 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:32.846813 27550 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:32.846879 27550 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:32.846953 27550 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:32.914392 27550 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:32.914455 27550 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:32.914469 27550 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:32.914476 27550 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:32.914485 27550 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:32.914494 27550 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:32.914502 27550 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:32.914510 27550 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:32.914518 27550 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:32.914527 27550 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:32.914535 27550 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:32.914543 27550 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:32.914551 27550 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:32.914561 27550 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:32.914568 27550 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:32.914577 27550 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:32.914584 27550 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:32.914592 27550 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:32.914600 27550 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:32.914608 27550 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:32.914616 27550 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:32.914624 27550 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:32.914633 27550 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:32.914640 27550 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:32.914649 27550 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:32.914656 27550 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:32.914664 27550 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:32.914674 27550 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:32.914681 27550 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:32.914690 27550 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:32.914698 27550 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:32.914706 27550 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:32.914727 27550 img-client.cpp:297] START Time(ns): 1521534572844213954 27550
+E0320 17:29:32.914744 27550 img-client.cpp:300] END PRE Time(ns): 1521534572844627872 27550
+E0320 17:29:32.914754 27550 img-client.cpp:303] END BARRIER Time(ns): 1521534572844628034 27550
+E0320 17:29:32.914763 27550 img-client.cpp:307] END DATA Time(ns): 1521534572847151594 27550
+E0320 17:29:32.914772 27550 img-client.cpp:311] END SEND Time(ns): 1521534572847255009 27550
+E0320 17:29:32.914782 27550 img-client.cpp:314] END COM Time(ns): 1521534572914353242 27550
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:34.962725 27573 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:34.963032 27573 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:34.963137 27573 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:34.963208 27573 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:34.963282 27573 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:34.963351 27573 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:34.963420 27573 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:34.963490 27573 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:34.963557 27573 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:34.963627 27573 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:34.963711 27573 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:34.963779 27573 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:34.963848 27573 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:34.963920 27573 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:34.963989 27573 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:34.964056 27573 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:34.964123 27573 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:34.964198 27573 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:34.964272 27573 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:34.964341 27573 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:34.964408 27573 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:34.964475 27573 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:34.964541 27573 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:34.964607 27573 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:34.964675 27573 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:34.964746 27573 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:34.964815 27573 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:34.964884 27573 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:34.964948 27573 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:34.965019 27573 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:34.965088 27573 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:34.965154 27573 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:35.101692 27573 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:35.101729 27573 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:35.101737 27573 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:35.101743 27573 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:35.101748 27573 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:35.101753 27573 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:35.101758 27573 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:35.101763 27573 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:35.101768 27573 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:35.101773 27573 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:35.101778 27573 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:35.101783 27573 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:35.101788 27573 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:35.101794 27573 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:35.101799 27573 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:35.101804 27573 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:35.101809 27573 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:35.101814 27573 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:35.101819 27573 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:35.101822 27573 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:35.101827 27573 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:35.101832 27573 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:35.101837 27573 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:35.101842 27573 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:35.101847 27573 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:35.101852 27573 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:35.101857 27573 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:35.101862 27573 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:35.101867 27573 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:35.101878 27573 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:35.101884 27573 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:35.101889 27573 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:35.101903 27573 img-client.cpp:297] START Time(ns): 1521534574962207007 27573
+E0320 17:29:35.101914 27573 img-client.cpp:300] END PRE Time(ns): 1521534574962665560 27573
+E0320 17:29:35.101920 27573 img-client.cpp:303] END BARRIER Time(ns): 1521534574962665713 27573
+E0320 17:29:35.101925 27573 img-client.cpp:307] END DATA Time(ns): 1521534574965353800 27573
+E0320 17:29:35.101932 27573 img-client.cpp:311] END SEND Time(ns): 1521534574965428542 27573
+E0320 17:29:35.101938 27573 img-client.cpp:314] END COM Time(ns): 1521534575101663754 27573
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:37.146747 27625 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:37.147042 27625 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:37.147140 27625 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:37.147210 27625 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:37.147284 27625 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:37.147354 27625 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:37.147423 27625 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:37.147490 27625 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:37.147557 27625 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:37.147629 27625 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:37.147697 27625 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:37.147764 27625 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:37.147835 27625 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:37.147904 27625 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:37.147972 27625 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:37.148041 27625 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:37.148108 27625 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:37.148182 27625 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:37.148257 27625 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:37.148324 27625 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:37.148391 27625 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:37.148458 27625 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:37.148525 27625 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:37.148591 27625 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:37.148659 27625 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:37.148728 27625 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:37.148798 27625 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:37.148866 27625 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:37.148932 27625 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:37.149003 27625 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:37.149070 27625 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:37.149137 27625 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:37.221251 27625 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:37.221292 27625 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:37.221299 27625 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:37.221307 27625 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:37.221312 27625 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:37.221318 27625 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:37.221323 27625 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:37.221329 27625 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:37.221335 27625 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:37.221341 27625 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:37.221354 27625 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:37.221360 27625 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:37.221366 27625 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:37.221372 27625 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:37.221379 27625 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:37.221384 27625 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:37.221390 27625 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:37.221395 27625 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:37.221400 27625 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:37.221406 27625 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:37.221412 27625 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:37.221417 27625 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:37.221423 27625 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:37.221429 27625 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:37.221434 27625 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:37.221441 27625 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:37.221446 27625 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:37.221451 27625 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:37.221457 27625 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:37.221463 27625 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:37.221468 27625 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:37.221474 27625 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:37.221490 27625 img-client.cpp:297] START Time(ns): 1521534577146248308 27625
+E0320 17:29:37.221503 27625 img-client.cpp:300] END PRE Time(ns): 1521534577146690311 27625
+E0320 17:29:37.221509 27625 img-client.cpp:303] END BARRIER Time(ns): 1521534577146690422 27625
+E0320 17:29:37.221515 27625 img-client.cpp:307] END DATA Time(ns): 1521534577149327669 27625
+E0320 17:29:37.221523 27625 img-client.cpp:311] END SEND Time(ns): 1521534577149413125 27625
+E0320 17:29:37.221529 27625 img-client.cpp:314] END COM Time(ns): 1521534577221222466 27625
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:39.266233 27648 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:39.266494 27648 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:39.266588 27648 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:39.266661 27648 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:39.266734 27648 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:39.266803 27648 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:39.266873 27648 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:39.266954 27648 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:39.267030 27648 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:39.267102 27648 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:39.267172 27648 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:39.267240 27648 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:39.267308 27648 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:39.267382 27648 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:39.267452 27648 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:39.267521 27648 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:39.267588 27648 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:39.267663 27648 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:39.267737 27648 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:39.267805 27648 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:39.267873 27648 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:39.267952 27648 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:39.268021 27648 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:39.268090 27648 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:39.268158 27648 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:39.268232 27648 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:39.268302 27648 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:39.268370 27648 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:39.268436 27648 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:39.268507 27648 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:39.268576 27648 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:39.268642 27648 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:39.333456 27648 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:39.333521 27648 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:39.333531 27648 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:39.333539 27648 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:39.333545 27648 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:39.333552 27648 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:39.333559 27648 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:39.333566 27648 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:39.333573 27648 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:39.333580 27648 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:39.333586 27648 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:39.333593 27648 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:39.333600 27648 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:39.333606 27648 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:39.333613 27648 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:39.333621 27648 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:39.333626 27648 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:39.333633 27648 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:39.333639 27648 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:39.333647 27648 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:39.333652 27648 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:39.333659 27648 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:39.333665 27648 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:39.333673 27648 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:39.333678 27648 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:39.333685 27648 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:39.333693 27648 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:39.333698 27648 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:39.333705 27648 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:39.333711 27648 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:39.333719 27648 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:39.333725 27648 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:39.333747 27648 img-client.cpp:297] START Time(ns): 1521534579265743309 27648
+E0320 17:29:39.333763 27648 img-client.cpp:300] END PRE Time(ns): 1521534579266178028 27648
+E0320 17:29:39.333771 27648 img-client.cpp:303] END BARRIER Time(ns): 1521534579266178145 27648
+E0320 17:29:39.333778 27648 img-client.cpp:307] END DATA Time(ns): 1521534579268829374 27648
+E0320 17:29:39.333786 27648 img-client.cpp:311] END SEND Time(ns): 1521534579268887484 27648
+E0320 17:29:39.333793 27648 img-client.cpp:314] END COM Time(ns): 1521534579333419631 27648
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:41.381120 27671 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:41.381412 27671 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:41.381506 27671 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:41.381577 27671 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:41.381651 27671 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:41.381719 27671 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:41.381788 27671 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:41.381855 27671 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:41.381919 27671 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:41.381990 27671 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:41.382057 27671 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:41.382123 27671 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:41.382191 27671 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:41.382261 27671 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:41.382328 27671 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:41.382393 27671 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:41.382458 27671 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:41.382531 27671 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:41.382609 27671 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:41.382675 27671 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:41.382740 27671 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:41.382807 27671 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:41.382869 27671 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:41.382933 27671 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:41.383018 27671 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:41.383091 27671 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:41.383159 27671 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:41.383225 27671 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:41.383289 27671 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:41.383358 27671 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:41.383427 27671 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:41.383492 27671 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:41.415032 27671 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:41.415108 27671 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:41.415119 27671 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:41.415128 27671 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:41.415136 27671 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:41.415144 27671 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:41.415153 27671 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:41.415161 27671 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:41.415169 27671 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:41.415177 27671 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:41.415186 27671 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:41.415194 27671 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:41.415202 27671 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:41.415210 27671 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:41.415218 27671 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:41.415226 27671 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:41.415233 27671 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:41.415241 27671 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:41.415249 27671 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:41.415266 27671 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:41.415275 27671 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:41.415283 27671 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:41.415292 27671 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:41.415299 27671 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:41.415307 27671 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:41.415315 27671 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:41.415323 27671 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:41.415331 27671 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:41.415339 27671 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:41.415347 27671 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:41.415355 27671 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:41.415364 27671 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:41.415385 27671 img-client.cpp:297] START Time(ns): 1521534581380619601 27671
+E0320 17:29:41.415401 27671 img-client.cpp:300] END PRE Time(ns): 1521534581381061538 27671
+E0320 17:29:41.415411 27671 img-client.cpp:303] END BARRIER Time(ns): 1521534581381061684 27671
+E0320 17:29:41.415421 27671 img-client.cpp:307] END DATA Time(ns): 1521534581383686051 27671
+E0320 17:29:41.415429 27671 img-client.cpp:311] END SEND Time(ns): 1521534581383761413 27671
+E0320 17:29:41.415438 27671 img-client.cpp:314] END COM Time(ns): 1521534581414981904 27671
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:43.462528 27721 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:43.462815 27721 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:43.462911 27721 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:43.463001 27721 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:43.463083 27721 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:43.463156 27721 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:43.463229 27721 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:43.463302 27721 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:43.463372 27721 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:43.463446 27721 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:43.463520 27721 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:43.463588 27721 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:43.463660 27721 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:43.463734 27721 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:43.463804 27721 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:43.463876 27721 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:43.463945 27721 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:43.464021 27721 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:43.464099 27721 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:43.464170 27721 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:43.464241 27721 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:43.464311 27721 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:43.464380 27721 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:43.464449 27721 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:43.464522 27721 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:43.464596 27721 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:43.464668 27721 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:43.464738 27721 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:43.464807 27721 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:43.464880 27721 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:43.464951 27721 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:43.465032 27721 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:43.490491 27721 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:43.490546 27721 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:43.490558 27721 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:43.490566 27721 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:43.490574 27721 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:43.490582 27721 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:43.490591 27721 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:43.490597 27721 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:43.490605 27721 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:43.490613 27721 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:43.490622 27721 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:43.490629 27721 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:43.490638 27721 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:43.490645 27721 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:43.490653 27721 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:43.490660 27721 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:43.490669 27721 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:43.490676 27721 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:43.490684 27721 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:43.490691 27721 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:43.490700 27721 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:43.490707 27721 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:43.490715 27721 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:43.490723 27721 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:43.490731 27721 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:43.490738 27721 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:43.490746 27721 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:43.490754 27721 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:43.490762 27721 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:43.490770 27721 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:43.490777 27721 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:43.490785 27721 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:43.490806 27721 img-client.cpp:297] START Time(ns): 1521534583462036393 27721
+E0320 17:29:43.490823 27721 img-client.cpp:300] END PRE Time(ns): 1521534583462469692 27721
+E0320 17:29:43.490833 27721 img-client.cpp:303] END BARRIER Time(ns): 1521534583462469818 27721
+E0320 17:29:43.490842 27721 img-client.cpp:307] END DATA Time(ns): 1521534583465236565 27721
+E0320 17:29:43.490852 27721 img-client.cpp:311] END SEND Time(ns): 1521534583465316598 27721
+E0320 17:29:43.490861 27721 img-client.cpp:314] END COM Time(ns): 1521534583490455314 27721
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:45.536073 27744 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:45.536348 27744 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:45.536447 27744 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:45.536520 27744 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:45.536598 27744 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:45.536672 27744 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:45.536746 27744 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:45.536821 27744 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:45.536891 27744 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:45.536970 27744 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:45.537055 27744 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:45.537128 27744 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:45.537202 27744 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:45.537278 27744 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:45.537351 27744 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:45.537425 27744 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:45.537494 27744 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:45.537573 27744 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:45.537652 27744 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:45.537724 27744 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:45.537793 27744 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:45.537864 27744 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:45.537935 27744 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:45.538003 27744 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:45.538076 27744 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:45.538151 27744 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:45.538225 27744 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:45.538297 27744 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:45.538367 27744 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:45.538442 27744 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:45.538516 27744 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:45.538585 27744 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:45.582239 27744 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:45.582301 27744 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:45.582312 27744 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:45.582320 27744 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:45.582327 27744 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:45.582335 27744 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:45.582342 27744 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:45.582350 27744 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:45.582357 27744 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:45.582365 27744 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:45.582372 27744 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:45.582379 27744 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:45.582386 27744 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:45.582393 27744 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:45.582401 27744 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:45.582407 27744 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:45.582414 27744 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:45.582422 27744 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:45.582429 27744 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:45.582435 27744 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:45.582443 27744 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:45.582450 27744 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:45.582458 27744 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:45.582464 27744 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:45.582471 27744 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:45.582479 27744 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:45.582485 27744 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:45.582492 27744 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:45.582499 27744 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:45.582516 27744 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:45.582525 27744 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:45.582532 27744 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:45.582553 27744 img-client.cpp:297] START Time(ns): 1521534585535583687 27744
+E0320 17:29:45.582568 27744 img-client.cpp:300] END PRE Time(ns): 1521534585536015650 27744
+E0320 17:29:45.582577 27744 img-client.cpp:303] END BARRIER Time(ns): 1521534585536015808 27744
+E0320 17:29:45.582586 27744 img-client.cpp:307] END DATA Time(ns): 1521534585538790090 27744
+E0320 17:29:45.582593 27744 img-client.cpp:311] END SEND Time(ns): 1521534585538849721 27744
+E0320 17:29:45.582602 27744 img-client.cpp:314] END COM Time(ns): 1521534585582202742 27744
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:47.628661 27794 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:47.628929 27794 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:47.629019 27794 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:47.629087 27794 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:47.629160 27794 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:47.629227 27794 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:47.629294 27794 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:47.629360 27794 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:47.629425 27794 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:47.629492 27794 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:47.629557 27794 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:47.629621 27794 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:47.629688 27794 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:47.629756 27794 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:47.629822 27794 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:47.629889 27794 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:47.629952 27794 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:47.630023 27794 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:47.630095 27794 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:47.630161 27794 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:47.630224 27794 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:47.630288 27794 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:47.630352 27794 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:47.630414 27794 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:47.630479 27794 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:47.630547 27794 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:47.630612 27794 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:47.630677 27794 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:47.630741 27794 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:47.630810 27794 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:47.630874 27794 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:47.630939 27794 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:47.655234 27794 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:47.655283 27794 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:47.655294 27794 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:47.655302 27794 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:47.655308 27794 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:47.655314 27794 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:47.655321 27794 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:47.655328 27794 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:47.655334 27794 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:47.655350 27794 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:47.655357 27794 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:47.655364 27794 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:47.655370 27794 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:47.655377 27794 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:47.655383 27794 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:47.655390 27794 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:47.655396 27794 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:47.655403 27794 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:47.655411 27794 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:47.655416 27794 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:47.655423 27794 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:47.655429 27794 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:47.655436 27794 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:47.655442 27794 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:47.655449 27794 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:47.655455 27794 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:47.655462 27794 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:47.655468 27794 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:47.655475 27794 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:47.655481 27794 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:47.655488 27794 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:47.655495 27794 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:47.655514 27794 img-client.cpp:297] START Time(ns): 1521534587628184964 27794
+E0320 17:29:47.655527 27794 img-client.cpp:300] END PRE Time(ns): 1521534587628605995 27794
+E0320 17:29:47.655535 27794 img-client.cpp:303] END BARRIER Time(ns): 1521534587628606164 27794
+E0320 17:29:47.655544 27794 img-client.cpp:307] END DATA Time(ns): 1521534587631149491 27794
+E0320 17:29:47.655550 27794 img-client.cpp:311] END SEND Time(ns): 1521534587631254931 27794
+E0320 17:29:47.655558 27794 img-client.cpp:314] END COM Time(ns): 1521534587655205032 27794
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:29:49.701351 27817 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:29:49.701624 27817 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:29:49.701722 27817 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:29:49.701797 27817 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:29:49.701877 27817 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:29:49.701951 27817 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:29:49.702024 27817 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:29:49.702096 27817 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:29:49.702168 27817 img-client.cpp:201] Reading input/dig/00046.png
+I0320 17:29:49.702242 27817 img-client.cpp:201] Reading input/dig/00057.png
+I0320 17:29:49.702313 27817 img-client.cpp:201] Reading input/dig/00074.png
+I0320 17:29:49.702383 27817 img-client.cpp:201] Reading input/dig/00089.png
+I0320 17:29:49.702456 27817 img-client.cpp:201] Reading input/dig/00094.png
+I0320 17:29:49.702533 27817 img-client.cpp:201] Reading input/dig/00096.png
+I0320 17:29:49.702607 27817 img-client.cpp:201] Reading input/dig/00107.png
+I0320 17:29:49.702678 27817 img-client.cpp:201] Reading input/dig/00135.png
+I0320 17:29:49.702747 27817 img-client.cpp:201] Reading input/dig/00137.png
+I0320 17:29:49.702824 27817 img-client.cpp:201] Reading input/dig/00143.png
+I0320 17:29:49.702901 27817 img-client.cpp:201] Reading input/dig/00145.png
+I0320 17:29:49.702986 27817 img-client.cpp:201] Reading input/dig/00154.png
+I0320 17:29:49.703076 27817 img-client.cpp:201] Reading input/dig/00168.png
+I0320 17:29:49.703151 27817 img-client.cpp:201] Reading input/dig/00176.png
+I0320 17:29:49.703222 27817 img-client.cpp:201] Reading input/dig/00178.png
+I0320 17:29:49.703294 27817 img-client.cpp:201] Reading input/dig/00180.png
+I0320 17:29:49.703366 27817 img-client.cpp:201] Reading input/dig/00189.png
+I0320 17:29:49.703440 27817 img-client.cpp:201] Reading input/dig/00190.png
+I0320 17:29:49.703513 27817 img-client.cpp:201] Reading input/dig/00191.png
+I0320 17:29:49.703583 27817 img-client.cpp:201] Reading input/dig/00196.png
+I0320 17:29:49.703651 27817 img-client.cpp:201] Reading input/dig/00202.png
+I0320 17:29:49.703723 27817 img-client.cpp:201] Reading input/dig/00203.png
+I0320 17:29:49.703794 27817 img-client.cpp:201] Reading input/dig/00204.png
+I0320 17:29:49.703862 27817 img-client.cpp:201] Reading input/dig/00224.png
+I0320 17:29:49.767396 27817 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:29:49.767443 27817 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:29:49.767454 27817 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:29:49.767472 27817 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:29:49.767478 27817 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:29:49.767484 27817 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:29:49.767491 27817 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:29:49.767498 27817 img-client.cpp:290] Image: input/dig/00040.png class: 1
+I0320 17:29:49.767503 27817 img-client.cpp:290] Image: input/dig/00046.png class: 1
+I0320 17:29:49.767509 27817 img-client.cpp:290] Image: input/dig/00057.png class: 8
+I0320 17:29:49.767516 27817 img-client.cpp:290] Image: input/dig/00074.png class: 1
+I0320 17:29:49.767523 27817 img-client.cpp:290] Image: input/dig/00089.png class: 6
+I0320 17:29:49.767529 27817 img-client.cpp:290] Image: input/dig/00094.png class: 1
+I0320 17:29:49.767534 27817 img-client.cpp:290] Image: input/dig/00096.png class: 1
+I0320 17:29:49.767540 27817 img-client.cpp:290] Image: input/dig/00107.png class: 8
+I0320 17:29:49.767546 27817 img-client.cpp:290] Image: input/dig/00135.png class: 1
+I0320 17:29:49.767552 27817 img-client.cpp:290] Image: input/dig/00137.png class: 1
+I0320 17:29:49.767560 27817 img-client.cpp:290] Image: input/dig/00143.png class: 1
+I0320 17:29:49.767565 27817 img-client.cpp:290] Image: input/dig/00145.png class: 1
+I0320 17:29:49.767571 27817 img-client.cpp:290] Image: input/dig/00154.png class: 1
+I0320 17:29:49.767577 27817 img-client.cpp:290] Image: input/dig/00168.png class: 1
+I0320 17:29:49.767583 27817 img-client.cpp:290] Image: input/dig/00176.png class: 1
+I0320 17:29:49.767590 27817 img-client.cpp:290] Image: input/dig/00178.png class: 1
+I0320 17:29:49.767596 27817 img-client.cpp:290] Image: input/dig/00180.png class: 1
+I0320 17:29:49.767602 27817 img-client.cpp:290] Image: input/dig/00189.png class: 1
+I0320 17:29:49.767608 27817 img-client.cpp:290] Image: input/dig/00190.png class: 1
+I0320 17:29:49.767614 27817 img-client.cpp:290] Image: input/dig/00191.png class: 1
+I0320 17:29:49.767621 27817 img-client.cpp:290] Image: input/dig/00196.png class: 1
+I0320 17:29:49.767627 27817 img-client.cpp:290] Image: input/dig/00202.png class: 0
+I0320 17:29:49.767633 27817 img-client.cpp:290] Image: input/dig/00203.png class: 1
+I0320 17:29:49.767639 27817 img-client.cpp:290] Image: input/dig/00204.png class: 8
+I0320 17:29:49.767645 27817 img-client.cpp:290] Image: input/dig/00224.png class: 3
+E0320 17:29:49.767663 27817 img-client.cpp:297] START Time(ns): 1521534589700854877 27817
+E0320 17:29:49.767675 27817 img-client.cpp:300] END PRE Time(ns): 1521534589701294000 27817
+E0320 17:29:49.767683 27817 img-client.cpp:303] END BARRIER Time(ns): 1521534589701294129 27817
+E0320 17:29:49.767690 27817 img-client.cpp:307] END DATA Time(ns): 1521534589704050739 27817
+E0320 17:29:49.767698 27817 img-client.cpp:311] END SEND Time(ns): 1521534589704120635 27817
+E0320 17:29:49.767704 27817 img-client.cpp:314] END COM Time(ns): 1521534589767358190 27817

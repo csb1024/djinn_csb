@@ -1,0 +1,319 @@
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:44:48 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 106011721
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 22.6198s: real-time factor assuming 100 frames/sec is 1.33529
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=23 threads=1
+# Ended (code 0) at Tue Jan 23 16:45:11 KST 2018, elapsed time 23 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:45:12 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 69558890
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 22.2554s: real-time factor assuming 100 frames/sec is 1.31378
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=22 threads=1
+# Ended (code 0) at Tue Jan 23 16:45:34 KST 2018, elapsed time 22 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:45:36 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 71907566
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 22.8282s: real-time factor assuming 100 frames/sec is 1.34759
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=22 threads=1
+# Ended (code 0) at Tue Jan 23 16:45:58 KST 2018, elapsed time 22 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:46:00 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 68475314
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 22.8328s: real-time factor assuming 100 frames/sec is 1.34786
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=23 threads=1
+# Ended (code 0) at Tue Jan 23 16:46:23 KST 2018, elapsed time 23 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:46:24 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 68325705
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 22.9377s: real-time factor assuming 100 frames/sec is 1.35406
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=23 threads=1
+# Ended (code 0) at Tue Jan 23 16:46:47 KST 2018, elapsed time 23 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:46:48 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 71564896
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 23.0841s: real-time factor assuming 100 frames/sec is 1.3627
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=23 threads=1
+# Ended (code 0) at Tue Jan 23 16:47:11 KST 2018, elapsed time 23 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:47:12 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 69460593
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 22.3199s: real-time factor assuming 100 frames/sec is 1.31758
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=23 threads=1
+# Ended (code 0) at Tue Jan 23 16:47:35 KST 2018, elapsed time 23 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:47:36 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 70688213
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 22.7046s: real-time factor assuming 100 frames/sec is 1.34029
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=23 threads=1
+# Ended (code 0) at Tue Jan 23 16:47:59 KST 2018, elapsed time 23 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:48:00 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 68337104
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 22.667s: real-time factor assuming 100 frames/sec is 1.33807
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=23 threads=1
+# Ended (code 0) at Tue Jan 23 16:48:23 KST 2018, elapsed time 23 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:48:24 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 70940924
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 23.0551s: real-time factor assuming 100 frames/sec is 1.36098
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=23 threads=1
+# Ended (code 0) at Tue Jan 23 16:48:47 KST 2018, elapsed time 23 seconds
+# nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel "ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |" ark:- | latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- "ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz" 
+# Started at Tue Jan 23 16:48:48 KST 2018
+#
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=18.0 --lattice-beam=10.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri3b//graph//words.txt exp/djinn_decode/final.mdl exp/tri3b//graph//HCLG.fst ark:- 'ark:|gzip -c > exp/djinn_decode//decode_local/lat.1.gz' 
+nnet-forward --djinn=true --hostname=localhost --portno=8080 --feature-transform=exp/djinn_decode/final.feature_transform --class-frame-counts=exp/djinn_decode/ali_train_pdf.counts --gpu=false --common=../../../../../common/ --network=asr.prototxt --weight=asr.caffemodel 'ark,s,cs:copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- |' ark:- 
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:39) Computing pdf-priors from : exp/djinn_decode/ali_train_pdf.counts
+copy-feats scp:exp/data-fmllr-tri3b/local/split1/1/feats.scp ark:- 
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0045, 548frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0046, 573frm
+LOG (nnet-forward:main():nnet-forward.cc:199) Processing utterance 1, DeepBlue-20121003-jmk-a0047, 573frm
+LOG (copy-feats:main():copy-feats.cc:106) Copied 3 feature matrices.
+LOG (nnet-forward:main():nnet-forward.cc:240) Use DjiNN service to inference.
+LOG (nnet-forward:main():nnet-forward.cc:245) DEBUG IS 0
+LOG (nnet-forward:main():nnet-forward.cc:270) Time(ns): 67283350
+
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0045 HE WILL BE WAY AS QUIETLY AS HE HAD COME 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0045 is 1.95069 over 548 frames.
+LOG (nnet-forward:main():nnet-forward.cc:327) Writing features to file
+DeepBlue-20121003-jmk-a0046 THE GIRL FACED HIM RIGHT SHINY WERE SO DO YOU 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0046 is 1.89948 over 573 frames.
+DeepBlue-20121003-jmk-a0047 CLOSED BEHIND HIM GLEAMED THE WHITE FANGS OF THE WOLF DOG 
+LOG (latgen-faster-mapped:DecodeUtteranceLatticeFaster():lattice-faster-decoder.cc:1183) Log-like per frame for utterance DeepBlue-20121003-jmk-a0047 is 1.85413 over 573 frames.
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:169) Time taken 22.8737s: real-time factor assuming 100 frames/sec is 1.35027
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:172) Done 3 utterances, failed for 0
+LOG (latgen-faster-mapped:main():latgen-faster-mapped.cc:174) Overall log-likelihood per frame is 1.9007 over 1694 frames.
+# Accounting: time=23 threads=1
+# Ended (code 0) at Tue Jan 23 16:49:11 KST 2018, elapsed time 23 seconds

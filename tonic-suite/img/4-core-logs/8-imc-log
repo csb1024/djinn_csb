@@ -1,0 +1,230 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:29.218502 23100 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:29.220944 23100 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:29.223146 23100 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:29.224885 23100 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:29.226404 23100 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:29.228189 23100 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:29.230425 23100 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:29.231946 23100 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:29.640645 23100 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:29.640715 23100 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:29.640724 23100 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:29.640732 23100 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:29.640738 23100 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:29.640743 23100 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:29.640750 23100 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:29.640756 23100 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:29.640780 23100 img-client.cpp:297] START Time(ns): 1521534329217959257 23100
+E0320 17:25:29.640795 23100 img-client.cpp:300] END PRE Time(ns): 1521534329218441368 23100
+E0320 17:25:29.640802 23100 img-client.cpp:303] END BARRIER Time(ns): 1521534329218441535 23100
+E0320 17:25:29.640808 23100 img-client.cpp:307] END DATA Time(ns): 1521534329239484827 23100
+E0320 17:25:29.640815 23100 img-client.cpp:311] END SEND Time(ns): 1521534329241488905 23100
+E0320 17:25:29.640821 23100 img-client.cpp:314] END COM Time(ns): 1521534329640603945 23100
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:31.222384 23124 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:31.224838 23124 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:31.227017 23124 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:31.228869 23124 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:31.230481 23124 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:31.232359 23124 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:31.234609 23124 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:31.236140 23124 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:31.677580 23124 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:31.677659 23124 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:31.677667 23124 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:31.677673 23124 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:31.677678 23124 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:31.677685 23124 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:31.677690 23124 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:31.677695 23124 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:31.677717 23124 img-client.cpp:297] START Time(ns): 1521534331221834152 23124
+E0320 17:25:31.677731 23124 img-client.cpp:300] END PRE Time(ns): 1521534331222320178 23124
+E0320 17:25:31.677737 23124 img-client.cpp:303] END BARRIER Time(ns): 1521534331222320327 23124
+E0320 17:25:31.677743 23124 img-client.cpp:307] END DATA Time(ns): 1521534331243674135 23124
+E0320 17:25:31.677748 23124 img-client.cpp:311] END SEND Time(ns): 1521534331245543965 23124
+E0320 17:25:31.677754 23124 img-client.cpp:314] END COM Time(ns): 1521534331677539983 23124
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:33.224529 23174 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:33.226986 23174 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:33.229159 23174 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:33.231037 23174 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:33.232583 23174 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:33.234360 23174 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:33.236603 23174 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:33.238122 23174 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:33.661206 23174 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:33.661280 23174 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:33.661288 23174 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:33.661293 23174 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:33.661299 23174 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:33.661304 23174 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:33.661310 23174 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:33.661315 23174 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:33.661337 23174 img-client.cpp:297] START Time(ns): 1521534333223986622 23174
+E0320 17:25:33.661351 23174 img-client.cpp:300] END PRE Time(ns): 1521534333224465526 23174
+E0320 17:25:33.661357 23174 img-client.cpp:303] END BARRIER Time(ns): 1521534333224465660 23174
+E0320 17:25:33.661362 23174 img-client.cpp:307] END DATA Time(ns): 1521534333245565917 23174
+E0320 17:25:33.661368 23174 img-client.cpp:311] END SEND Time(ns): 1521534333247753265 23174
+E0320 17:25:33.661373 23174 img-client.cpp:314] END COM Time(ns): 1521534333661165045 23174
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:35.226371 23198 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:35.228809 23198 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:35.230988 23198 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:35.232837 23198 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:35.234458 23198 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:35.236405 23198 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:35.238641 23198 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:35.240161 23198 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:35.658694 23198 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:35.658762 23198 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:35.658771 23198 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:35.658776 23198 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:35.658782 23198 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:35.658788 23198 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:35.658793 23198 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:35.658799 23198 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:35.658823 23198 img-client.cpp:297] START Time(ns): 1521534335225821879 23198
+E0320 17:25:35.658835 23198 img-client.cpp:300] END PRE Time(ns): 1521534335226308172 23198
+E0320 17:25:35.658843 23198 img-client.cpp:303] END BARRIER Time(ns): 1521534335226308308 23198
+E0320 17:25:35.658849 23198 img-client.cpp:307] END DATA Time(ns): 1521534335247885694 23198
+E0320 17:25:35.658854 23198 img-client.cpp:311] END SEND Time(ns): 1521534335249672787 23198
+E0320 17:25:35.658860 23198 img-client.cpp:314] END COM Time(ns): 1521534335658654254 23198
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:37.226976 23249 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:37.229429 23249 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:37.231601 23249 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:37.233463 23249 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:37.235121 23249 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:37.236928 23249 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:37.239167 23249 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:37.240680 23249 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:37.695595 23249 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:37.695662 23249 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:37.695670 23249 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:37.695677 23249 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:37.695683 23249 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:37.695688 23249 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:37.695693 23249 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:37.695699 23249 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:37.695720 23249 img-client.cpp:297] START Time(ns): 1521534337226454108 23249
+E0320 17:25:37.695734 23249 img-client.cpp:300] END PRE Time(ns): 1521534337226902798 23249
+E0320 17:25:37.695740 23249 img-client.cpp:303] END BARRIER Time(ns): 1521534337226902967 23249
+E0320 17:25:37.695746 23249 img-client.cpp:307] END DATA Time(ns): 1521534337248385334 23249
+E0320 17:25:37.695753 23249 img-client.cpp:311] END SEND Time(ns): 1521534337250388600 23249
+E0320 17:25:37.695758 23249 img-client.cpp:314] END COM Time(ns): 1521534337695560140 23249
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:39.228951 23272 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:39.231362 23272 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:39.233517 23272 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:39.235379 23272 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:39.236917 23272 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:39.238696 23272 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:39.240952 23272 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:39.242470 23272 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:39.655455 23272 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:39.655526 23272 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:39.655535 23272 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:39.655541 23272 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:39.655547 23272 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:39.655553 23272 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:39.655560 23272 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:39.655565 23272 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:39.655589 23272 img-client.cpp:297] START Time(ns): 1521534339228419307 23272
+E0320 17:25:39.655604 23272 img-client.cpp:300] END PRE Time(ns): 1521534339228889364 23272
+E0320 17:25:39.655611 23272 img-client.cpp:303] END BARRIER Time(ns): 1521534339228889510 23272
+E0320 17:25:39.655617 23272 img-client.cpp:307] END DATA Time(ns): 1521534339250063329 23272
+E0320 17:25:39.655623 23272 img-client.cpp:311] END SEND Time(ns): 1521534339252279339 23272
+E0320 17:25:39.655629 23272 img-client.cpp:314] END COM Time(ns): 1521534339655412336 23272
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:41.230859 23295 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:41.233265 23295 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:41.235435 23295 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:41.237277 23295 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:41.238907 23295 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:41.240762 23295 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:41.243003 23295 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:41.244518 23295 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:41.668104 23295 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:41.668176 23295 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:41.668185 23295 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:41.668191 23295 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:41.668197 23295 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:41.668203 23295 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:41.668210 23295 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:41.668215 23295 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:41.668237 23295 img-client.cpp:297] START Time(ns): 1521534341230319296 23295
+E0320 17:25:41.668251 23295 img-client.cpp:300] END PRE Time(ns): 1521534341230792370 23295
+E0320 17:25:41.668256 23295 img-client.cpp:303] END BARRIER Time(ns): 1521534341230792521 23295
+E0320 17:25:41.668262 23295 img-client.cpp:307] END DATA Time(ns): 1521534341252173695 23295
+E0320 17:25:41.668269 23295 img-client.cpp:311] END SEND Time(ns): 1521534341254106642 23295
+E0320 17:25:41.668274 23295 img-client.cpp:314] END COM Time(ns): 1521534341668069583 23295
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:43.235612 23350 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:43.238009 23350 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:43.240185 23350 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:43.242031 23350 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:43.243656 23350 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:43.245443 23350 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:43.247689 23350 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:43.249207 23350 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:43.669378 23350 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:43.669451 23350 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:43.669461 23350 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:43.669467 23350 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:43.669473 23350 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:43.669479 23350 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:43.669486 23350 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:43.669492 23350 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:43.669531 23350 img-client.cpp:297] START Time(ns): 1521534343235071018 23350
+E0320 17:25:43.669546 23350 img-client.cpp:300] END PRE Time(ns): 1521534343235548378 23350
+E0320 17:25:43.669553 23350 img-client.cpp:303] END BARRIER Time(ns): 1521534343235548547 23350
+E0320 17:25:43.669559 23350 img-client.cpp:307] END DATA Time(ns): 1521534343256871557 23350
+E0320 17:25:43.669566 23350 img-client.cpp:311] END SEND Time(ns): 1521534343258753556 23350
+E0320 17:25:43.669572 23350 img-client.cpp:314] END COM Time(ns): 1521534343669335043 23350
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:45.237983 23373 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:45.240427 23373 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:45.242619 23373 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:45.244431 23373 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:45.245944 23373 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:45.247742 23373 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:45.249991 23373 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:45.251550 23373 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:45.795518 23373 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:45.795598 23373 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:45.795608 23373 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:45.795614 23373 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:45.795619 23373 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:45.795624 23373 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:45.795630 23373 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:45.795636 23373 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:45.795660 23373 img-client.cpp:297] START Time(ns): 1521534345237451726 23373
+E0320 17:25:45.795675 23373 img-client.cpp:300] END PRE Time(ns): 1521534345237919942 23373
+E0320 17:25:45.795680 23373 img-client.cpp:303] END BARRIER Time(ns): 1521534345237920049 23373
+E0320 17:25:45.795686 23373 img-client.cpp:307] END DATA Time(ns): 1521534345259104601 23373
+E0320 17:25:45.795691 23373 img-client.cpp:311] END SEND Time(ns): 1521534345260991457 23373
+E0320 17:25:45.795697 23373 img-client.cpp:314] END COM Time(ns): 1521534345795472330 23373
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:25:47.243119 23423 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0320 17:25:47.245569 23423 img-client.cpp:201] Reading input/imc/dog-208-227.jpg
+I0320 17:25:47.247761 23423 img-client.cpp:201] Reading input/imc/test_100.jpg
+I0320 17:25:47.249625 23423 img-client.cpp:201] Reading input/imc/test_101.jpg
+I0320 17:25:47.251286 23423 img-client.cpp:201] Reading input/imc/test_102.jpg
+I0320 17:25:47.253064 23423 img-client.cpp:201] Reading input/imc/test_103.jpg
+I0320 17:25:47.255306 23423 img-client.cpp:201] Reading input/imc/test_104.jpg
+I0320 17:25:47.256816 23423 img-client.cpp:201] Reading input/imc/test_105.jpg
+I0320 17:25:47.669462 23423 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+I0320 17:25:47.669538 23423 img-client.cpp:290] Image: input/imc/dog-208-227.jpg class: 208
+I0320 17:25:47.669553 23423 img-client.cpp:290] Image: input/imc/test_100.jpg class: 86
+I0320 17:25:47.669559 23423 img-client.cpp:290] Image: input/imc/test_101.jpg class: 927
+I0320 17:25:47.669564 23423 img-client.cpp:290] Image: input/imc/test_102.jpg class: 480
+I0320 17:25:47.669569 23423 img-client.cpp:290] Image: input/imc/test_103.jpg class: 671
+I0320 17:25:47.669575 23423 img-client.cpp:290] Image: input/imc/test_104.jpg class: 254
+I0320 17:25:47.669580 23423 img-client.cpp:290] Image: input/imc/test_105.jpg class: 716
+E0320 17:25:47.669603 23423 img-client.cpp:297] START Time(ns): 1521534347242557788 23423
+E0320 17:25:47.669617 23423 img-client.cpp:300] END PRE Time(ns): 1521534347243055878 23423
+E0320 17:25:47.669623 23423 img-client.cpp:303] END BARRIER Time(ns): 1521534347243056015 23423
+E0320 17:25:47.669628 23423 img-client.cpp:307] END DATA Time(ns): 1521534347264535301 23423
+E0320 17:25:47.669634 23423 img-client.cpp:311] END SEND Time(ns): 1521534347266402612 23423
+E0320 17:25:47.669639 23423 img-client.cpp:314] END COM Time(ns): 1521534347669427252 23423

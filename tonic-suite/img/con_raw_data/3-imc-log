@@ -1,0 +1,21 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:12.411048 18740 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:12.411118 18740 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:12.505736 18740 img-client.cpp:271] PRE Time(ns): 1090687162 18740
+E0207 18:02:12.505761 18740 img-client.cpp:274] DATA Time(ns): 1723395 18740
+E0207 18:02:12.505766 18740 img-client.cpp:278] SEND Time(ns): 4912 18740
+E0207 18:02:12.505771 18740 img-client.cpp:282] COM Time(ns): 47704206 18740
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:12.615792 18744 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:12.615857 18744 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0207 18:02:12.661809 18742 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0207 18:02:12.661881 18742 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0207 18:02:12.727219 18744 img-client.cpp:271] PRE Time(ns): 1294367336 18744
+E0207 18:02:12.727248 18744 img-client.cpp:274] DATA Time(ns): 2279862 18744
+E0207 18:02:12.727254 18744 img-client.cpp:278] SEND Time(ns): 6797 18744
+E0207 18:02:12.727260 18744 img-client.cpp:282] COM Time(ns): 53483202 18744
+E0207 18:02:12.781850 18742 img-client.cpp:271] PRE Time(ns): 1355798093 18742
+E0207 18:02:12.781882 18742 img-client.cpp:274] DATA Time(ns): 2225742 18742
+E0207 18:02:12.781888 18742 img-client.cpp:278] SEND Time(ns): 6455 18742
+E0207 18:02:12.781894 18742 img-client.cpp:282] COM Time(ns): 55288913 18742

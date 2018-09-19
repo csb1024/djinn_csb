@@ -1,0 +1,11 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:28:43.308982 32291 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0515 15:28:43.309723 32291 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0515 15:28:43.368393 32291 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:28:43.436537 32291 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+E0515 15:28:43.436599 32291 img-client.cpp:297] START Time(ns): 1526365723308422103 32291
+E0515 15:28:43.436611 32291 img-client.cpp:300] END PRE Time(ns): 1526365723308857252 32291
+E0515 15:28:43.436619 32291 img-client.cpp:303] END BARRIER Time(ns): 1526365723308857415 32291
+E0515 15:28:43.436625 32291 img-client.cpp:307] END DATA Time(ns): 1526365723368171142 32291
+E0515 15:28:43.436631 32291 img-client.cpp:311] END SEND Time(ns): 1526365723368386585 32291
+E0515 15:28:43.436638 32291 img-client.cpp:314] END COM Time(ns): 1526365723436500813 32291

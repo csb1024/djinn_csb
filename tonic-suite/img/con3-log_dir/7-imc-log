@@ -1,0 +1,70 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:36:55.237020 10239 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:36:55.237071 10239 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:36:55.447063 10238 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:36:55.447131 10238 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:36:55.613986 10240 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:36:55.614058 10240 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:36:55.641140 10237 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:36:55.641211 10237 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:36:55.741897 10242 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:36:55.741951 10242 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:36:55.791499 10236 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:36:55.791561 10236 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+E0213 11:36:55.817737 10241 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+E0213 11:36:55.817808 10241 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0213 11:36:55.959559 10236 img-client.cpp:274] RANK: 0 10236
+E0213 11:36:55.959635 10236 img-client.cpp:284] START Time(ns): 1518489414006342355 10236
+E0213 11:36:55.959640 10236 img-client.cpp:287] END PRE Time(ns): 1518489415850499711 10236
+E0213 11:36:55.959645 10236 img-client.cpp:290] END BARRIER Time(ns): 1518489415869723232 10236
+E0213 11:36:55.959650 10236 img-client.cpp:294] END DATA Time(ns): 1518489415871869926 10236
+E0213 11:36:55.959655 10236 img-client.cpp:298] END SEND Time(ns): 1518489415871876114 10236
+E0213 11:36:55.959658 10236 img-client.cpp:301] END COM Time(ns): 1518489415959544613 10236
+E0213 11:36:55.967126 10237 img-client.cpp:274] RANK: 1 10237
+E0213 11:36:55.967191 10237 img-client.cpp:284] START Time(ns): 1518489414006341442 10237
+E0213 11:36:55.967198 10237 img-client.cpp:287] END PRE Time(ns): 1518489415697502980 10237
+E0213 11:36:55.967205 10237 img-client.cpp:290] END BARRIER Time(ns): 1518489415869688588 10237
+E0213 11:36:55.967211 10237 img-client.cpp:294] END DATA Time(ns): 1518489415901455041 10237
+E0213 11:36:55.967216 10237 img-client.cpp:298] END SEND Time(ns): 1518489415901463348 10237
+E0213 11:36:55.967221 10237 img-client.cpp:301] END COM Time(ns): 1518489415967114232 10237
+E0213 11:36:56.003165 10238 img-client.cpp:274] RANK: 2 10238
+E0213 11:36:56.003258 10238 img-client.cpp:284] START Time(ns): 1518489414006343275 10238
+E0213 11:36:56.003268 10238 img-client.cpp:287] END PRE Time(ns): 1518489415495057241 10238
+E0213 11:36:56.003273 10238 img-client.cpp:290] END BARRIER Time(ns): 1518489415869723970 10238
+E0213 11:36:56.003279 10238 img-client.cpp:294] END DATA Time(ns): 1518489415932013767 10238
+E0213 11:36:56.003286 10238 img-client.cpp:298] END SEND Time(ns): 1518489415932023537 10238
+E0213 11:36:56.003293 10238 img-client.cpp:301] END COM Time(ns): 1518489416003121493 10238
+E0213 11:36:56.031271 10239 img-client.cpp:274] RANK: 3 10239
+E0213 11:36:56.031347 10239 img-client.cpp:284] START Time(ns): 1518489414006414628 10239
+E0213 11:36:56.031355 10239 img-client.cpp:287] END PRE Time(ns): 1518489415288934653 10239
+E0213 11:36:56.031361 10239 img-client.cpp:290] END BARRIER Time(ns): 1518489415869694274 10239
+E0213 11:36:56.031368 10239 img-client.cpp:294] END DATA Time(ns): 1518489415961556238 10239
+E0213 11:36:56.031373 10239 img-client.cpp:298] END SEND Time(ns): 1518489415961566235 10239
+E0213 11:36:56.031379 10239 img-client.cpp:301] END COM Time(ns): 1518489416031256993 10239
+E0213 11:36:56.063889 10240 img-client.cpp:274] RANK: 4 10240
+E0213 11:36:56.063969 10240 img-client.cpp:284] START Time(ns): 1518489414006387028 10240
+E0213 11:36:56.063978 10240 img-client.cpp:287] END PRE Time(ns): 1518489415667553715 10240
+E0213 11:36:56.063984 10240 img-client.cpp:290] END BARRIER Time(ns): 1518489415869737299 10240
+E0213 11:36:56.063992 10240 img-client.cpp:294] END DATA Time(ns): 1518489415991951400 10240
+E0213 11:36:56.063997 10240 img-client.cpp:298] END SEND Time(ns): 1518489415991961120 10240
+E0213 11:36:56.064004 10240 img-client.cpp:301] END COM Time(ns): 1518489416063872861 10240
+E0213 11:36:56.091524 10241 img-client.cpp:274] RANK: 5 10241
+E0213 11:36:56.091605 10241 img-client.cpp:284] START Time(ns): 1518489414006341568 10241
+E0213 11:36:56.091614 10241 img-client.cpp:287] END PRE Time(ns): 1518489415869574118 10241
+E0213 11:36:56.091620 10241 img-client.cpp:290] END BARRIER Time(ns): 1518489415869707385 10241
+E0213 11:36:56.091626 10241 img-client.cpp:294] END DATA Time(ns): 1518489416021520129 10241
+E0213 11:36:56.091634 10241 img-client.cpp:298] END SEND Time(ns): 1518489416021528308 10241
+E0213 11:36:56.091639 10241 img-client.cpp:301] END COM Time(ns): 1518489416091509873 10241
+E0213 11:36:56.110448 10242 img-client.cpp:274] RANK: 6 10242
+E0213 11:36:56.110507 10242 img-client.cpp:284] START Time(ns): 1518489414006349535 10242
+E0213 11:36:56.110512 10242 img-client.cpp:287] END PRE Time(ns): 1518489415795609499 10242
+E0213 11:36:56.110515 10242 img-client.cpp:290] END BARRIER Time(ns): 1518489415869681694 10242
+E0213 11:36:56.110518 10242 img-client.cpp:294] END DATA Time(ns): 1518489416052019113 10242
+E0213 11:36:56.110522 10242 img-client.cpp:298] END SEND Time(ns): 1518489416052027152 10242
+E0213 11:36:56.110525 10242 img-client.cpp:301] END COM Time(ns): 1518489416110436489 10242

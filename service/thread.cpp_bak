@@ -1,0 +1,432 @@
+/*
+ *  Copyright (c) 2015, University of Michigan.
+ *  All rights reserved.
+ *
+ *  This source code is licensed under the BSD-style license found in the
+ *  LICENSE file in the root directory of this source tree. An additional grant
+ *  of patent rights can be found in the PATENTS file in the same directory.
+ *
+ */
+
+/**
+ * @author: Johann Hauswald, Yiping Kang
+ * @contact: jahausw@umich.edu, ypkang@umich.edu
+ */
+#include <fstream>
+#include <sstream>
+#include <iostream>
+#include <assert.h>
+#include <stdint.h>
+#include <ctime>
+#include <cmath>
+#include <glog/logging.h>
+#include <boost/chrono/thread_clock.hpp>
+#include <cstring>
+#include "timer.h"
+#include "thread.h"
+#include "ts_queue.h"
+#include "request.h"
+#include "batched_request.h"
+
+extern vector<map<string, Net<float>*>> nets;
+extern TSQueue<request> rqueue;
+extern TSQueue<batched_request> brqueue;
+extern map<string, bool> batch_table;
+extern bool debug;
+extern bool gpu;
+extern unsigned int task_id;
+extern string net_list;
+extern string common;
+extern string weight_dir;
+extern int gpu_turn;
+
+
+//// request handler ////
+/// producer ////
+
+void* request_handler(void* sock){
+ int socknum = (intptr_t)sock;
+ char net_name[MAX_REQ_SIZE]; 
+ int local_debug = 1;    
+
+//used for very simple schedulers
+
+
+
+//receive request 
+SOCKET_receive(socknum, (char*)&net_name, MAX_REQ_SIZE, local_debug); 
+
+//need to check valid request name
+  map<string, Net<float>*>::iterator it = nets[0].find(net_name);
+  if (it == nets[0].end()) {
+   LOG(ERROR) << "Task " << net_name << " not found.";
+    return (void*)1;
+  } else
+    LOG(INFO) << "Task " << net_name << " forward pass.";
+
+//receive batch size
+int batch_size = SOCKET_rxsize(socknum); 
+
+//receive data length : number of data x data size
+int data_len = SOCKET_rxsize(socknum);
+
+
+//receive data, but first allocate some memory
+float *in_data = (float *)malloc(data_len * sizeof(float));
+ while (1) {   
+   int rcvd = SOCKET_receive(socknum, (char *)in_data,data_len * sizeof(float) ,debug);
+  if (rcvd == 0) break;  // Client closed the socket    
+}
+//make a request and push it to the queue
+request *tempRequest = new request(task_id, socknum, batch_size, data_len/batch_size);
+
+tempRequest->setState(QUEUED);
+tempRequest->setReqName(net_name);
+//update the batch table
+if( ! batch_table[net_name]) 
+	batch_table[net_name] = true;
+tempRequest->_input.assign(in_data,in_data+data_len);
+rqueue.pushBack(*tempRequest);
+}
+
+pthread_t request_thread_init(int sock){
+  pthread_attr_t attr;
+  pthread_attr_init(&attr);
+  pthread_attr_setstacksize(&attr, 1024 * 1024); // set memory size, may need to adjust in the future, for now set it to 1MB
+  pthread_t tid;
+  if (pthread_create(&tid, &attr, request_handler, (void *)(intptr_t)sock) != 0)
+    LOG(ERROR) << "Failed to create a request handler thread.\n";
+  return tid;
+
+}
+
+
+
+
+//// check queue and call exeuction handler for batch request ////
+/// 
+
+void* batch_handler(void *args){
+
+  int bmax=(intptr_t)args;
+  while (1){
+   if (!rqueue.getLength()) continue; // skip if queue is enpty 
+  
+   //the following needs to be implemented in an eager batching manner
+   int rqlen = rqueue.getLength(); 
+
+   //check for existing requests, may need to update code for different size of inputs of same service
+   for (map<string, bool>::iterator it = batch_table.begin(); it != batch_table.end(); it++){
+	if (it->second){
+		// check whether there is a batched request for the request 			
+#ifdef DEBUG
+	//	printf("need to make batch request for %s \n", it->first.c_str());
+#endif		
+		bool isFound = false;
+                int bqlen = brqueue.getLength();
+                for(int j=0; j<bqlen; j++)
+			if ( !(strcmp(brqueue.at(j)->getReqName(), it->first.c_str()))) isFound = true;
+		
+		// if not then make a new empty batched request
+		if (! isFound){
+#ifdef DEBUG
+		printf("make new batched request for %s \n", it->first.c_str());
+#endif		
+
+			batched_request *btemp = new batched_request();
+			btemp->	setReqName(it->first.c_str());
+			btemp->setState(QUEUED);
+			brqueue.pushBack(*btemp);			
+#ifdef DEBUG
+printf("inserted new batched_reqeust\n");
+#endif
+		}
+		// find batched request if there is one and add the data to it		    
+		for(int j=0; j<bqlen; j++){
+			if ( !(strcmp(brqueue.at(j)->getReqName(), it->first.c_str()))){
+				int i =0; 
+				while (i<rqueue.getLength()){ // look for queued requests
+					if (!(strcmp(rqueue.at(i)->getReqName(), it->first.c_str()) ) && rqueue.at(i)->getState() == QUEUED ){//found ya!
+					
+#ifdef DEBUG
+printf("found request! now batching task id : %d \n",rqueue.at(i)->getTaskID());
+#endif				
+						printf("BEFORE %d\n",rqueue.at(i)->getState());
+						rqueue.at(i)->setState(BATCHED);
+						printf("AFTER %d\n",rqueue.at(i)->getState());
+
+						brqueue.at(j)->addRequestInfo(*rqueue.at(i));					
+						//remove element from request queue since it has been batched , not TS because the only thread calling this will be this single thread 	
+		//SCHEDUELR
+   		//schedule and set gpuid for batched task
+		//for now just set it as the first GPU
+   			brqueue.at(j)->setGPUID((gpu_turn%4));
+			gpu_turn++;
+		//SCHEDULER					
+ 					}			
+					i++;							
+					}// search rqueue
+					break;					
+					} // if request has been found in bqueue 
+															
+				}//search bqueue for the request
+			}// if there are requests
+				
+		}// iterate among existing request and find which one was requested	
+
+
+	}// infinite loop			
+
+} //batch handler function
+   
+
+
+pthread_t batching_thread_init(){
+  int batch_max = BATCH_MAX;
+  pthread_attr_t attr;
+  pthread_attr_init(&attr);
+  pthread_attr_setstacksize(&attr, 1024 * 1024); // set memory size, may need to adjust in the future for now set to max * 1MB
+
+//init batch index table
+   for (map<string, bool>::iterator it = batch_table.begin(); it != batch_table.end(); it++)
+	it->second = false;
+  gpu_turn=0;
+  pthread_t tid;
+  if (pthread_create(&tid, &attr, batch_handler, (void *)(intptr_t)batch_max) != 0)
+    LOG(ERROR) << "Failed to create a request handler thread.\n";
+  return tid;
+
+/*call sceduling code here and make thread allocate  a  server for request*/
+
+}
+
+//// batch execution handler ////
+/// producer and consumer ///
+
+void SERVICE_fwd(float* in, int in_size, float* out, int out_size,
+                 Net<float>* net) {
+  string net_name = net->name();
+  STATS_INIT("service", "DjiNN service inference");
+  PRINT_STAT_STRING("network", net_name.c_str());
+   if (Caffe::mode() == Caffe::CPU)
+    PRINT_STAT_STRING("platform", "cpu");
+  else
+    PRINT_STAT_STRING("platform", "gpu");
+
+  float loss;
+  vector<Blob<float>*> in_blobs = net->input_blobs();
+
+  tic();
+  in_blobs[0]->set_cpu_data(in);
+  vector<Blob<float>*> out_blobs = net->ForwardPrefilled(&loss);
+  memcpy(out, out_blobs[0]->cpu_data(), sizeof(float));
+  PRINT_STAT_INT("task id", task_id);
+  PRINT_STAT_DOUBLE("inference latency", toc());
+
+
+
+  STATS_END();
+
+  if (out_size != out_blobs[0]->count())
+    LOG(FATAL) << "out_size =! out_blobs[0]->count())";
+  else
+    memcpy(out, out_blobs[0]->cpu_data(), out_size * sizeof(float));
+}
+
+
+pthread_t execution_thread_init(arg_struct *args) {
+  // Prepare to create a new pthread
+  pthread_attr_t attr;
+  pthread_attr_init(&attr);
+  pthread_attr_setstacksize(&attr, 1024 * 1024);
+  
+   // Create a new thread starting with the function execution_handler
+  pthread_t tid;
+  if (pthread_create(&tid, &attr, execution_handler, (void *)args) != 0)
+    LOG(ERROR) << "Failed to create a request handler thread.\n";
+
+  return tid;
+}
+
+void* execution_handler(void* args) {
+  arg_struct *input_info = (arg_struct *)args;
+  int gpu_id = input_info->gpu_id;
+  char req_name[MAX_REQ_SIZE];
+  strcpy(req_name, input_info->req_name);
+
+  uint64_t start,end;
+  LOG(ERROR) <<"gpu_id : "<<gpu_id<<endl;
+  
+  Caffe::SetDevice(gpu_id);
+  // 1. Client sends the application type
+  // 2. Client sends the size of incoming data
+  // 3. Client sends data
+  map<string, Net<float>*>::iterator it = nets[0].find(req_name);
+  if (it == nets[0].end()) {
+    LOG(ERROR) << "Task " << req_name << " not found.";
+    return (void*)1;
+  } else
+    LOG(INFO) << "Task " << req_name << " forward pass.";
+
+  // receive the input data length (in float)
+  int sock_elts = input_info->datalen;
+  if (sock_elts < 0) {
+    LOG(ERROR) << "Error num incoming elts.";
+    return (void*)1;
+  }
+
+  // reshape input dims if incoming data != current net config
+  LOG(INFO) << "Elements received for processing " << sock_elts << endl;
+
+  reshape(nets[gpu_id][req_name], sock_elts);
+
+  int in_elts = nets[gpu_id][req_name]->input_blobs()[0]->count();
+  int out_elts = nets[gpu_id][req_name]->output_blobs()[0]->count();
+  float* in = (float*)malloc(in_elts * sizeof(float));
+  float* out = (float*)malloc(out_elts * sizeof(float));
+
+  // Main loop of the thread, following this order
+  // 1. Receive input feature (has to be in the size of sock_elts)
+  // 2. Do forward pass
+  // 3. Send back the result
+  // 4. Repeat 1-3
+
+  // Warmup: used to move the network to the device for the first time
+  // In all subsequent forward passes, the trained model resides on the
+  // device (GPU)
+  bool warmup = true;
+
+//  while (1) {
+//    LOG(INFO) << "Reading from socket.";
+//    int rcvd =
+//        SOCKET_receive(socknum, (char*)in, in_elts * sizeof(float), debug);
+
+  //  if (rcvd == 0) break;  // Client closed the socket
+
+    if (warmup && gpu) {
+      float loss;
+      vector<Blob<float>*> in_blobs = nets[gpu_id][req_name]->input_blobs();
+      in_blobs[0]->set_cpu_data(input_info->in_data);
+      vector<Blob<float>*> out_blobs;
+      out_blobs = nets[gpu_id][req_name]->ForwardPrefilled(&loss);
+      warmup = false;
+    }
+
+  //  LOG(INFO) << "Executing forward pass.";
+  //  SERVICE_fwd(in, in_elts, out, out_elts, nets[req_name]);
+
+  //  LOG(INFO) << "Writing to socket.";
+  //  SOCKET_send(socknum, (char*)out, out_elts * sizeof(float), debug);
+
+ // }
+
+  // Exit the thread
+  LOG(INFO) << "Socket closed by the client.";
+
+  free(in);
+  free(out);
+//  close(socknum);
+  pthread_exit(NULL);
+  return (void*)0;
+}
+
+pthread_t server_thread_init(int gpu_id){
+  pthread_attr_t attr;
+  pthread_attr_init(&attr);
+  pthread_attr_setstacksize(&attr, 8*1024 * 1024); // set memory size, may need to adjust in the future, for now set it to 1MB
+  pthread_t tid;
+  if (pthread_create(&tid, &attr, server_init, (void *)(intptr_t)gpu_id) != 0)
+    LOG(ERROR) << "Failed to create a request handler thread.\n";
+  return tid;
+}
+
+void* server_init(void*  gpu_id){
+
+int gpu = (intptr_t)gpu_id;
+map<string, Net<float>*> tlnets;
+  if (gpu){
+    Caffe::SetDevice(gpu);
+    Caffe::set_mode(Caffe::GPU);
+     cout << "preloading in GPU "<< gpu<<endl;
+  }
+  else
+    Caffe::set_mode(Caffe::CPU);
+  Caffe::set_phase(Caffe::TEST);
+
+ ifstream file(net_list.c_str());
+ string net_name;
+
+while (file >> net_name){
+cout << "loading model " << net_name << " for gpu " << gpu <<endl;
+string net = common + "/configs/" + net_name;
+Net<float>* temp = new Net<float>(net);
+const std::string name = temp->name();
+tlnets[name] = temp;
+    std::string weights = common +
+                          weight_dir + name + ".caffemodel";
+    tlnets[name]->CopyTrainedLayersFrom(weights);
+    batch_table[name]=false;
+   cout << "preloaded "<<name<<endl;
+}
+
+nets.push_back(tlnets);
+//initiate execution thread
+while (1){
+// checking batch queue within loop
+if (brqueue.isEmpty()) {
+
+continue;
+}
+
+int i=0; 
+while ( i < brqueue.getLength()){
+#ifdef DEBUG
+   printf("batched task found for gpu %d and state is %d \n",brqueue.at(i)->getGPUID(), brqueue.at(i)->getState());
+#endif 
+	if (brqueue.at(i)->getGPUID() == gpu && brqueue.at(i)->getState() == QUEUED){
+#ifdef DEBUG
+		printf("found %s as batched request from gpu %d \n",brqueue.at(i)->getReqName(), gpu);
+#endif 
+		brqueue.at(i)->setState(RUNNING);
+		//store essential data for execution, and pop the queue
+		arg_struct *args = (arg_struct *)malloc(sizeof(arg_struct));	
+		args->datalen=brqueue.at(i)->getInputSize() * brqueue.at(i)->getBatchNum();
+		args->gpu_id = brqueue.at(i)->getGPUID();
+		args->req_name=brqueue.at(i)->getReqName();
+		args->in_data=brqueue.at(i)->b_input.data();
+
+		
+		execution_thread_init(args);
+			
+	}	
+	i++;
+}
+
+
+
+sleep(3);
+} // infinite loop
+
+}
+
+
+//the cleaners, 
+
+pthread_t clear_thread_init(){
+  pthread_attr_t attr;
+  pthread_attr_init(&attr);
+  pthread_attr_setstacksize(&attr, 1024 * 1024); // set memory size, may need to adjust in the future, for now set it to 1MB
+  pthread_t tid;
+  if (pthread_create(&tid, &attr, clear_handler, NULL) != 0)
+    LOG(ERROR) << "Failed to create a request handler thread.\n";
+  return tid;
+
+
+}
+
+void *clear_handler(){
+	//check 
+
+
+
+}

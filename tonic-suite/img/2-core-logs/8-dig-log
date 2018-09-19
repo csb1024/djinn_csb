@@ -1,0 +1,230 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:22:50.622488 20432 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:22:50.622776 20432 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:22:50.622871 20432 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:22:50.622954 20432 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:22:50.623035 20432 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:22:50.623107 20432 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:22:50.623178 20432 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:22:50.623255 20432 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:22:50.657768 20432 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:22:50.657835 20432 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:22:50.657847 20432 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:22:50.657855 20432 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:22:50.657865 20432 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:22:50.657872 20432 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:22:50.657881 20432 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:22:50.657888 20432 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:22:50.657908 20432 img-client.cpp:297] START Time(ns): 1521534170621984427 20432
+E0320 17:22:50.657924 20432 img-client.cpp:300] END PRE Time(ns): 1521534170622431701 20432
+E0320 17:22:50.657934 20432 img-client.cpp:303] END BARRIER Time(ns): 1521534170622431894 20432
+E0320 17:22:50.657943 20432 img-client.cpp:307] END DATA Time(ns): 1521534170623357040 20432
+E0320 17:22:50.657951 20432 img-client.cpp:311] END SEND Time(ns): 1521534170623403537 20432
+E0320 17:22:50.657960 20432 img-client.cpp:314] END COM Time(ns): 1521534170657729724 20432
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:22:52.706269 20482 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:22:52.706552 20482 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:22:52.706645 20482 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:22:52.706717 20482 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:22:52.706792 20482 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:22:52.706864 20482 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:22:52.706935 20482 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:22:52.707026 20482 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:22:52.739915 20482 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:22:52.739976 20482 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:22:52.739989 20482 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:22:52.740000 20482 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:22:52.740008 20482 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:22:52.740017 20482 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:22:52.740026 20482 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:22:52.740036 20482 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:22:52.740058 20482 img-client.cpp:297] START Time(ns): 1521534172705756223 20482
+E0320 17:22:52.740077 20482 img-client.cpp:300] END PRE Time(ns): 1521534172706209890 20482
+E0320 17:22:52.740087 20482 img-client.cpp:303] END BARRIER Time(ns): 1521534172706210046 20482
+E0320 17:22:52.740097 20482 img-client.cpp:307] END DATA Time(ns): 1521534172707128446 20482
+E0320 17:22:52.740108 20482 img-client.cpp:311] END SEND Time(ns): 1521534172707185409 20482
+E0320 17:22:52.740118 20482 img-client.cpp:314] END COM Time(ns): 1521534172739878998 20482
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:22:54.785764 20505 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:22:54.786028 20505 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:22:54.786120 20505 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:22:54.786188 20505 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:22:54.786276 20505 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:22:54.786347 20505 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:22:54.786414 20505 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:22:54.786480 20505 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:22:54.807690 20505 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:22:54.807745 20505 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:22:54.807757 20505 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:22:54.807765 20505 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:22:54.807771 20505 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:22:54.807778 20505 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:22:54.807785 20505 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:22:54.807792 20505 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:22:54.807811 20505 img-client.cpp:297] START Time(ns): 1521534174785274065 20505
+E0320 17:22:54.807827 20505 img-client.cpp:300] END PRE Time(ns): 1521534174785705802 20505
+E0320 17:22:54.807835 20505 img-client.cpp:303] END BARRIER Time(ns): 1521534174785705967 20505
+E0320 17:22:54.807843 20505 img-client.cpp:307] END DATA Time(ns): 1521534174786577670 20505
+E0320 17:22:54.807852 20505 img-client.cpp:311] END SEND Time(ns): 1521534174786628273 20505
+E0320 17:22:54.807859 20505 img-client.cpp:314] END COM Time(ns): 1521534174807657560 20505
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:22:56.853505 20555 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:22:56.853786 20555 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:22:56.853878 20555 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:22:56.853946 20555 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:22:56.854017 20555 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:22:56.854084 20555 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:22:56.854154 20555 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:22:56.854221 20555 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:22:56.885398 20555 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:22:56.885460 20555 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:22:56.885471 20555 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:22:56.885479 20555 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:22:56.885488 20555 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:22:56.885494 20555 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:22:56.885502 20555 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:22:56.885509 20555 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:22:56.885529 20555 img-client.cpp:297] START Time(ns): 1521534176853001304 20555
+E0320 17:22:56.885545 20555 img-client.cpp:300] END PRE Time(ns): 1521534176853445153 20555
+E0320 17:22:56.885555 20555 img-client.cpp:303] END BARRIER Time(ns): 1521534176853445296 20555
+E0320 17:22:56.885563 20555 img-client.cpp:307] END DATA Time(ns): 1521534176854320467 20555
+E0320 17:22:56.885571 20555 img-client.cpp:311] END SEND Time(ns): 1521534176854370332 20555
+E0320 17:22:56.885581 20555 img-client.cpp:314] END COM Time(ns): 1521534176885363986 20555
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:22:58.932652 20578 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:22:58.932945 20578 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:22:58.933040 20578 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:22:58.933109 20578 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:22:58.933184 20578 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:22:58.933254 20578 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:22:58.933326 20578 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:22:58.933410 20578 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:22:59.024507 20578 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:22:59.024551 20578 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:22:59.024561 20578 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:22:59.024569 20578 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:22:59.024575 20578 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:22:59.024582 20578 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:22:59.024590 20578 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:22:59.024596 20578 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:22:59.024615 20578 img-client.cpp:297] START Time(ns): 1521534178932139281 20578
+E0320 17:22:59.024627 20578 img-client.cpp:300] END PRE Time(ns): 1521534178932590470 20578
+E0320 17:22:59.024634 20578 img-client.cpp:303] END BARRIER Time(ns): 1521534178932590676 20578
+E0320 17:22:59.024641 20578 img-client.cpp:307] END DATA Time(ns): 1521534178933511633 20578
+E0320 17:22:59.024648 20578 img-client.cpp:311] END SEND Time(ns): 1521534178933561070 20578
+E0320 17:22:59.024655 20578 img-client.cpp:314] END COM Time(ns): 1521534179024479781 20578
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:23:01.070046 20603 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:23:01.070325 20603 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:23:01.070421 20603 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:23:01.070493 20603 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:23:01.070569 20603 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:23:01.070639 20603 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:23:01.070708 20603 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:23:01.070780 20603 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:23:01.174576 20603 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:23:01.174616 20603 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:23:01.174624 20603 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:23:01.174629 20603 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:23:01.174635 20603 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:23:01.174640 20603 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:23:01.174645 20603 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:23:01.174651 20603 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:23:01.174665 20603 img-client.cpp:297] START Time(ns): 1521534181069541152 20603
+E0320 17:23:01.174676 20603 img-client.cpp:300] END PRE Time(ns): 1521534181069986744 20603
+E0320 17:23:01.174682 20603 img-client.cpp:303] END BARRIER Time(ns): 1521534181069986849 20603
+E0320 17:23:01.174688 20603 img-client.cpp:307] END DATA Time(ns): 1521534181070881683 20603
+E0320 17:23:01.174695 20603 img-client.cpp:311] END SEND Time(ns): 1521534181070931814 20603
+E0320 17:23:01.174700 20603 img-client.cpp:314] END COM Time(ns): 1521534181174552303 20603
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:23:03.219604 20653 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:23:03.219889 20653 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:23:03.219982 20653 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:23:03.220052 20653 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:23:03.220126 20653 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:23:03.220194 20653 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:23:03.220261 20653 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:23:03.220329 20653 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:23:03.285001 20653 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:23:03.285055 20653 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:23:03.285065 20653 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:23:03.285081 20653 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:23:03.285089 20653 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:23:03.285095 20653 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:23:03.285101 20653 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:23:03.285109 20653 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:23:03.285125 20653 img-client.cpp:297] START Time(ns): 1521534183219100175 20653
+E0320 17:23:03.285140 20653 img-client.cpp:300] END PRE Time(ns): 1521534183219545389 20653
+E0320 17:23:03.285147 20653 img-client.cpp:303] END BARRIER Time(ns): 1521534183219545494 20653
+E0320 17:23:03.285154 20653 img-client.cpp:307] END DATA Time(ns): 1521534183220424617 20653
+E0320 17:23:03.285161 20653 img-client.cpp:311] END SEND Time(ns): 1521534183220473941 20653
+E0320 17:23:03.285168 20653 img-client.cpp:314] END COM Time(ns): 1521534183284965565 20653
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:23:05.332068 20728 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:23:05.332362 20728 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:23:05.332454 20728 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:23:05.332522 20728 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:23:05.332595 20728 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:23:05.332662 20728 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:23:05.332729 20728 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:23:05.332794 20728 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:23:05.391399 20728 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:23:05.391458 20728 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:23:05.391468 20728 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:23:05.391475 20728 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:23:05.391482 20728 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:23:05.391489 20728 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:23:05.391497 20728 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:23:05.391505 20728 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:23:05.391525 20728 img-client.cpp:297] START Time(ns): 1521534185331567490 20728
+E0320 17:23:05.391539 20728 img-client.cpp:300] END PRE Time(ns): 1521534185332007171 20728
+E0320 17:23:05.391548 20728 img-client.cpp:303] END BARRIER Time(ns): 1521534185332007333 20728
+E0320 17:23:05.391557 20728 img-client.cpp:307] END DATA Time(ns): 1521534185332892351 20728
+E0320 17:23:05.391566 20728 img-client.cpp:311] END SEND Time(ns): 1521534185332941796 20728
+E0320 17:23:05.391574 20728 img-client.cpp:314] END COM Time(ns): 1521534185391363731 20728
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:23:07.439398 20778 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:23:07.439699 20778 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:23:07.439792 20778 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:23:07.439862 20778 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:23:07.439934 20778 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:23:07.440001 20778 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:23:07.440068 20778 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:23:07.440135 20778 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:23:07.478356 20778 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:23:07.478413 20778 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:23:07.478425 20778 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:23:07.478435 20778 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:23:07.478442 20778 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:23:07.478449 20778 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:23:07.478469 20778 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:23:07.478478 20778 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:23:07.478499 20778 img-client.cpp:297] START Time(ns): 1521534187438873242 20778
+E0320 17:23:07.478516 20778 img-client.cpp:300] END PRE Time(ns): 1521534187439333614 20778
+E0320 17:23:07.478525 20778 img-client.cpp:303] END BARRIER Time(ns): 1521534187439333747 20778
+E0320 17:23:07.478534 20778 img-client.cpp:307] END DATA Time(ns): 1521534187440231855 20778
+E0320 17:23:07.478543 20778 img-client.cpp:311] END SEND Time(ns): 1521534187440280144 20778
+E0320 17:23:07.478551 20778 img-client.cpp:314] END COM Time(ns): 1521534187478324142 20778
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:23:09.523210 20803 img-client.cpp:201] Reading input/dig/00002.png
+I0320 17:23:09.523474 20803 img-client.cpp:201] Reading input/dig/00005.png
+I0320 17:23:09.523566 20803 img-client.cpp:201] Reading input/dig/00014.png
+I0320 17:23:09.523633 20803 img-client.cpp:201] Reading input/dig/00029.png
+I0320 17:23:09.523705 20803 img-client.cpp:201] Reading input/dig/00031.png
+I0320 17:23:09.523774 20803 img-client.cpp:201] Reading input/dig/00037.png
+I0320 17:23:09.523840 20803 img-client.cpp:201] Reading input/dig/00039.png
+I0320 17:23:09.523907 20803 img-client.cpp:201] Reading input/dig/00040.png
+I0320 17:23:09.605726 20803 img-client.cpp:290] Image: input/dig/00002.png class: 8
+I0320 17:23:09.605770 20803 img-client.cpp:290] Image: input/dig/00005.png class: 8
+I0320 17:23:09.605780 20803 img-client.cpp:290] Image: input/dig/00014.png class: 1
+I0320 17:23:09.605787 20803 img-client.cpp:290] Image: input/dig/00029.png class: 1
+I0320 17:23:09.605792 20803 img-client.cpp:290] Image: input/dig/00031.png class: 1
+I0320 17:23:09.605798 20803 img-client.cpp:290] Image: input/dig/00037.png class: 1
+I0320 17:23:09.605803 20803 img-client.cpp:290] Image: input/dig/00039.png class: 1
+I0320 17:23:09.605809 20803 img-client.cpp:290] Image: input/dig/00040.png class: 1
+E0320 17:23:09.605825 20803 img-client.cpp:297] START Time(ns): 1521534189522681524 20803
+E0320 17:23:09.605837 20803 img-client.cpp:300] END PRE Time(ns): 1521534189523152552 20803
+E0320 17:23:09.605844 20803 img-client.cpp:303] END BARRIER Time(ns): 1521534189523152688 20803
+E0320 17:23:09.605851 20803 img-client.cpp:307] END DATA Time(ns): 1521534189524002671 20803
+E0320 17:23:09.605859 20803 img-client.cpp:311] END SEND Time(ns): 1521534189524050406 20803
+E0320 17:23:09.605865 20803 img-client.cpp:314] END COM Time(ns): 1521534189605699363 20803

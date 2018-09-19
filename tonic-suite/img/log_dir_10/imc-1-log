@@ -1,0 +1,10 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:31:07.401448 11735 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0515 15:31:07.404829 11735 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:31:07.415603 11735 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:31:07.415654 11735 img-client.cpp:297] START Time(ns): 1526365867400920868 11735
+E0515 15:31:07.415668 11735 img-client.cpp:300] END PRE Time(ns): 1526365867401333227 11735
+E0515 15:31:07.415674 11735 img-client.cpp:303] END BARRIER Time(ns): 1526365867401333353 11735
+E0515 15:31:07.415680 11735 img-client.cpp:307] END DATA Time(ns): 1526365867404582889 11735
+E0515 15:31:07.415686 11735 img-client.cpp:311] END SEND Time(ns): 1526365867404824496 11735
+E0515 15:31:07.415693 11735 img-client.cpp:314] END COM Time(ns): 1526365867415579738 11735

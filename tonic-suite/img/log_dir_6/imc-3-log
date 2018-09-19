@@ -1,0 +1,30 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:27:07.947952 26755 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:27:07.950248 26754 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0515 15:27:07.950867 26755 img-client.cpp:265] data needs to be recieved!! (can you see me]
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0515 15:27:07.952327 26756 img-client.cpp:201] Reading input/imc/cat-281-227.jpg
+I0515 15:27:07.953308 26754 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:27:07.955839 26756 img-client.cpp:265] data needs to be recieved!! (can you see me]
+I0515 15:27:07.961943 26754 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:27:07.961997 26754 img-client.cpp:297] START Time(ns): 1526365627949784993 26754
+E0515 15:27:07.962008 26754 img-client.cpp:300] END PRE Time(ns): 1526365627950144162 26754
+E0515 15:27:07.962014 26754 img-client.cpp:303] END BARRIER Time(ns): 1526365627950144266 26754
+E0515 15:27:07.962020 26754 img-client.cpp:307] END DATA Time(ns): 1526365627953090638 26754
+E0515 15:27:07.962026 26754 img-client.cpp:311] END SEND Time(ns): 1526365627953305864 26754
+E0515 15:27:07.962033 26754 img-client.cpp:314] END COM Time(ns): 1526365627961922970 26754
+I0515 15:27:07.968106 26756 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:27:07.968180 26756 img-client.cpp:297] START Time(ns): 1526365627951800696 26756
+E0515 15:27:07.968194 26756 img-client.cpp:300] END PRE Time(ns): 1526365627952209471 26756
+E0515 15:27:07.968202 26756 img-client.cpp:303] END BARRIER Time(ns): 1526365627952209582 26756
+E0515 15:27:07.968209 26756 img-client.cpp:307] END DATA Time(ns): 1526365627955634339 26756
+E0515 15:27:07.968217 26756 img-client.cpp:311] END SEND Time(ns): 1526365627955835428 26756
+E0515 15:27:07.968225 26756 img-client.cpp:314] END COM Time(ns): 1526365627968068658 26756
+I0515 15:27:08.002903 26755 img-client.cpp:290] Image: input/imc/cat-281-227.jpg class: 281
+E0515 15:27:08.002955 26755 img-client.cpp:297] START Time(ns): 1526365627947500016 26755
+E0515 15:27:08.002966 26755 img-client.cpp:300] END PRE Time(ns): 1526365627947861508 26755
+E0515 15:27:08.002972 26755 img-client.cpp:303] END BARRIER Time(ns): 1526365627947861628 26755
+E0515 15:27:08.002977 26755 img-client.cpp:307] END DATA Time(ns): 1526365627950639743 26755
+E0515 15:27:08.002984 26755 img-client.cpp:311] END SEND Time(ns): 1526365627950864312 26755
+E0515 15:27:08.002988 26755 img-client.cpp:314] END COM Time(ns): 1526365628002876569 26755

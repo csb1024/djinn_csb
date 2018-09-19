@@ -1,0 +1,190 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:38:34.231854  5094 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:38:34.232648  5094 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:38:34.233201  5094 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:38:34.233759  5094 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:38:34.234325  5094 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:38:34.293072  5094 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:38:34.336736  5094 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:38:34.378017  5094 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:38:35.113427  5094 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:38:35.113519  5094 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:38:35.113528  5094 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:38:35.113534  5094 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:38:35.113559  5094 img-client.cpp:297] START Time(ns): 1521535114231312115 5094
+E0320 17:38:35.113570  5094 img-client.cpp:300] END PRE Time(ns): 1521535114231797840 5094
+E0320 17:38:35.113576  5094 img-client.cpp:303] END BARRIER Time(ns): 1521535114231797977 5094
+E0320 17:38:35.113581  5094 img-client.cpp:307] END DATA Time(ns): 1521535114421355971 5094
+E0320 17:38:35.113587  5094 img-client.cpp:311] END SEND Time(ns): 1521535114421721359 5094
+E0320 17:38:35.113593  5094 img-client.cpp:314] END COM Time(ns): 1521535115113374235 5094
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:38:37.163527  5183 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:38:37.164300  5183 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:38:37.164844  5183 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:38:37.165392  5183 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:38:37.165948  5183 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:38:37.223837  5183 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:38:37.266551  5183 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:38:37.309532  5183 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:38:38.234025  5183 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:38:38.234093  5183 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:38:38.234102  5183 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:38:38.234107  5183 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:38:38.234128  5183 img-client.cpp:297] START Time(ns): 1521535117163018481 5183
+E0320 17:38:38.234139  5183 img-client.cpp:300] END PRE Time(ns): 1521535117163467939 5183
+E0320 17:38:38.234144  5183 img-client.cpp:303] END BARRIER Time(ns): 1521535117163468048 5183
+E0320 17:38:38.234149  5183 img-client.cpp:307] END DATA Time(ns): 1521535117356647172 5183
+E0320 17:38:38.234155  5183 img-client.cpp:311] END SEND Time(ns): 1521535117357031536 5183
+E0320 17:38:38.234160  5183 img-client.cpp:314] END COM Time(ns): 1521535118233989417 5183
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:38:40.281850  5232 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:38:40.282616  5232 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:38:40.283176  5232 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:38:40.283730  5232 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:38:40.284291  5232 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:38:40.345979  5232 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:38:40.389822  5232 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:38:40.431870  5232 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:38:41.172754  5232 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:38:41.172858  5232 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:38:41.172873  5232 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:38:41.172883  5232 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:38:41.172916  5232 img-client.cpp:297] START Time(ns): 1521535120281327139 5232
+E0320 17:38:41.172935  5232 img-client.cpp:300] END PRE Time(ns): 1521535120281793097 5232
+E0320 17:38:41.172946  5232 img-client.cpp:303] END BARRIER Time(ns): 1521535120281793248 5232
+E0320 17:38:41.172956  5232 img-client.cpp:307] END DATA Time(ns): 1521535120478636815 5232
+E0320 17:38:41.172967  5232 img-client.cpp:311] END SEND Time(ns): 1521535120479013284 5232
+E0320 17:38:41.172977  5232 img-client.cpp:314] END COM Time(ns): 1521535121172690279 5232
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:38:43.225636  5326 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:38:43.226424  5326 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:38:43.226989  5326 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:38:43.227540  5326 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:38:43.228109  5326 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:38:43.287750  5326 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:38:43.331163  5326 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:38:43.372262  5326 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:38:44.106868  5326 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:38:44.106979  5326 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:38:44.106992  5326 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:38:44.106998  5326 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:38:44.107023  5326 img-client.cpp:297] START Time(ns): 1521535123225130816 5326
+E0320 17:38:44.107035  5326 img-client.cpp:300] END PRE Time(ns): 1521535123225578956 5326
+E0320 17:38:44.107041  5326 img-client.cpp:303] END BARRIER Time(ns): 1521535123225579092 5326
+E0320 17:38:44.107048  5326 img-client.cpp:307] END DATA Time(ns): 1521535123415509413 5326
+E0320 17:38:44.107053  5326 img-client.cpp:311] END SEND Time(ns): 1521535123415883100 5326
+E0320 17:38:44.107059  5326 img-client.cpp:314] END COM Time(ns): 1521535124106817169 5326
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:38:46.159552  5368 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:38:46.160317  5368 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:38:46.160856  5368 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:38:46.161399  5368 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:38:46.161950  5368 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:38:46.220782  5368 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:38:46.263103  5368 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:38:46.304224  5368 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:38:47.068439  5368 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:38:47.068523  5368 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:38:47.068532  5368 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:38:47.068539  5368 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:38:47.068574  5368 img-client.cpp:297] START Time(ns): 1521535126159009522 5368
+E0320 17:38:47.068586  5368 img-client.cpp:300] END PRE Time(ns): 1521535126159493244 5368
+E0320 17:38:47.068593  5368 img-client.cpp:303] END BARRIER Time(ns): 1521535126159493375 5368
+E0320 17:38:47.068598  5368 img-client.cpp:307] END DATA Time(ns): 1521535126347210361 5368
+E0320 17:38:47.068604  5368 img-client.cpp:311] END SEND Time(ns): 1521535126347582859 5368
+E0320 17:38:47.068609  5368 img-client.cpp:314] END COM Time(ns): 1521535127068393932 5368
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:38:49.118196  5437 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:38:49.118988  5437 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:38:49.119541  5437 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:38:49.120091  5437 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:38:49.120654  5437 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:38:49.179370  5437 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:38:49.223780  5437 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:38:49.266013  5437 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:38:49.996840  5437 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:38:49.996943  5437 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:38:49.996958  5437 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:38:49.996969  5437 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:38:49.997000  5437 img-client.cpp:297] START Time(ns): 1521535129117680732 5437
+E0320 17:38:49.997018  5437 img-client.cpp:300] END PRE Time(ns): 1521535129118138212 5437
+E0320 17:38:49.997030  5437 img-client.cpp:303] END BARRIER Time(ns): 1521535129118138347 5437
+E0320 17:38:49.997038  5437 img-client.cpp:307] END DATA Time(ns): 1521535129313210852 5437
+E0320 17:38:49.997048  5437 img-client.cpp:311] END SEND Time(ns): 1521535129313586865 5437
+E0320 17:38:49.997058  5437 img-client.cpp:314] END COM Time(ns): 1521535129996776213 5437
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:38:52.048024  5479 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:38:52.048804  5479 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:38:52.049356  5479 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:38:52.049908  5479 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:38:52.050474  5479 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:38:52.109292  5479 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:38:52.151799  5479 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:38:52.192610  5479 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:38:52.922376  5479 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:38:52.922483  5479 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:38:52.922498  5479 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:38:52.922508  5479 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:38:52.922539  5479 img-client.cpp:297] START Time(ns): 1521535132047492331 5479
+E0320 17:38:52.922556  5479 img-client.cpp:300] END PRE Time(ns): 1521535132047966578 5479
+E0320 17:38:52.922567  5479 img-client.cpp:303] END BARRIER Time(ns): 1521535132047966743 5479
+E0320 17:38:52.922577  5479 img-client.cpp:307] END DATA Time(ns): 1521535132235863354 5479
+E0320 17:38:52.922587  5479 img-client.cpp:311] END SEND Time(ns): 1521535132236233165 5479
+E0320 17:38:52.922597  5479 img-client.cpp:314] END COM Time(ns): 1521535132922315694 5479
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:38:54.975546  5548 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:38:54.976320  5548 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:38:54.976873  5548 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:38:54.977421  5548 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:38:54.977988  5548 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:38:55.037636  5548 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:38:55.088727  5548 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:38:55.131309  5548 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:38:55.890137  5548 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:38:55.890223  5548 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:38:55.890233  5548 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:38:55.890238  5548 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:38:55.890259  5548 img-client.cpp:297] START Time(ns): 1521535134975018256 5548
+E0320 17:38:55.890270  5548 img-client.cpp:300] END PRE Time(ns): 1521535134975489119 5548
+E0320 17:38:55.890276  5548 img-client.cpp:303] END BARRIER Time(ns): 1521535134975489229 5548
+E0320 17:38:55.890281  5548 img-client.cpp:307] END DATA Time(ns): 1521535135176696457 5548
+E0320 17:38:55.890287  5548 img-client.cpp:311] END SEND Time(ns): 1521535135177067783 5548
+E0320 17:38:55.890292  5548 img-client.cpp:314] END COM Time(ns): 1521535135890088879 5548
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:38:57.940060  5617 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:38:57.940836  5617 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:38:57.941388  5617 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:38:57.941946  5617 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:38:57.942505  5617 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:38:57.999516  5617 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:38:58.042685  5617 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:38:58.088939  5617 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:38:58.871403  5617 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:38:58.871495  5617 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:38:58.871508  5617 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:38:58.871518  5617 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:38:58.871551  5617 img-client.cpp:297] START Time(ns): 1521535137939541669 5617
+E0320 17:38:58.871568  5617 img-client.cpp:300] END PRE Time(ns): 1521535137940003818 5617
+E0320 17:38:58.871579  5617 img-client.cpp:303] END BARRIER Time(ns): 1521535137940003947 5617
+E0320 17:38:58.871590  5617 img-client.cpp:307] END DATA Time(ns): 1521535138134166655 5617
+E0320 17:38:58.871600  5617 img-client.cpp:311] END SEND Time(ns): 1521535138134534606 5617
+E0320 17:38:58.871611  5617 img-client.cpp:314] END COM Time(ns): 1521535138871346772 5617
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0320 17:39:00.923936  5659 img-client.cpp:201] Reading input/face/angelina-jolie-03-152.jpg
+I0320 17:39:00.924727  5659 img-client.cpp:201] Reading input/face/cameron-diaz-11-152.jpg
+I0320 17:39:00.925277  5659 img-client.cpp:201] Reading input/face/daniel-craig-20-152.jpg
+I0320 17:39:00.925829  5659 img-client.cpp:201] Reading input/face/test_000011-000000-152.jpg
+I0320 17:39:00.926384  5659 img-client.cpp:223] Aligning: input/face/angelina-jolie-03-152.jpg
+I0320 17:39:00.989670  5659 img-client.cpp:223] Aligning: input/face/cameron-diaz-11-152.jpg
+I0320 17:39:01.049896  5659 img-client.cpp:223] Aligning: input/face/daniel-craig-20-152.jpg
+I0320 17:39:01.102217  5659 img-client.cpp:223] Aligning: input/face/test_000011-000000-152.jpg
+I0320 17:39:01.837998  5659 img-client.cpp:290] Image: input/face/angelina-jolie-03-152.jpg class: 6
+I0320 17:39:01.838088  5659 img-client.cpp:290] Image: input/face/cameron-diaz-11-152.jpg class: 66
+I0320 17:39:01.838098  5659 img-client.cpp:290] Image: input/face/daniel-craig-20-152.jpg class: 42
+I0320 17:39:01.838104  5659 img-client.cpp:290] Image: input/face/test_000011-000000-152.jpg class: 11
+E0320 17:39:01.838126  5659 img-client.cpp:297] START Time(ns): 1521535140923404577 5659
+E0320 17:39:01.838138  5659 img-client.cpp:300] END PRE Time(ns): 1521535140923877366 5659
+E0320 17:39:01.838145  5659 img-client.cpp:303] END BARRIER Time(ns): 1521535140923877504 5659
+E0320 17:39:01.838150  5659 img-client.cpp:307] END DATA Time(ns): 1521535141146565947 5659
+E0320 17:39:01.838156  5659 img-client.cpp:311] END SEND Time(ns): 1521535141146931185 5659
+E0320 17:39:01.838162  5659 img-client.cpp:314] END COM Time(ns): 1521535141837948135 5659
